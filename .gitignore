@@ -1,52 +1,51 @@
-# Prerequisites
-*.d
+# Ignore list for Eagle, a PCB layout tool
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+eagle.epf
 
-# Precompiled Headers
-*.gch
-*.pch
+# Autorouter files
+*.pro
+*.job
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+*.dri
+*.gpi
+*.pls
+*.ger
+*.gpi
+*.drd
+*.drd.*
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+*.s#*
+*.b#*
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.info
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+*.eps
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# file locks introduced since 7.x
+*.lck
+
+# SketchUp garbage
+*.skb
