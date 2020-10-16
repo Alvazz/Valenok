@@ -4682,6 +4682,7 @@ PC4 is 0</text>
 <wire x1="238.76" y1="73.66" x2="294.64" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <text x="132.08" y="76.2" size="1.778" layer="91">LED1 should be replaced with this one
 https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
+<text x="241.3" y="30.48" size="1.778" layer="91">Should replace IC6 with INA213 from TI</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="373.38" y="88.9" smashed="yes" rot="R270">
