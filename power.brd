@@ -1076,6 +1076,7 @@
 </element>
 <element name="IC1" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" package="VDFN-8-HEAVY-PCB" package3d_urn="urn:adsk.eagle:package:23775086/3" value="UCC272-VDFN-HEAVY_PCB" x="1.1" y="23" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="296-UCC27201ADRMRTR-ND" x="1.1" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C47661" x="1.1" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="1.1" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="UCC27201ADRMR" x="1.1" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.1" y="23" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
@@ -1104,6 +1105,7 @@
 </element>
 <element name="IC2" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" package="VDFN-8-HEAVY-PCB" package3d_urn="urn:adsk.eagle:package:23775086/3" value="UCC272-VDFN-HEAVY_PCB" x="1.9" y="77.15" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="296-UCC27201ADRMRTR-ND" x="1.9" y="77.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C47661" x="1.9" y="77.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="1.9" y="77.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="UCC27201ADRMR" x="1.9" y="77.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.9" y="77.15" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
@@ -1132,6 +1134,7 @@
 </element>
 <element name="IC3" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" package="VDFN-8-HEAVY-PCB" package3d_urn="urn:adsk.eagle:package:23775086/3" value="UCC272-VDFN-HEAVY_PCB" x="1.1" y="49" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="296-UCC27201ADRMRTR-ND" x="1.1" y="49" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C47661" x="1.1" y="49" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Texas Instruments" x="1.1" y="49" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="UCC27201ADRMR" x="1.1" y="49" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.1" y="49" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>

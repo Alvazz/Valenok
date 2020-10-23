@@ -3584,7 +3584,9 @@ DIN A4, landscape with location and doc. field</description>
 <variant name="basic" populate="no"/>
 </part>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
-<part name="IC1" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" deviceset="UCC272" device="-VDFN-HEAVY_PCB" package3d_urn="urn:adsk.eagle:package:23775086/3"/>
+<part name="IC1" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" deviceset="UCC272" device="-VDFN-HEAVY_PCB" package3d_urn="urn:adsk.eagle:package:23775086/3">
+<attribute name="LCSC#" value="C47661"/>
+</part>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="15V" device=""/>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
@@ -3604,7 +3606,9 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
-<part name="IC2" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" deviceset="UCC272" device="-VDFN-HEAVY_PCB" package3d_urn="urn:adsk.eagle:package:23775086/3"/>
+<part name="IC2" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" deviceset="UCC272" device="-VDFN-HEAVY_PCB" package3d_urn="urn:adsk.eagle:package:23775086/3">
+<attribute name="LCSC#" value="C47661"/>
+</part>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="15V" device=""/>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
@@ -3624,7 +3628,9 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
-<part name="IC3" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" deviceset="UCC272" device="-VDFN-HEAVY_PCB" package3d_urn="urn:adsk.eagle:package:23775086/3"/>
+<part name="IC3" library="mosfet_drivers" library_urn="urn:adsk.eagle:library:7691028" deviceset="UCC272" device="-VDFN-HEAVY_PCB" package3d_urn="urn:adsk.eagle:package:23775086/3">
+<attribute name="LCSC#" value="C47661"/>
+</part>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="15V" device=""/>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
@@ -3703,6 +3709,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="IC1" gate="G$1" x="99.06" y="142.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="164.084" size="2.54" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="MANF#" x="90.17" y="140.716" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="LCSC#" x="99.06" y="142.24" size="1.27" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+P3" gate="G$1" x="104.14" y="165.1" smashed="yes">
 <attribute name="VALUE" x="104.14" y="168.656" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -3728,6 +3735,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="IC2" gate="G$1" x="99.06" y="81.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="103.124" size="2.54" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="MANF#" x="90.17" y="79.756" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="LCSC#" x="99.06" y="81.28" size="1.27" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+P4" gate="G$1" x="104.14" y="104.14" smashed="yes">
 <attribute name="VALUE" x="104.14" y="107.696" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -3753,6 +3761,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="IC3" gate="G$1" x="99.06" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="133.604" size="2.54" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="MANF#" x="90.17" y="110.236" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="LCSC#" x="99.06" y="111.76" size="1.27" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="+P5" gate="G$1" x="104.14" y="134.62" smashed="yes">
 <attribute name="VALUE" x="104.14" y="138.176" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
