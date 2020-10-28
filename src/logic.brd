@@ -2561,17 +2561,15 @@ package type OT</description>
 <signal name="RCPWM">
 <contactref element="CON1" pad="1"/>
 </signal>
-<signal name="N$5">
-<contactref element="IC5" pad="3"/>
-</signal>
-<signal name="N$8">
-<contactref element="IC5" pad="4"/>
-</signal>
 <signal name="CS+">
 <contactref element="CON3" pad="7"/>
+<contactref element="IC5" pad="3"/>
+<wire x1="-10.5" y1="72.35" x2="-6.15" y2="72.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CS-">
 <contactref element="CON3" pad="5"/>
+<contactref element="IC5" pad="4"/>
+<wire x1="-13.1" y1="72.35" x2="-6.15" y2="74.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT-">
 <contactref element="CON3" pad="3"/>

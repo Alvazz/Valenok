@@ -4621,11 +4621,11 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <instance part="P+12" gate="G$1" x="48.26" y="97.79" smashed="yes">
 <attribute name="VALUE" x="48.26" y="101.346" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON6" gate="G$1" x="215.9" y="137.16" smashed="yes">
-<attribute name="NAME" x="222.504" y="146.05" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="CON6" gate="G$1" x="200.66" y="198.12" smashed="yes">
+<attribute name="NAME" x="207.264" y="207.01" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON7" gate="G$1" x="215.9" y="157.48" smashed="yes">
-<attribute name="NAME" x="222.504" y="166.37" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="CON7" gate="G$1" x="200.66" y="218.44" smashed="yes">
+<attribute name="NAME" x="207.264" y="227.33" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="C30" gate="G$1" x="299.72" y="226.06" smashed="yes" rot="MR90">
 <attribute name="NAME" x="298.831" y="227.33" size="1.27" layer="95" font="vector" rot="MR90" align="center-left"/>
@@ -4729,8 +4729,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <attribute name="PACKAGE" x="33.528" y="103.632" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
 <attribute name="VOLTAGE" x="36.576" y="104.648" size="0.508" layer="97" font="vector" align="center-left"/>
 </instance>
-<instance part="CON3" gate="G$1" x="215.9" y="109.22" smashed="yes">
-<attribute name="NAME" x="222.504" y="123.19" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="CON3" gate="G$1" x="200.66" y="170.18" smashed="yes">
+<attribute name="NAME" x="207.264" y="184.15" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="IC8" gate="G$1" x="347.98" y="187.96" smashed="yes">
 <attribute name="NAME" x="355.6" y="201.676" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
@@ -4804,33 +4804,33 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <instance part="GND16" gate="1" x="342.9" y="116.84" smashed="yes">
 <attribute name="VALUE" x="342.9" y="114.808" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="IC5" gate="G$1" x="347.98" y="83.82" smashed="yes">
-<attribute name="NAME" x="355.6" y="95.504" size="2.54" layer="95" font="vector" ratio="15" align="center"/>
-<attribute name="MANF#" x="355.6" y="82.296" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="IC5" gate="G$1" x="152.4" y="180.34" smashed="yes">
+<attribute name="NAME" x="160.02" y="192.024" size="2.54" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="MANF#" x="160.02" y="178.816" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="P+14" gate="G$1" x="368.3" y="93.98" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="368.3" y="97.536" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="P+14" gate="G$1" x="172.72" y="190.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="172.72" y="194.056" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="GND13" gate="1" x="342.9" y="88.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="340.868" y="88.9" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
+<instance part="GND13" gate="1" x="147.32" y="185.42" smashed="yes" rot="R270">
+<attribute name="VALUE" x="145.288" y="185.42" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
-<instance part="C14" gate="G$1" x="373.38" y="91.44" smashed="yes">
-<attribute name="NAME" x="374.65" y="90.551" size="1.27" layer="95" font="vector" align="center-left"/>
-<attribute name="VALUE" x="372.11" y="91.694" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="371.348" y="90.932" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
-<attribute name="VOLTAGE" x="374.396" y="91.948" size="0.508" layer="97" font="vector" align="center-left"/>
+<instance part="C14" gate="G$1" x="177.8" y="187.96" smashed="yes">
+<attribute name="NAME" x="179.07" y="187.071" size="1.27" layer="95" font="vector" align="center-left"/>
+<attribute name="VALUE" x="176.53" y="188.214" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="175.768" y="187.452" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
+<attribute name="VOLTAGE" x="178.816" y="188.468" size="0.508" layer="97" font="vector" align="center-left"/>
 </instance>
-<instance part="GND15" gate="1" x="378.46" y="88.9" smashed="yes">
-<attribute name="VALUE" x="378.46" y="86.868" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND15" gate="1" x="182.88" y="185.42" smashed="yes">
+<attribute name="VALUE" x="182.88" y="183.388" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P3" gate="G$1" x="246.38" y="121.92" smashed="yes">
-<attribute name="VALUE" x="246.38" y="125.476" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P3" gate="G$1" x="231.14" y="182.88" smashed="yes">
+<attribute name="VALUE" x="231.14" y="186.436" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P8" gate="G$1" x="210.82" y="165.1" smashed="yes">
-<attribute name="VALUE" x="210.82" y="168.656" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P8" gate="G$1" x="195.58" y="226.06" smashed="yes">
+<attribute name="VALUE" x="195.58" y="229.616" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P9" gate="G$1" x="210.82" y="144.78" smashed="yes">
-<attribute name="VALUE" x="210.82" y="148.336" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P9" gate="G$1" x="195.58" y="205.74" smashed="yes">
+<attribute name="VALUE" x="195.58" y="209.296" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -4844,8 +4844,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON6" gate="G$1" pin="4"/>
-<wire x1="231.14" y1="139.7" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
-<label x="233.68" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="215.9" y1="200.66" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
+<label x="218.44" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FET_B_L" class="0">
@@ -4863,13 +4863,13 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON3" gate="G$1" pin="4"/>
-<wire x1="233.68" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
-<label x="233.68" y="116.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="177.8" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
+<label x="218.44" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CON7" gate="G$1" pin="4"/>
-<wire x1="231.14" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
-<label x="233.68" y="160.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="215.9" y1="220.98" x2="218.44" y2="220.98" width="0.1524" layer="91"/>
+<label x="218.44" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FET_B_H" class="0">
@@ -4887,13 +4887,13 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON3" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
-<label x="233.68" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="215.9" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
+<label x="218.44" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="CON7" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
-<label x="233.68" y="162.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="215.9" y1="223.52" x2="218.44" y2="223.52" width="0.1524" layer="91"/>
+<label x="218.44" y="223.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -4948,8 +4948,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="345.44" y1="91.44" x2="340.36" y2="91.44" width="0.1524" layer="91"/>
-<label x="340.36" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="187.96" x2="144.78" y2="187.96" width="0.1524" layer="91"/>
+<label x="144.78" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5151,14 +5151,14 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="GND"/>
-<wire x1="345.44" y1="88.9" x2="342.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="185.42" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="378.46" y1="88.9" x2="378.46" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="185.42" x2="182.88" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="378.46" y1="91.44" x2="375.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="187.96" x2="180.34" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSE_B" class="0">
@@ -5192,8 +5192,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON6" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="142.24" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
-<label x="233.68" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="215.9" y1="203.2" x2="218.44" y2="203.2" width="0.1524" layer="91"/>
+<label x="218.44" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SENSE_C" class="0">
@@ -5498,12 +5498,12 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="VS"/>
-<wire x1="365.76" y1="91.44" x2="368.3" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="93.98" x2="368.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="187.96" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="190.5" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="G$1" pin="VDD_3V3"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="370.84" y1="91.44" x2="368.3" y2="91.44" width="0.1524" layer="91"/>
-<junction x="368.3" y="91.44"/>
+<wire x1="175.26" y1="187.96" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
+<junction x="172.72" y="187.96"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -5580,8 +5580,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON7" gate="G$1" pin="3"/>
-<wire x1="213.36" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
-<label x="210.82" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="220.98" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
+<label x="195.58" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PHASE_A" class="0">
@@ -5593,8 +5593,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON6" gate="G$1" pin="3"/>
-<wire x1="213.36" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
-<label x="210.82" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="200.66" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
+<label x="195.58" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PHASE_C" class="0">
@@ -5606,70 +5606,62 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 </segment>
 <segment>
 <pinref part="CON3" gate="G$1" pin="8"/>
-<wire x1="231.14" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<label x="233.68" y="111.76" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="IN+"/>
-<wire x1="345.44" y1="86.36" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="86.36" x2="342.9" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="IN-"/>
-<wire x1="365.76" y1="86.36" x2="368.3" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="86.36" x2="368.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
+<label x="218.44" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS+" class="0">
 <segment>
 <pinref part="CON3" gate="G$1" pin="7"/>
-<wire x1="213.36" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
-<label x="210.82" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="IN+"/>
+<wire x1="149.86" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="172.72" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
+<label x="175.26" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS-" class="0">
 <segment>
 <pinref part="CON3" gate="G$1" pin="5"/>
-<wire x1="213.36" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
-<label x="210.82" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="IN-"/>
+<wire x1="170.18" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="182.88" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<label x="175.26" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT-" class="0">
 <segment>
 <pinref part="CON3" gate="G$1" pin="3"/>
-<wire x1="213.36" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
-<label x="210.82" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
+<label x="195.58" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VDC" class="0">
 <segment>
 <pinref part="CON3" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
-<label x="210.82" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
+<label x="195.58" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VDD_12V" class="0">
 <segment>
 <pinref part="+P3" gate="G$1" pin="VDD_12V"/>
-<wire x1="246.38" y1="121.92" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="182.88" x2="231.14" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="6"/>
-<wire x1="231.14" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="175.26" x2="231.14" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON7" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="162.56" x2="210.82" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="+P8" gate="G$1" pin="VDD_12V"/>
-<wire x1="210.82" y1="165.1" x2="210.82" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="226.06" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON6" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="+P9" gate="G$1" pin="VDD_12V"/>
-<wire x1="210.82" y1="142.24" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="203.2" x2="195.58" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
