@@ -187,12 +187,31 @@
 <text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="15" align="center">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="3.3V">
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.556" size="1.27" layer="96" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<pin name="VDD_3V3" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -778,6 +797,32 @@ package type OT</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
+<package name="SOT23-5L" urn="urn:adsk.eagle:footprint:8637277/1" library_version="25" library_locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+package type OT</description>
+<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<text x="0" y="0" size="0.889" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="0606" urn="urn:adsk.eagle:package:20072926/2" type="model" library_version="92" library_locally_modified="yes">
@@ -801,6 +846,13 @@ package type OT</description>
 package type OT</description>
 <packageinstances>
 <packageinstance name="SOT23-5"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-5L" urn="urn:adsk.eagle:package:5347863/6" type="model" library_version="25" library_locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+package type OT</description>
+<packageinstances>
+<packageinstance name="SOT23-5L"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -879,6 +931,19 @@ package type OT</description>
 <wire x1="15.24" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
 <text x="7.62" y="11.684" size="2.54" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="7.62" y="-1.524" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;MANF#</text>
+</symbol>
+<symbol name="CAT24C02" urn="urn:adsk.eagle:symbol:8637275/1" library_version="25" library_locally_modified="yes">
+<pin name="VSS" x="-2.54" y="7.62" length="short"/>
+<pin name="SCL" x="-2.54" y="12.7" length="short"/>
+<pin name="SDA" x="-2.54" y="2.54" length="short"/>
+<pin name="VCC" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="WP" x="17.78" y="12.7" length="short" rot="R180"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<text x="7.62" y="-1.016" size="1.27" layer="97" font="vector" ratio="15" align="center">CAT24C02TDI</text>
+<text x="7.62" y="16.256" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -998,6 +1063,33 @@ package type OT</description>
 <attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAT24C02" urn="urn:adsk.eagle:component:8637279/1" prefix="IC" library_version="25" library_locally_modified="yes">
+<description>IC EEPROM 2KBIT 400KHZ TSOT23-5</description>
+<gates>
+<gate name="G$1" symbol="CAT24C02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5L">
+<connects>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+<connect gate="G$1" pin="WP" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5347863/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="CAT24C02TDI-GT3AOSCT-ND" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="CAT24C02TDI-GT3A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1996,19 +2088,6 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 </library>
 <library name="Diodes" urn="urn:adsk.eagle:library:2473263">
 <packages>
-<package name="SOD882" urn="urn:adsk.eagle:footprint:1040110/2" library_version="10">
-<smd name="A" x="-0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<smd name="C" x="0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90"/>
-<wire x1="-0.65" y1="0.45" x2="0.65" y2="0.45" width="0.1" layer="21"/>
-<wire x1="0.65" y1="0.45" x2="0.65" y2="-0.45" width="0.1" layer="21"/>
-<wire x1="0.65" y1="-0.45" x2="-0.65" y2="-0.45" width="0.1" layer="21"/>
-<wire x1="-0.65" y1="-0.45" x2="-0.65" y2="0.45" width="0.1" layer="21"/>
-<wire x1="0.65" y1="0.45" x2="0.75" y2="0.45" width="0.1" layer="21"/>
-<wire x1="0.75" y1="0.45" x2="0.75" y2="-0.45" width="0.1" layer="21"/>
-<wire x1="0.75" y1="-0.45" x2="0.65" y2="-0.45" width="0.1" layer="21"/>
-<text x="0" y="0" size="0.4" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="0.35" y1="-0.45" x2="0.75" y2="0.45" layer="51"/>
-</package>
 <package name="SOD523" urn="urn:adsk.eagle:footprint:1040111/2" library_version="25">
 <smd name="A" x="-0.7" y="0" dx="0.6" dy="0.5" layer="1" rot="R90"/>
 <smd name="C" x="0.7" y="0" dx="0.6" dy="0.5" layer="1" rot="R90"/>
@@ -2023,11 +2102,6 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOD882" urn="urn:adsk.eagle:package:1040204/3" type="model" library_version="10">
-<packageinstances>
-<packageinstance name="SOD882"/>
-</packageinstances>
-</package3d>
 <package3d name="SOD523" urn="urn:adsk.eagle:package:1040205/3" type="model" library_version="25">
 <packageinstances>
 <packageinstance name="SOD523"/>
@@ -2051,25 +2125,26 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BAS16L" urn="urn:adsk.eagle:component:4492812/2" prefix="D" library_version="25">
-<description>Diode Standard 100V 215mA (DC) Surface Mount 2-DFN1006D (0.6x1.0)</description>
+<deviceset name="BAT54KFILM" urn="urn:adsk.eagle:component:24288028/1" prefix="D" library_version="25">
+<description>Diode Schottky 40V, 300mA (DC) Surface Mount SOD-523</description>
 <gates>
-<gate name="G$1" symbol="D" x="2.54" y="12.7"/>
+<gate name="G$1" symbol="D" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="SOD882">
+<device name="" package="SOD523">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1040204/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="1727-4421-2-ND" constant="no"/>
-<attribute name="MANF" value="Nexperia USA Inc" constant="no"/>
-<attribute name="MANF#" value="BAS16LD,315" constant="no"/>
+<attribute name="DIGIKEY#" value="STMicroelectronics" constant="no"/>
+<attribute name="LCSC#" value="C283259" constant="no"/>
+<attribute name="MANF" value="STMicroelectronics" constant="no"/>
+<attribute name="MANF#" value="BAT54KFILM" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3543,6 +3618,175 @@ package type OT</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="C_digikey" urn="urn:adsk.eagle:library:2539367">
+<packages>
+<package name="C0402" urn="urn:adsk.eagle:footprint:2539370/1" library_version="8">
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="0.635" size="0.5" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="0.45" x2="0.9" y2="0.45" width="0.1" layer="21"/>
+<wire x1="0.9" y1="0.45" x2="0.9" y2="-0.45" width="0.1" layer="21"/>
+<wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="-0.45" x2="-0.9" y2="0.45" width="0.1" layer="21"/>
+</package>
+<package name="C0603" urn="urn:adsk.eagle:footprint:2539372/1" library_version="8">
+<smd name="P$1" x="-0.725" y="0" dx="0.6" dy="0.9" layer="1"/>
+<smd name="P$2" x="0.725" y="0" dx="0.6" dy="0.9" layer="1"/>
+<wire x1="-1.125" y1="0.55" x2="-1.125" y2="-0.55" width="0.1" layer="21"/>
+<wire x1="-1.125" y1="-0.55" x2="1.125" y2="-0.55" width="0.1" layer="21"/>
+<wire x1="1.125" y1="-0.55" x2="1.125" y2="0.55" width="0.1" layer="21"/>
+<wire x1="1.125" y1="0.55" x2="-1.125" y2="0.55" width="0.1" layer="21"/>
+<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="0.9" size="0.5" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="C0402" urn="urn:adsk.eagle:package:2539379/2" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:2539381/2" type="model" library_version="8">
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C" urn="urn:adsk.eagle:symbol:2539376/1" library_version="8">
+<text x="1.27" y="-0.889" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+<text x="-1.27" y="0.254" size="0.762" layer="96" align="bottom-right">&gt;VALUE</text>
+<text x="-2.032" y="-0.508" size="0.508" layer="97" rot="R180" align="center">&gt;PACKAGE</text>
+<text x="2.286" y="0.254" size="0.762" layer="96" align="bottom-center">&gt;VOLTAGE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="2.54" y2="0.254" layer="94" rot="R90"/>
+<rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0.508" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0.1µF" urn="urn:adsk.eagle:component:2539393/2" prefix="C" library_version="8">
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2539379/2"/>
+</package3dinstances>
+<technologies>
+<technology name="-10V_10%_X5R">
+<attribute name="DIGIKEY#" value="490-1318-1-ND" constant="no"/>
+<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
+<attribute name="MANF#" value="GRM155R61A104KA01D" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="TC" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="+-10%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+<technology name="-16V_10%_X7R">
+<attribute name="DIGIKEY#" value="490-3261-1-ND" constant="no"/>
+<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
+<attribute name="MANF#" value="GRM155R71C104KA88D" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="TC" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="+-10%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="-25V_20%_X6S">
+<attribute name="DIGIKEY#" value="445-7361-1-ND" constant="no"/>
+<attribute name="MANF" value="TDK Corporation" constant="no"/>
+<attribute name="MANF#" value="C1005X6S1E104M050BB" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 105°C" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="TC" value="X6S" constant="no"/>
+<attribute name="TOLERANCE" value="+-20%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+<technology name="-25V_Y5V">
+<attribute name="DIGIKEY#" value="490-3271-1-ND" constant="no"/>
+<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
+<attribute name="MANF#" value="GRM155F51E104ZA01D" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-30°C ~ 85°C" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="TC" value="Y5V (F)" constant="no"/>
+<attribute name="TOLERANCE" value="-20%, +80%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+<technology name="-50V_10%_X5R">
+<attribute name="DIGIKEY#" value="445-5942-2-ND" constant="no"/>
+<attribute name="MANF" value="TDK Corporation" constant="no"/>
+<attribute name="MANF#" value="C1005X5R1H104K050BB" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="TC" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="+-10%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2539381/2"/>
+</package3dinstances>
+<technologies>
+<technology name="-100V_10%_X7S">
+<attribute name="DIGIKEY#" value="445-6938-1-ND" constant="no"/>
+<attribute name="MANF" value="TDK Corporation" constant="no"/>
+<attribute name="MANF#" value="CGA3E3X7S2A104K080AB" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="TC" value="X7S" constant="no"/>
+<attribute name="TOLERANCE" value="+-10%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="100V" constant="no"/>
+</technology>
+<technology name="-16V_10%_X7R">
+<attribute name="DIGIKEY#" value="490-1532-1-ND" constant="no"/>
+<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
+<attribute name="MANF#" value="GRM188R71C104KA01D" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="TC" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="+-10%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+<technology name="-50V_10%_X7R">
+<attribute name="DIGIKEY#" value="311-1344-1-ND" constant="no"/>
+<attribute name="MANF" value="Yageo" constant="no"/>
+<attribute name="MANF#" value="CC0603KRX7R9BB104" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="TC" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="+-10%" constant="no"/>
+<attribute name="VALUE" value="0.1µF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3585,7 +3829,7 @@ package type OT</description>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="14K"/>
+<part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="14K"/>
 <part name="RFB2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K"/>
 <part name="RFB1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K"/>
 <part name="GND4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
@@ -3943,7 +4187,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="MANF" value="Panasonic Electronic Components"/>
 <attribute name="MANF#" value="ERJ-2RKF5102X"/>
 </part>
-<part name="2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K">
+<part name="R2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="P10.0KLCT-ND"/>
 <attribute name="MANF" value="Panasonic Electronic Components"/>
@@ -4003,7 +4247,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="PACKAGE" x="88.392" y="80.01" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="TOLERANCE" x="90.932" y="84.074" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="2" gate="G$1" x="96.52" y="76.2" smashed="yes" rot="R180">
+<instance part="R2" gate="G$1" x="96.52" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="96.52" y="76.2" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="VALUE" x="96.774" y="78.232" size="0.762" layer="96" font="vector" rot="R180" align="bottom-right"/>
 <attribute name="PACKAGE" x="100.33" y="75.692" size="0.508" layer="95" font="vector" rot="R180" align="center"/>
@@ -4040,26 +4284,15 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <wire x1="104.14" y1="81.28" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <junction x="104.14" y="76.2"/>
 <pinref part="GND51" gate="1" pin="GND"/>
-<pinref part="2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<label x="111.76" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="81.28" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND53" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="88.9" y1="78.74" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="83.82" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<junction x="88.9" y="76.2"/>
-<pinref part="IC1" gate="G$1" pin="FB"/>
-<pinref part="2" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<label x="71.12" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="OUT" class="0">
@@ -4100,6 +4333,19 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <label x="33.02" y="93.98" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
+<net name="FB" class="0">
+<segment>
+<wire x1="88.9" y1="78.74" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="83.82" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<junction x="88.9" y="76.2"/>
+<pinref part="IC1" gate="G$1" pin="FB"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -4120,7 +4366,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="MANF#" value="STM32F105RCT7"/>
 <attribute name="OPERATING_TEMP" value="-40°C ~ 105°C (TA)"/>
 </part>
-<part name="X1" library="crystal" library_urn="urn:adsk.eagle:library:2539107" deviceset="CRYSTAL-4P" device="-2.0X1.6" package3d_urn="urn:adsk.eagle:package:11680931/2" technology="-16MHZ" value="16MHz">
+<part name="X1" library="crystal" library_urn="urn:adsk.eagle:library:2539107" deviceset="CRYSTAL-4P" device="-3.2X2.5" package3d_urn="urn:adsk.eagle:package:2539117/3" technology="-16MHZ" value="16MHz">
 <attribute name="DIGIKEY#" value="1253-1198-1-ND"/>
 <attribute name="MANF#" value="CX3225GB24000P0HPQCC"/>
 </part>
@@ -4263,10 +4509,10 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="560R"/>
 <part name="GND27" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
-<part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAS16L" device="" package3d_urn="urn:adsk.eagle:package:1040204/3"/>
+<part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="+P1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
-<part name="D1" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAS16L" device="" package3d_urn="urn:adsk.eagle:package:1040204/3"/>
-<part name="D2" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAS16L" device="" package3d_urn="urn:adsk.eagle:package:1040204/3"/>
+<part name="D1" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
+<part name="D2" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND30" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="C26" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1µF">
@@ -4431,6 +4677,12 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="+P9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
+<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="000"/>
+<part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CAT24C02" device="" package3d_urn="urn:adsk.eagle:package:5347863/6"/>
+<part name="GND9" library="sapog_reference_hardware" deviceset="GND" device=""/>
+<part name="C10" library="C_digikey" library_urn="urn:adsk.eagle:library:2539367" deviceset="0.1µF" device="-0402" package3d_urn="urn:adsk.eagle:package:2539379/2" technology="-16V_10%_X7R" value="0.1µF"/>
+<part name="GND12" library="sapog_reference_hardware" deviceset="GND" device=""/>
+<part name="P+10" library="sapog_reference_hardware" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4458,6 +4710,8 @@ PC4 is 0</text>
 <text x="337.82" y="213.36" size="2.54" layer="97" font="vector" ratio="15">PHASE sensing</text>
 <text x="132.08" y="73.66" size="1.778" layer="91">LED1 should be replaced with this one
 https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
+<text x="142.24" y="55.88" size="1.27" layer="97" font="vector">Place R26 TO WRITE PROTECT</text>
+<text x="142.24" y="33.02" size="1.778" layer="97">WP pin pull up is optional</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="375.92" y="193.04" smashed="yes" rot="R270">
@@ -4832,6 +5086,24 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <instance part="+P9" gate="G$1" x="195.58" y="205.74" smashed="yes">
 <attribute name="VALUE" x="195.58" y="209.296" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="IC2" gate="G$1" x="154.94" y="38.1" smashed="yes">
+<attribute name="NAME" x="162.56" y="54.356" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="GND9" gate="1" x="147.32" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="146.05" y="45.72" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
+</instance>
+<instance part="C10" gate="G$1" x="175.26" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="174.371" y="33.02" size="1.27" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="175.514" y="35.56" size="0.762" layer="96" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGE" x="174.752" y="36.322" size="0.508" layer="97" rot="R90" align="center"/>
+<attribute name="VOLTAGE" x="175.514" y="32.004" size="0.762" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="GND12" gate="1" x="175.26" y="25.4" smashed="yes">
+<attribute name="VALUE" x="175.26" y="24.13" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="P+10" gate="G$1" x="175.26" y="43.18" smashed="yes">
+<attribute name="VALUE" x="175.26" y="46.736" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5160,6 +5432,16 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="187.96" x2="180.34" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="175.26" y1="27.94" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="VSS"/>
+<wire x1="149.86" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SENSE_B" class="0">
 <segment>
@@ -5269,6 +5551,11 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <wire x1="76.2" y1="149.86" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 <junction x="76.2" y="147.32"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SCL"/>
+<wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="149.86" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
@@ -5298,6 +5585,11 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <wire x1="71.12" y1="144.78" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="144.78" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="144.78"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SDA"/>
+<wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<label x="149.86" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USART1_TX" class="0">
@@ -5505,6 +5797,15 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <wire x1="175.26" y1="187.96" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
 <junction x="172.72" y="187.96"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<wire x1="172.72" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="40.64" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="40.64" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+<junction x="175.26" y="40.64"/>
+<pinref part="P+10" gate="G$1" pin="VDD_3V3"/>
+</segment>
 </net>
 <net name="BOOT0" class="0">
 <segment>
@@ -5691,8 +5992,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <instance part="GND28" gate="1" x="101.6" y="50.8" smashed="yes">
 <attribute name="VALUE" x="101.6" y="49.53" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P11" gate="G$1" x="101.6" y="66.04" smashed="yes">
-<attribute name="VALUE" x="101.6" y="69.596" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P11" gate="G$1" x="101.6" y="76.2" smashed="yes">
+<attribute name="VALUE" x="101.6" y="79.756" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="IC3" gate="G$1" x="116.84" y="55.88" smashed="yes">
 <attribute name="NAME" x="125.73" y="67.31" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
@@ -5708,8 +6009,8 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <instance part="GND33" gate="1" x="142.24" y="50.8" smashed="yes">
 <attribute name="VALUE" x="142.24" y="49.53" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P6" gate="G$1" x="142.24" y="66.04" smashed="yes">
-<attribute name="VALUE" x="142.24" y="69.596" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P6" gate="G$1" x="142.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="142.24" y="79.756" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="+P2" gate="G$1" x="68.58" y="68.58" smashed="yes">
 <attribute name="VALUE" x="68.58" y="72.136" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -5727,6 +6028,12 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <attribute name="DRAWING_NAME" x="140.97" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="R1" gate="G$1" x="124.46" y="73.66" smashed="yes">
+<attribute name="NAME" x="124.46" y="73.66" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="124.206" y="71.628" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="120.65" y="74.168" size="0.508" layer="95" font="vector" align="center"/>
+<attribute name="TOLERANCE" x="124.714" y="71.628" size="0.762" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -5769,19 +6076,24 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="60.96" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="+P6" gate="G$1" pin="VDD_3V3"/>
-<wire x1="142.24" y1="66.04" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <junction x="142.24" y="63.5"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="73.66" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
+<junction x="142.24" y="73.66"/>
 </segment>
 </net>
 <net name="VDD_5V" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="63.5" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="63.5" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="63.5" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <junction x="101.6" y="63.5"/>
 <pinref part="+P11" gate="G$1" pin="VDD_5V"/>
 <pinref part="IC3" gate="G$1" pin="EN"/>
 <pinref part="IC3" gate="G$1" pin="IN"/>
+<wire x1="101.6" y1="73.66" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <junction x="111.76" y="63.5"/>
 <wire x1="111.76" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
@@ -5789,6 +6101,9 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <wire x1="111.76" y1="58.42" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <portref moduleinst="LV_DC-DC" port="OUT"/>
 <wire x1="101.6" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<junction x="101.6" y="73.66"/>
 </segment>
 </net>
 <net name="VDC" class="0">
