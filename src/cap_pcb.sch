@@ -351,7 +351,7 @@ http://www.bccomponents.com/</description>
 <wire x1="-1.25" y1="0" x2="-1.25" y2="2" width="0.2" layer="51"/>
 <wire x1="1.25" y1="0" x2="1.25" y2="2" width="0.2" layer="51"/>
 </package>
-<package name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:footprint:7188959/1" locally_modified="yes" library_version="54" library_locally_modified="yes">
+<package name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:footprint:7188959/2" library_version="61">
 <pad name="+" x="-2.5" y="0" drill="0.8"/>
 <pad name="-" x="2.5" y="0" drill="0.8"/>
 <text x="-3.4" y="1.2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
@@ -478,7 +478,7 @@ http://www.bccomponents.com/</description>
 <packageinstance name="RADIAL_6.3X12.5-RA"/>
 </packageinstances>
 </package3d>
-<package3d name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:package:7188961/4" type="model" library_version="54" library_locally_modified="yes">
+<package3d name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:package:7188961/6" type="model" library_version="61">
 <packageinstances>
 <packageinstance name="RADIAL_SIDE_12.5X22"/>
 </packageinstances>
@@ -540,7 +540,7 @@ http://www.bccomponents.com/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CPOL" urn="urn:adsk.eagle:component:4855527/16" locally_modified="yes" prefix="C" uservalue="yes" library_version="54" library_locally_modified="yes">
+<deviceset name="CPOL" urn="urn:adsk.eagle:component:4855527/18" prefix="C" uservalue="yes" library_version="61">
 <description>Polar tantalum capacitor</description>
 <gates>
 <gate name="G$1" symbol="CPOL-1" x="0" y="0"/>
@@ -695,7 +695,7 @@ http://www.bccomponents.com/</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7188961/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7188961/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -934,6 +934,21 @@ http://www.bccomponents.com/</description>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 <rectangle x1="-2.1" y1="1.7" x2="-1.7" y2="2.1" layer="21"/>
 </package>
+<package name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:footprint:24450031/1" library_version="94">
+<smd name="3" x="-3.75" y="-1.27" dx="3.75" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="3.75" y="-1.27" dx="3.75" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="-3.75" y="1.27" dx="3.75" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="3.75" y="1.27" dx="3.75" dy="1" layer="1" rot="R180"/>
+<wire x1="-2.5" y1="2.78" x2="2.5" y2="2.78" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.78" x2="-2.5" y2="1.98" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0.58" x2="-2.5" y2="-0.57" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-1.98" x2="-2.5" y2="-2.78" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-2.78" x2="2.5" y2="-2.78" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-2.78" x2="2.5" y2="-1.98" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-0.57" x2="2.5" y2="0.58" width="0.1" layer="21"/>
+<wire x1="2.5" y1="1.98" x2="2.5" y2="2.78" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X02-SMD-2-FEMALE" urn="urn:adsk.eagle:package:23494054/2" type="model" library_version="86">
@@ -951,6 +966,11 @@ http://www.bccomponents.com/</description>
 <description>&lt;a href =https://www.molex.com/pdm_docs/sd/791091012_sd.pdf&gt;Drawing&lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="2X02-SMD-2-MALE"/>
+</packageinstances>
+</package3d>
+<package3d name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:package:24450034/1" type="box" library_version="94">
+<packageinstances>
+<packageinstance name="PINHEAD_2X02_SMD_MALE_2.54"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -972,7 +992,7 @@ http://www.bccomponents.com/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/6" prefix="CON" library_version="93">
+<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/7" prefix="CON" library_version="94">
 <gates>
 <gate name="G$1" symbol="M0202" x="0" y="0"/>
 </gates>
@@ -1027,6 +1047,20 @@ http://www.bccomponents.com/</description>
 </technology>
 </technologies>
 </device>
+<device name="-SMD-2.54-MALE" package="PINHEAD_2X02_SMD_MALE_2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24450034/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1042,37 +1076,37 @@ http://www.bccomponents.com/</description>
 </class>
 </classes>
 <parts>
-<part name="C23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/4" value="100µF ">
+<part name="C23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/6" value="330µF ">
 <attribute name="DIGIKEY#" value="493-4784-3-ND"/>
 <attribute name="MANF" value="Nichicon"/>
 <attribute name="MANF#" value="UCY2C101MHD1TO"/>
 <attribute name="VOLTAGE" value="160V"/>
 </part>
-<part name="C17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/4" value="100µF ">
+<part name="C17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/6" value="330µF ">
 <attribute name="DIGIKEY#" value="493-4784-3-ND"/>
 <attribute name="MANF" value="Nichicon"/>
 <attribute name="MANF#" value="UCY2C101MHD1TO"/>
 <attribute name="VOLTAGE" value="160V"/>
 </part>
-<part name="C18" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/4" value="100µF ">
+<part name="C18" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/6" value="330µF ">
 <attribute name="DIGIKEY#" value="493-4784-3-ND"/>
 <attribute name="MANF" value="Nichicon"/>
 <attribute name="MANF#" value="UCY2C101MHD1TO"/>
 <attribute name="VOLTAGE" value="160V"/>
 </part>
-<part name="C19" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/4" value="100µF ">
+<part name="C19" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/6" value="330µF ">
 <attribute name="DIGIKEY#" value="493-4784-3-ND"/>
 <attribute name="MANF" value="Nichicon"/>
 <attribute name="MANF#" value="UCY2C101MHD1TO"/>
 <attribute name="VOLTAGE" value="160V"/>
 </part>
-<part name="C20" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/4" value="100µF ">
+<part name="C20" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/6" value="330µF ">
 <attribute name="DIGIKEY#" value="493-4784-3-ND"/>
 <attribute name="MANF" value="Nichicon"/>
 <attribute name="MANF#" value="UCY2C101MHD1TO"/>
 <attribute name="VOLTAGE" value="160V"/>
 </part>
-<part name="C21" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/4" value="100µF ">
+<part name="C21" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="CPOL" device="-RADIAL_SIDE-12.5-22" package3d_urn="urn:adsk.eagle:package:7188961/6" value="330µF ">
 <attribute name="DIGIKEY#" value="493-4784-3-ND"/>
 <attribute name="MANF" value="Nichicon"/>
 <attribute name="MANF#" value="UCY2C101MHD1TO"/>
@@ -1081,10 +1115,12 @@ http://www.bccomponents.com/</description>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VBAT" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
-<part name="CON6" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2">
+<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2">
 <variant name="basic" populate="no"/>
 </part>
 <part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2"/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2"/>
+<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1133,11 +1169,17 @@ http://www.bccomponents.com/</description>
 <attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="CON6" gate="G$1" x="35.56" y="93.98" smashed="yes">
-<attribute name="NAME" x="42.164" y="102.87" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="CON3" gate="G$1" x="38.1" y="53.34" smashed="yes">
+<attribute name="NAME" x="44.704" y="62.23" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="CON1" gate="G$1" x="38.1" y="78.74" smashed="yes">
 <attribute name="NAME" x="44.704" y="87.63" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="CON2" gate="G$1" x="38.1" y="66.04" smashed="yes">
+<attribute name="NAME" x="44.704" y="74.93" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="CON4" gate="G$1" x="38.1" y="40.64" smashed="yes">
+<attribute name="NAME" x="44.704" y="49.53" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
