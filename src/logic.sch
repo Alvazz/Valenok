@@ -1645,6 +1645,88 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 <wire x1="2.5" y1="1.98" x2="2.5" y2="2.78" width="0.1" layer="21"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
+<package name="1X04-PTH-2.54" urn="urn:adsk.eagle:footprint:2540359/1" library_version="94">
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="1.7" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" diameter="1.7" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" diameter="1.7" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" diameter="1.7" rot="R90"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+<package name="1X04-PTH-2" urn="urn:adsk.eagle:footprint:4854335/3" library_version="94">
+<pad name="1" x="-3" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4"/>
+<pad name="3" x="1" y="0" drill="0.8" diameter="1.4"/>
+<pad name="4" x="3" y="0" drill="0.8" diameter="1.4"/>
+<wire x1="-3.5" y1="1" x2="-2.5" y2="1" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1" x2="-2" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-0.5" x2="-2.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="-3.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="-1" x2="-4" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-4" y1="-0.5" x2="-4" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-4" y1="0.5" x2="-3.5" y2="1" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21"/>
+<wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21"/>
+<wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21"/>
+<wire x1="2.5" y1="1" x2="3.5" y2="1" width="0.15" layer="21"/>
+<wire x1="3.5" y1="1" x2="4" y2="0.5" width="0.15" layer="21"/>
+<wire x1="4" y1="-0.5" x2="3.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-1" x2="2.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="2.5" y1="-1" x2="2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="2" y1="0.5" x2="2.5" y2="1" width="0.15" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="0.5" width="0.15" layer="21"/>
+<text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1X04-PTH-2-FEMALE" urn="urn:adsk.eagle:footprint:6503392/1" library_version="94">
+<pad name="1" x="-3" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4"/>
+<pad name="3" x="1" y="0" drill="0.8" diameter="1.4"/>
+<pad name="4" x="3" y="0" drill="0.8" diameter="1.4"/>
+<text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-2.5" y1="-1" x2="4" y2="-1" width="0.15" layer="21"/>
+<wire x1="4" y1="-1" x2="4" y2="1" width="0.15" layer="21"/>
+<wire x1="4" y1="1" x2="-4" y2="1" width="0.15" layer="21"/>
+<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.15" layer="21"/>
+<wire x1="-4" y1="-1" x2="-2.5" y2="-1" width="0.15" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X02-SMD-2-FEMALE" urn="urn:adsk.eagle:package:23494054/2" type="model" library_version="86">
@@ -1721,6 +1803,21 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 <packageinstance name="PINHEAD_2X02_SMD_MALE_2.54"/>
 </packageinstances>
 </package3d>
+<package3d name="1X04-PTH-2.54" urn="urn:adsk.eagle:package:2540383/2" type="model" library_version="94">
+<packageinstances>
+<packageinstance name="1X04-PTH-2.54"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04-PTH-2" urn="urn:adsk.eagle:package:4854340/4" type="model" library_version="94">
+<packageinstances>
+<packageinstance name="1X04-PTH-2"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04-PTH-2-FEMALE" urn="urn:adsk.eagle:package:6503396/2" type="model" library_version="94">
+<packageinstances>
+<packageinstance name="1X04-PTH-2-FEMALE"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="M0202" urn="urn:adsk.eagle:symbol:23494052/1" library_version="86">
@@ -1773,6 +1870,23 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 <pin name="3" x="-2.54" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1"/>
 <pin name="5" x="-2.54" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
 <pin name="7" x="-2.54" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="M04" urn="urn:adsk.eagle:symbol:2540348/1" library_version="94">
+<wire x1="6.35" y1="0" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="5.08" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="10.16" x2="5.08" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="0" y1="12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
+<pin name="1" x="7.62" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="10.16" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="2.54" y="13.97" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2022,6 +2136,55 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23823581/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHEAD_1X04" urn="urn:adsk.eagle:component:2540404/7" prefix="CON" library_version="94">
+<gates>
+<gate name="G$1" symbol="M04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2.54" package="1X04-PTH-2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2" package="1X04-PTH-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4854340/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2-FEMALE" package="1X04-PTH-2-FEMALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6503396/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4786,6 +4949,9 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P13" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="GND23" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="P+15" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5238,6 +5404,15 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <instance part="+P13" gate="G$1" x="271.78" y="177.8" smashed="yes">
 <attribute name="VALUE" x="271.78" y="181.356" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="CON2" gate="G$1" x="167.64" y="134.62" smashed="yes" rot="MR0">
+<attribute name="NAME" x="165.1" y="148.59" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
+<instance part="GND23" gate="1" x="154.94" y="142.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="152.908" y="142.24" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
+</instance>
+<instance part="P+15" gate="G$1" x="154.94" y="147.32" smashed="yes">
+<attribute name="VALUE" x="154.94" y="150.876" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5308,12 +5483,22 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <wire x1="124.46" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="132.08" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
+<label x="157.48" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA14"/>
 <wire x1="109.22" y1="132.08" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 <label x="109.22" y="134.62" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
+<label x="157.48" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SENSE_A" class="0">
@@ -5603,6 +5788,11 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="271.78" y1="144.78" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
 <junction x="271.78" y="147.32"/>
+</segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="3"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="160.02" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSE_B" class="0">
@@ -5967,6 +6157,12 @@ https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C10879
 <wire x1="175.26" y1="40.64" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
 <junction x="175.26" y="40.64"/>
 <pinref part="P+10" gate="G$1" pin="VDD_3V3"/>
+</segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="4"/>
+<wire x1="160.02" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="P+15" gate="G$1" pin="VDD_3V3"/>
+<wire x1="154.94" y1="144.78" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
