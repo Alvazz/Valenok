@@ -811,6 +811,29 @@ package type OT</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
+<package name="SOT23-8" urn="urn:adsk.eagle:footprint:24574322/1" library_version="122">
+<description>https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_8_05-08-1637.pdf</description>
+<smd name="2" x="-1.3" y="0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="8" x="1.3" y="0.975" dx="1.2" dy="0.4" layer="1"/>
+<smd name="3" x="-1.3" y="-0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="1" x="-1.3" y="0.975" dx="1.2" dy="0.4" layer="1"/>
+<smd name="4" x="-1.3" y="-0.975" dx="1.2" dy="0.4" layer="1"/>
+<smd name="7" x="1.3" y="0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="6" x="1.3" y="-0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="5" x="1.3" y="-0.975" dx="1.2" dy="0.4" layer="1"/>
+<wire x1="-0.7" y1="1.45" x2="0.7" y2="1.45" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="1.45" x2="-0.7" y2="1.35" width="0.1" layer="21"/>
+<wire x1="0.7" y1="1.45" x2="0.7" y2="1.35" width="0.1" layer="21"/>
+<wire x1="0.7" y1="-1.45" x2="-0.7" y2="-1.45" width="0.1" layer="21"/>
+<wire x1="0.7" y1="-1.45" x2="0.7" y2="-1.35" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="-1.45" x2="-0.7" y2="-1.35" width="0.1" layer="21"/>
+<wire x1="-0.7" y1="1.45" x2="-0.7" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-1.45" x2="0.7" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-1.45" x2="0.7" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.7" y1="1.45" x2="-0.7" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="1.35" x2="0.7" y2="1.35" width="0.1" layer="21"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="TSSOP8" urn="urn:adsk.eagle:package:7691413/6" type="model" library_version="92" library_locally_modified="yes">
@@ -836,6 +859,12 @@ package type OT</description>
 package type OT</description>
 <packageinstances>
 <packageinstance name="SOT23-5L"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-8" urn="urn:adsk.eagle:package:24574323/1" type="box" library_version="122">
+<description>https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_8_05-08-1637.pdf</description>
+<packageinstances>
+<packageinstance name="SOT23-8"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -897,6 +926,25 @@ package type OT</description>
 <text x="4.572" y="-1.27" size="1.27" layer="95" font="vector" ratio="15" align="center-right">&gt;MANF#</text>
 <text x="1.27" y="7.874" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center">-</text>
 <text x="1.016" y="2.794" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center">+</text>
+</symbol>
+<symbol name="CAT5171" urn="urn:adsk.eagle:symbol:24574321/1" locally_modified="yes" library_version="122" library_locally_modified="yes">
+<description>https://datasheet.lcsc.com/szlcsc/1809111712_ON-Semiconductor-CAT5171TBI-50GT3_C154777.pdf</description>
+<pin name="VDD" x="7.62" y="22.86" visible="off" length="short" rot="R270"/>
+<pin name="SCL" x="-2.54" y="15.24" length="short"/>
+<pin name="SDA" x="-2.54" y="12.7" length="short"/>
+<pin name="AD0" x="-2.54" y="10.16" length="short"/>
+<pin name="GND" x="7.62" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="W" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="A" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="B" x="17.78" y="5.08" length="short" rot="R180"/>
+<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
+<text x="7.62" y="1.27" size="1.524" layer="97" align="center">GND</text>
+<text x="7.62" y="19.05" size="1.524" layer="97" align="center">VDD</text>
+<text x="11.43" y="21.59" size="1.778" layer="97" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="8.89" y="-1.27" size="0.889" layer="97" font="vector" ratio="15" align="center-left">&gt;MANF#</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1045,6 +1093,43 @@ package type OT</description>
 <attribute name="LCSC#" value="C108095" constant="no"/>
 <attribute name="MANF" value="3PEAK" constant="no"/>
 <attribute name="MANF#" value="LMV331TP-TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAT5171TBI" urn="urn:adsk.eagle:component:24574324/1" prefix="IC" library_version="122" library_locally_modified="yes">
+<description>Digital Potentiometer Circuit 256 Taps I²C Interface SOT-23-8</description>
+<gates>
+<gate name="G$1" symbol="CAT5171" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-8">
+<connects>
+<connect gate="G$1" pin="A" pad="8"/>
+<connect gate="G$1" pin="AD0" pad="6"/>
+<connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="W" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24574323/1"/>
+</package3dinstances>
+<technologies>
+<technology name="-00GT3">
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="" constant="no"/>
+</technology>
+<technology name="-50GT3">
+<attribute name="DIGIKEY#" value="CAT5171TBI-50GT3OSCT-ND" constant="no"/>
+<attribute name="LCSC#" value="C154777" constant="no"/>
+<attribute name="MANF" value="ON Semiconductor" constant="no"/>
+<attribute name="MANF#" value="CAT5171TBI-50GT3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5038,6 +5123,20 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="GND44" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="IC9" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CAT5171TBI" device="" package3d_urn="urn:adsk.eagle:package:24574323/1" technology="-50GT3"/>
+<part name="C17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="490-3261-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GRM155R71C104KA88D"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
+<part name="P+18" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
+<part name="GND45" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="GND46" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="GND47" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="P+19" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5067,8 +5166,8 @@ PC4 is 0</text>
 https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
 <text x="142.24" y="55.88" size="1.27" layer="97" font="vector">Place R26 TO WRITE PROTECT</text>
 <text x="142.24" y="33.02" size="1.778" layer="97">WP pin pull up is optional</text>
-<text x="96.52" y="226.06" size="1.27" layer="97" font="vector">Inverting comparator</text>
-<text x="96.52" y="220.98" size="1.27" layer="97" font="vector">When current_amp_out voltage exceeds comp_ref voltage 
+<text x="129.54" y="243.84" size="1.27" layer="97" font="vector">Inverting comparator</text>
+<text x="129.54" y="238.76" size="1.27" layer="97" font="vector">When current_amp_out voltage exceeds comp_ref voltage 
 overcurrent_fault goes low</text>
 </plain>
 <instances>
@@ -5551,6 +5650,31 @@ overcurrent_fault goes low</text>
 <instance part="GND44" gate="1" x="139.7" y="203.2" smashed="yes">
 <attribute name="VALUE" x="139.7" y="201.168" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="IC9" gate="G$1" x="99.06" y="223.52" smashed="yes">
+<attribute name="NAME" x="110.49" y="245.11" size="1.778" layer="97" font="vector" ratio="15" align="center"/>
+<attribute name="MANF#" x="107.95" y="222.25" size="0.889" layer="97" font="vector" ratio="15" align="center-left"/>
+</instance>
+<instance part="C17" gate="G$1" x="101.6" y="248.92" smashed="yes">
+<attribute name="NAME" x="102.87" y="248.031" size="1.27" layer="95" font="vector" align="center-left"/>
+<attribute name="VALUE" x="100.33" y="249.174" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="99.568" y="248.412" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
+<attribute name="VOLTAGE" x="102.616" y="249.428" size="0.508" layer="97" font="vector" align="center-left"/>
+</instance>
+<instance part="P+18" gate="G$1" x="106.68" y="251.46" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="106.68" y="255.016" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
+<instance part="GND45" gate="1" x="106.68" y="218.44" smashed="yes">
+<attribute name="VALUE" x="106.68" y="216.408" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="GND46" gate="1" x="96.52" y="246.38" smashed="yes">
+<attribute name="VALUE" x="96.52" y="244.348" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="GND47" gate="1" x="119.38" y="226.06" smashed="yes">
+<attribute name="VALUE" x="119.38" y="224.028" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="P+19" gate="G$1" x="119.38" y="241.3" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="119.38" y="244.856" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5952,6 +6076,23 @@ overcurrent_fault goes low</text>
 <wire x1="139.7" y1="203.2" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="205.74" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND45" gate="1" pin="GND"/>
+<pinref part="IC9" gate="G$1" pin="GND"/>
+<wire x1="106.68" y1="218.44" x2="106.68" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="96.52" y1="246.38" x2="96.52" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="248.92" x2="99.06" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="119.38" y1="226.06" x2="119.38" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="B"/>
+<wire x1="119.38" y1="228.6" x2="116.84" y2="228.6" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SENSE_B" class="0">
 <segment>
@@ -6066,6 +6207,11 @@ overcurrent_fault goes low</text>
 <wire x1="152.4" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 <label x="149.86" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="SCL"/>
+<wire x1="96.52" y1="238.76" x2="93.98" y2="238.76" width="0.1524" layer="91"/>
+<label x="93.98" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
@@ -6100,6 +6246,11 @@ overcurrent_fault goes low</text>
 <pinref part="IC2" gate="G$1" pin="SDA"/>
 <wire x1="152.4" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
 <label x="149.86" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="SDA"/>
+<wire x1="96.52" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
+<label x="93.98" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USART1_TX" class="0">
@@ -6340,6 +6491,21 @@ overcurrent_fault goes low</text>
 <wire x1="111.76" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
 <junction x="106.68" y="205.74"/>
 </segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="VDD"/>
+<wire x1="106.68" y1="246.38" x2="106.68" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="248.92" x2="104.14" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="248.92" x2="106.68" y2="251.46" width="0.1524" layer="91"/>
+<junction x="106.68" y="248.92"/>
+<pinref part="P+18" gate="G$1" pin="VDD_3V3"/>
+</segment>
+<segment>
+<pinref part="P+19" gate="G$1" pin="VDD_3V3"/>
+<wire x1="119.38" y1="241.3" x2="119.38" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="A"/>
+<wire x1="119.38" y1="238.76" x2="116.84" y2="238.76" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BOOT0" class="0">
 <segment>
@@ -6530,6 +6696,9 @@ overcurrent_fault goes low</text>
 <wire x1="124.46" y1="198.12" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="198.12" x2="132.08" y2="185.42" width="0.1524" layer="91"/>
 <junction x="132.08" y="185.42"/>
+<pinref part="IC9" gate="G$1" pin="W"/>
+<wire x1="116.84" y1="233.68" x2="124.46" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="233.68" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
