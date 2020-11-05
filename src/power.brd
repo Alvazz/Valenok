@@ -500,7 +500,7 @@
 </library>
 <library name="SHUNT_RESISTORS" urn="urn:adsk.eagle:library:2644450">
 <packages>
-<package name="R3920-KELVIN" urn="urn:adsk.eagle:footprint:10874635/1" locally_modified="yes" library_version="18" library_locally_modified="yes">
+<package name="R3920-KELVIN" urn="urn:adsk.eagle:footprint:10874635/2" library_version="19">
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <smd name="1" x="-4.15" y="1.9" dx="2.7" dy="2.4" layer="1"/>
 <smd name="2" x="4.15" y="1.9" dx="2.7" dy="2.4" layer="1"/>
@@ -515,7 +515,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="R3920-KELVIN" urn="urn:adsk.eagle:package:10874636/2" type="model" library_version="18" library_locally_modified="yes">
+<package3d name="R3920-KELVIN" urn="urn:adsk.eagle:package:10874636/3" type="model" library_version="19">
 <packageinstances>
 <packageinstance name="R3920-KELVIN"/>
 </packageinstances>
@@ -1153,14 +1153,15 @@
 <attribute name="MANF#" value="0877590414" x="-5.25" y="24.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-5.25" y="24.4" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R1" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" package="R3920-KELVIN" package3d_urn="urn:adsk.eagle:package:10874636/2" value="500 µOhms" x="-13.8" y="68.2" smashed="yes" rot="R270">
-<attribute name="DIGIKEY#" value="CSS2H-3920R-L500FCT-ND" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R1" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" package="R3920-KELVIN" package3d_urn="urn:adsk.eagle:package:10874636/3" value="200 µOhms" x="-13.8" y="68.2" smashed="yes" rot="R270">
+<attribute name="DIGIKEY#" value="CSS2H-3920R-L200FCT-ND" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C469432" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Bourns Inc" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="CSS2H-3920R-L500F" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="CSS2H-3920R-L200FCT-ND" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-13.8" y="68.2" size="1.5" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 170°C" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="3920" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="9W" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="12W" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TC" value="±50ppm/°C" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="-13.8" y="68.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>

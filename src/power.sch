@@ -2987,7 +2987,7 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="2" x="2.5" y="1.2" dx="1.5" dy="1" layer="1"/>
 <smd name="22" x="2.5" y="-1.2" dx="1.5" dy="1" layer="1"/>
 </package>
-<package name="R3920-KELVIN" urn="urn:adsk.eagle:footprint:10874635/1" locally_modified="yes" library_version="18" library_locally_modified="yes">
+<package name="R3920-KELVIN" urn="urn:adsk.eagle:footprint:10874635/2" library_version="19">
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <smd name="1" x="-4.15" y="1.9" dx="2.7" dy="2.4" layer="1"/>
 <smd name="2" x="4.15" y="1.9" dx="2.7" dy="2.4" layer="1"/>
@@ -3035,7 +3035,7 @@ DIN A4, landscape with location and doc. field</description>
 <packageinstance name="R2010-KELVIN"/>
 </packageinstances>
 </package3d>
-<package3d name="R3920-KELVIN" urn="urn:adsk.eagle:package:10874636/2" type="model" library_version="18" library_locally_modified="yes">
+<package3d name="R3920-KELVIN" urn="urn:adsk.eagle:package:10874636/3" type="model" library_version="19">
 <packageinstances>
 <packageinstance name="R3920-KELVIN"/>
 </packageinstances>
@@ -3069,7 +3069,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CURRENT_SHUNT_KELVIN" urn="urn:adsk.eagle:component:3560628/14" prefix="R" library_version="18" library_locally_modified="yes">
+<deviceset name="CURRENT_SHUNT_KELVIN" urn="urn:adsk.eagle:component:3560628/15" prefix="R" library_version="19">
 <gates>
 <gate name="G$1" symbol="SHUNT_4_TERMINAL" x="2.54" y="2.54"/>
 </gates>
@@ -3224,9 +3224,20 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="S2" pad="S2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10874636/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10874636/3"/>
 </package3dinstances>
 <technologies>
+<technology name="-0.0002R">
+<attribute name="DIGIKEY#" value="CSS2H-3920R-L200FCT-ND" constant="no"/>
+<attribute name="MANF" value="Bourns Inc" constant="no"/>
+<attribute name="MANF#" value="CSS2H-3920R-L200FCT-ND" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 170°C" constant="no"/>
+<attribute name="PACKAGE" value="3920" constant="no"/>
+<attribute name="POWER" value="12W" constant="no"/>
+<attribute name="TC" value="±50ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="200 µOhms" constant="no"/>
+</technology>
 <technology name="-0.0005R">
 <attribute name="DIGIKEY#" value="CSS2H-3920R-L500FCT-ND" constant="no"/>
 <attribute name="MANF" value="Bourns Inc" constant="no"/>
@@ -3646,7 +3657,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
-<part name="R1" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-3920-KELVIN" package3d_urn="urn:adsk.eagle:package:10874636/2" technology="-0.0005R" value="500 µOhms"/>
+<part name="R1" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-3920-KELVIN" package3d_urn="urn:adsk.eagle:package:10874636/3" technology="-0.0002R" value="200 µOhms">
+<attribute name="LCSC#" value="C469432"/>
+</part>
 <part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
 <part name="CON5" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
 <part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
@@ -3787,6 +3800,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="R1" gate="G$1" x="144.78" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="141.986" y="40.64" size="1.778" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="147.32" y="40.64" size="1.016" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="LCSC#" x="144.78" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="CON1" gate="G$1" x="109.22" y="60.96" smashed="yes">
 <attribute name="NAME" x="115.824" y="69.85" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
