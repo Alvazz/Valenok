@@ -1385,8 +1385,8 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="GND108" gate="1" x="109.22" y="124.46" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="107.188" y="124.46" size="1.016" layer="96" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="+P10" gate="G$1" x="104.14" y="121.92" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="104.14" y="125.476" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="+P10" gate="G$1" x="104.14" y="132.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="104.14" y="135.636" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="C84" gate="G$1" x="104.14" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="103.251" y="113.03" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
@@ -1585,10 +1585,14 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="IC8" gate="G$1" pin="IN"/>
 <wire x1="114.3" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="+P10" gate="G$1" pin="VDD_5V"/>
-<wire x1="104.14" y1="121.92" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="132.08" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C84" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="129.54" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="116.84" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
 <junction x="104.14" y="119.38"/>
+<pinref part="IC8" gate="G$1" pin="EN"/>
+<wire x1="114.3" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
+<junction x="104.14" y="129.54"/>
 </segment>
 <segment>
 <pinref part="CON3" gate="G$1" pin="1"/>
@@ -1620,13 +1624,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="CON2" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="93.98" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
 <junction x="152.4" y="93.98"/>
-</segment>
-</net>
-<net name="BEC_EN" class="0">
-<segment>
-<pinref part="IC8" gate="G$1" pin="EN"/>
-<wire x1="114.3" y1="129.54" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
-<label x="111.76" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

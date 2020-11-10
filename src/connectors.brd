@@ -769,7 +769,6 @@
 <vertex x="18" y="65"/>
 <vertex x="-18" y="65"/>
 </polygon>
-<wire x1="-7.29" y1="75.19" x2="-7.4" y2="75.3" width="0.2" layer="1"/>
 <via x="-7.4" y="75.3" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="-6.4" y="76.7" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="1.7" y="75.6" extent="1-16" drill="0.25" diameter="0.5"/>
@@ -779,9 +778,9 @@
 <via x="-0.3" y="75.6" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="9.6" y1="76.825" x2="10.675" y2="76.825" width="0.2" layer="1"/>
 <wire x1="10.675" y1="76.825" x2="11" y2="76.5" width="0.2" layer="1"/>
-<via x="15.6" y="77" extent="1-16" drill="0.25" diameter="0.5"/>
-<via x="15.6" y="76.5" extent="1-16" drill="0.25" diameter="0.5"/>
-<via x="15.6" y="76" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="15.7" y="77.05" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="15.7" y="76.55" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="15.2" y="76.55" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="15.7" y="78.55" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="15.05" y="78.55" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="14.4" y="78.55" extent="1-16" drill="0.25" diameter="0.5"/>
@@ -791,14 +790,24 @@
 <via x="10.45" y="75.55" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="10.45" y="77.45" extent="1-16" drill="0.25" diameter="0.5"/>
 <via x="11.55" y="77.45" extent="1-16" drill="0.25" diameter="0.5"/>
-<wire x1="13.225" y1="79.1" x2="11.55" y2="77.45" width="0" layer="19" extent="1-1"/>
-<wire x1="16.8" y1="70.8" x2="16.8" y2="75.6" width="0" layer="19" extent="1-1"/>
+<via x="15.2" y="77.05" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="-10.45" y="78.8" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="-15.55" y="78.35" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="-14.75" y="75.25" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="-11.5" y="75" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="-3.1" y="78.5" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="3.7" y="79.25" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="2.95" y="78.55" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="6.1" y="78.3" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="5.8" y="77.7" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="6.95" y="78.3" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="3.65" y="77.55" extent="1-16" drill="0.25" diameter="0.5"/>
 </signal>
 <signal name="CAN1_TX">
 <contactref element="IC6" pad="1"/>
 <contactref element="CON3" pad="4"/>
-<wire x1="9.6" y1="77.475" x2="9.6" y2="78.1" width="0.2" layer="1"/>
-<via x="9.6" y="78.1" extent="1-16" drill="0.25" diameter="0.5"/>
+<wire x1="9.6" y1="77.475" x2="9.6" y2="78" width="0.2" layer="1"/>
+<via x="9.6" y="78" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="16.8" y1="66.8" x2="15.4" y2="68.2" width="0.2" layer="1"/>
 <wire x1="15.4" y1="68.2" x2="15.4" y2="73.15259375" width="0.2" layer="1"/>
 <wire x1="15.4" y1="73.15259375" x2="14.54759375" y2="74.005" width="0.2" layer="1"/>
@@ -807,9 +816,9 @@
 <wire x1="13.15" y1="74.305" x2="13.15" y2="75.45" width="0.2" layer="1"/>
 <via x="13.15" y="75.45" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="13.15" y1="75.45" x2="13.6" y2="75.9" width="0.2" layer="16"/>
-<wire x1="13.05" y1="78.1" x2="9.6" y2="78.1" width="0.2" layer="16"/>
+<wire x1="13.15" y1="78" x2="9.6" y2="78" width="0.2" layer="16"/>
 <wire x1="13.6" y1="75.9" x2="13.6" y2="77.55" width="0.2" layer="16"/>
-<wire x1="13.6" y1="77.55" x2="13.05" y2="78.1" width="0.2" layer="16"/>
+<wire x1="13.6" y1="77.55" x2="13.15" y2="78" width="0.2" layer="16"/>
 </signal>
 <signal name="CAN1_RX">
 <contactref element="IC6" pad="4"/>
@@ -817,14 +826,13 @@
 <wire x1="9.6" y1="75.525" x2="9.6" y2="75" width="0.2" layer="1"/>
 <via x="9.6" y="75" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="16.8" y1="68.8" x2="15.8" y2="69.8" width="0.2" layer="1"/>
-<wire x1="15.8" y1="73.35" x2="15.3" y2="73.85" width="0.2" layer="1"/>
-<wire x1="15.3" y1="73.85" x2="15.3" y2="74.8" width="0.2" layer="1"/>
-<via x="15.3" y="74.8" extent="1-16" drill="0.25" diameter="0.5"/>
+<wire x1="15.8" y1="73.35" x2="15.25" y2="73.9" width="0.2" layer="1"/>
+<wire x1="15.25" y1="73.9" x2="15.25" y2="74.2" width="0.2" layer="1"/>
+<via x="15.25" y="74.2" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="15.8" y1="69.8" x2="15.8" y2="73.35" width="0.2" layer="1"/>
-<wire x1="15.3" y1="74.8" x2="14.55" y2="74.05" width="0.2" layer="16"/>
-<wire x1="14.55" y1="74.05" x2="12" y2="74.05" width="0.2" layer="16"/>
-<wire x1="12" y1="74.05" x2="11.05" y2="75" width="0.2" layer="16"/>
-<wire x1="11.05" y1="75" x2="9.6" y2="75" width="0.2" layer="16"/>
+<wire x1="15.25" y1="74.2" x2="15.1" y2="74.05" width="0.2" layer="16"/>
+<wire x1="15.1" y1="74.05" x2="10.55" y2="74.05" width="0.2" layer="16"/>
+<wire x1="10.55" y1="74.05" x2="9.6" y2="75" width="0.2" layer="16"/>
 </signal>
 <signal name="N$23">
 <contactref element="IC6" pad="7"/>
@@ -911,8 +919,8 @@
 <via x="16.8" y="77.1" extent="1-16" drill="0.25" diameter="0.5"/>
 <polygon width="0.2" layer="16" thermals="no">
 <vertex x="17.5" y="77.8"/>
-<vertex x="16.2" y="77.8"/>
-<vertex x="16.2" y="72.2"/>
+<vertex x="16.4" y="77.8"/>
+<vertex x="16.4" y="72.2"/>
 <vertex x="17.5" y="72.2"/>
 </polygon>
 <wire x1="9.85" y1="74.5" x2="9.3" y2="74.5" width="0.2" layer="1"/>
@@ -923,15 +931,18 @@
 <wire x1="9" y1="74.8" x2="9" y2="75.95" width="0.2" layer="1"/>
 <wire x1="10.25" y1="74.9" x2="11.25" y2="74.9" width="0.2" layer="1"/>
 <wire x1="11.75" y1="74.3" x2="11.85" y2="74.3" width="0.2" layer="1"/>
-<via x="12.4878875" y="74.755" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="12.4878875" y="74.955" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="11.25" y1="74.9" x2="11.85" y2="74.3" width="0.2" layer="1"/>
-<wire x1="11.75" y1="74.3" x2="12.205" y2="74.755" width="0.2" layer="1"/>
-<wire x1="12.205" y1="74.755" x2="12.4878875" y2="74.755" width="0.2" layer="1"/>
+<wire x1="11.75" y1="74.3" x2="12.405" y2="74.955" width="0.2" layer="1"/>
+<wire x1="12.405" y1="74.955" x2="12.4878875" y2="74.955" width="0.2" layer="1"/>
 <wire x1="12.4" y1="75.525" x2="12.4878875" y2="75.4371125" width="0.2" layer="1"/>
-<wire x1="12.4878875" y1="75.4371125" x2="12.4878875" y2="74.755" width="0.2" layer="1"/>
-<wire x1="12.4878875" y1="74.755" x2="14.205" y2="74.755" width="0.2" layer="16"/>
-<wire x1="14.205" y1="74.755" x2="14.85" y2="75.4" width="0.2" layer="16"/>
-<wire x1="14.85" y1="75.4" x2="16.65" y2="75.4" width="0.2" layer="16"/>
+<wire x1="12.4878875" y1="75.4371125" x2="12.4878875" y2="74.955" width="0.2" layer="1"/>
+<wire x1="12.4878875" y1="74.955" x2="12.5378875" y2="74.905" width="0.2" layer="16"/>
+<wire x1="13.955" y1="74.905" x2="12.5378875" y2="74.905" width="0.2" layer="16"/>
+<wire x1="13.955" y1="74.905" x2="15.1" y2="76.05" width="0.2" layer="16"/>
+<wire x1="15.1" y1="76.05" x2="16.65" y2="76.05" width="0.2" layer="16"/>
+<contactref element="IC8" pad="1"/>
+<wire x1="16.8" y1="74.65" x2="16.8" y2="72.8" width="0.2" layer="1"/>
 </signal>
 <signal name="CAN1_VDD">
 <contactref element="IC8" pad="4"/>
@@ -964,8 +975,8 @@
 <polygon width="0.2" layer="16" thermals="no">
 <vertex x="7.9" y="75.65"/>
 <vertex x="5.2" y="75.65"/>
-<vertex x="5.2" y="78.7"/>
-<vertex x="11.2" y="78.7"/>
+<vertex x="5.2" y="78.85"/>
+<vertex x="11.2" y="78.85"/>
 <vertex x="11.2" y="79.7"/>
 <vertex x="4.3" y="79.7"/>
 <vertex x="4.3" y="75.6"/>
@@ -983,10 +994,10 @@
 <vertex x="10.3" y="79.8"/>
 <vertex x="12" y="79.8"/>
 </polygon>
-<via x="11" y="78.9" extent="1-16" drill="0.25" diameter="0.5"/>
-<via x="10.5" y="78.9" extent="1-16" drill="0.25" diameter="0.5"/>
-<via x="11" y="79.4" extent="1-16" drill="0.25" diameter="0.5"/>
-<via x="10.5" y="79.4" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="11" y="79" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="10.5" y="79" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="11" y="79.5" extent="1-16" drill="0.25" diameter="0.5"/>
+<via x="10.5" y="79.5" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="15.7" y1="77.775" x2="14.4" y2="77.775" width="0.5" layer="1"/>
 <wire x1="14.4" y1="77.775" x2="14.4" y2="76.55" width="0.5" layer="1"/>
 <wire x1="14.4" y1="76.55" x2="14.2" y2="76.55" width="0.5" layer="1"/>
@@ -995,9 +1006,6 @@
 <wire x1="13.3" y1="78.1" x2="12.4" y2="78.1" width="0.5" layer="1"/>
 <wire x1="12.4" y1="78.1" x2="11.775" y2="78.725" width="0.5" layer="1"/>
 <wire x1="11.775" y1="78.725" x2="11.775" y2="79.1" width="0.5" layer="1"/>
-</signal>
-<signal name="BEC_EN">
-<contactref element="IC8" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
