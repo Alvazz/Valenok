@@ -4726,7 +4726,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="+P9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
-<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="000"/>
+<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="DNM"/>
 <part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CAT24C02" device="" package3d_urn="urn:adsk.eagle:package:5347863/8"/>
 <part name="GND9" library="sapog_reference_hardware" deviceset="GND" device=""/>
 <part name="C10" library="C_digikey" library_urn="urn:adsk.eagle:library:2539367" deviceset="0.1µF" device="-0402" package3d_urn="urn:adsk.eagle:package:2539379/2" technology="-16V_10%_X7R" value="0.1µF"/>
@@ -4792,8 +4792,8 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="GND44" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="+P14" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
 <part name="GND48" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="+P15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6458,17 +6458,17 @@ overcurrent_fault goes low</text>
 <instance part="CON11" gate="G$1" x="203.2" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="200.66" y="110.49" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="CON12" gate="G$1" x="180.34" y="91.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="177.8" y="105.41" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON12" gate="G$1" x="203.2" y="88.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="200.66" y="102.87" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="CON1" gate="G$1" x="134.62" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="140.97" y="105.41" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="+P14" gate="G$1" x="193.04" y="124.46" smashed="yes">
-<attribute name="VALUE" x="193.04" y="128.016" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
-</instance>
 <instance part="GND48" gate="1" x="190.5" y="119.38" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="188.468" y="119.38" size="1.016" layer="96" font="vector" ratio="15" rot="MR90" align="center"/>
+</instance>
+<instance part="+P15" gate="G$1" x="190.5" y="124.46" smashed="yes">
+<attribute name="VALUE" x="190.5" y="128.016" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -6568,12 +6568,6 @@ overcurrent_fault goes low</text>
 <wire x1="101.6" y1="114.3" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
 <junction x="101.6" y="111.76"/>
 </segment>
-<segment>
-<pinref part="CON11" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="+P14" gate="G$1" pin="VDD_3V3"/>
-<wire x1="193.04" y1="121.92" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
@@ -6622,6 +6616,14 @@ overcurrent_fault goes low</text>
 <pinref part="CON11" gate="G$1" pin="4"/>
 <wire x1="195.58" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="193.04" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VDD_5V" class="0">
+<segment>
+<pinref part="+P15" gate="G$1" pin="VDD_5V"/>
+<wire x1="190.5" y1="121.92" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="CON11" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
