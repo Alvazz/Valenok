@@ -351,10 +351,10 @@ http://www.bccomponents.com/</description>
 <wire x1="-1.25" y1="0" x2="-1.25" y2="2" width="0.2" layer="51"/>
 <wire x1="1.25" y1="0" x2="1.25" y2="2" width="0.2" layer="51"/>
 </package>
-<package name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:footprint:7188959/2" library_version="61">
+<package name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:footprint:7188959/2" locally_modified="yes" library_version="66" library_locally_modified="yes">
 <pad name="+" x="-2.5" y="0" drill="0.8"/>
 <pad name="-" x="2.5" y="0" drill="0.8"/>
-<text x="-3.4" y="1.2" size="1.27" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="-3.4" y="0.819" size="1.27" layer="51" font="vector" ratio="15" align="center">+</text>
 <text x="0" y="0" size="1.3" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-6.2" y1="1.5" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.127" layer="51"/>
@@ -478,7 +478,7 @@ http://www.bccomponents.com/</description>
 <packageinstance name="RADIAL_6.3X12.5-RA"/>
 </packageinstances>
 </package3d>
-<package3d name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:package:7188961/6" type="model" library_version="61">
+<package3d name="RADIAL_SIDE_12.5X22" urn="urn:adsk.eagle:package:7188961/6" type="model" library_version="66" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="RADIAL_SIDE_12.5X22"/>
 </packageinstances>
@@ -540,7 +540,7 @@ http://www.bccomponents.com/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CPOL" urn="urn:adsk.eagle:component:4855527/18" prefix="C" uservalue="yes" library_version="61">
+<deviceset name="CPOL" urn="urn:adsk.eagle:component:4855527/18" prefix="C" uservalue="yes" library_version="66" library_locally_modified="yes">
 <description>Polar tantalum capacitor</description>
 <gates>
 <gate name="G$1" symbol="CPOL-1" x="0" y="0"/>
@@ -1327,17 +1327,6 @@ http://www.bccomponents.com/</description>
 <wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
 <text x="0" y="4.7" size="2" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="2X1.5" urn="urn:adsk.eagle:footprint:11682467/1" library_version="27">
-<smd name="P$1" x="0" y="0" dx="2" dy="1.5" layer="1" roundness="50"/>
-<wire x1="0.75" y1="-0.9" x2="-0.75" y2="-0.9" width="0.127" layer="51"/>
-<wire x1="-0.75" y1="-0.9" x2="-1.15" y2="-0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="-1.15" y1="-0.5" x2="-1.15" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-1.15" y1="0.5" x2="-0.75" y2="0.9" width="0.127" layer="51" curve="-90"/>
-<wire x1="-0.75" y1="0.9" x2="0.75" y2="0.9" width="0.127" layer="51"/>
-<wire x1="0.75" y1="0.9" x2="1.15" y2="0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="1.15" y1="0.5" x2="1.15" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="1.15" y1="-0.5" x2="0.75" y2="-0.9" width="0.127" layer="51" curve="-90"/>
-</package>
 <package name="HOLE_1.77" urn="urn:adsk.eagle:footprint:15477725/1" library_version="27">
 <pad name="P$1" x="0" y="0" drill="1.77" diameter="2.35"/>
 <text x="0" y="2" size="1" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
@@ -1442,6 +1431,17 @@ http://www.bccomponents.com/</description>
 <wire x1="2.7" y1="2.4" x2="2.7" y2="-2.4" width="0.1" layer="21"/>
 <wire x1="2.7" y1="-2.4" x2="1.9" y2="-3.2" width="0.1" layer="21" curve="-90"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="2X1.5" urn="urn:adsk.eagle:footprint:11682467/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
+<smd name="P$1" x="0" y="0" dx="2" dy="1.5" layer="1" roundness="50"/>
+<wire x1="0.65" y1="-0.9" x2="-0.65" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="-0.9" x2="-1.15" y2="-0.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.15" y1="-0.4" x2="-1.15" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="0.4" x2="-0.65" y2="0.9" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.65" y1="0.9" x2="0.65" y2="0.9" width="0.127" layer="21"/>
+<wire x1="0.65" y1="0.9" x2="1.15" y2="0.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.15" y1="0.4" x2="1.15" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-0.4" x2="0.65" y2="-0.9" width="0.127" layer="21" curve="-90"/>
 </package>
 </packages>
 <packages3d>
@@ -1607,11 +1607,6 @@ http://www.bccomponents.com/</description>
 <packageinstance name="7461094"/>
 </packageinstances>
 </package3d>
-<package3d name="2X1.5" urn="urn:adsk.eagle:package:11682468/1" type="box" library_version="27">
-<packageinstances>
-<packageinstance name="2X1.5"/>
-</packageinstances>
-</package3d>
 <package3d name="HOLE_1.77" urn="urn:adsk.eagle:package:15477729/1" type="box" library_version="27">
 <packageinstances>
 <packageinstance name="HOLE_1.77"/>
@@ -1693,6 +1688,11 @@ http://www.bccomponents.com/</description>
 <packageinstance name="5X6"/>
 </packageinstances>
 </package3d>
+<package3d name="2X1.5" urn="urn:adsk.eagle:package:11682468/1" type="box" library_version="27" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="2X1.5"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PAD" urn="urn:adsk.eagle:symbol:3188703/1" library_version="27">
@@ -1703,7 +1703,7 @@ http://www.bccomponents.com/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD" urn="urn:adsk.eagle:component:3188710/27" prefix="PAD" library_version="29">
+<deviceset name="PAD" urn="urn:adsk.eagle:component:3188710/27" prefix="PAD" library_version="27" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PAD" x="-20.32" y="7.62"/>
 </gates>
