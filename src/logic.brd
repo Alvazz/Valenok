@@ -11077,7 +11077,7 @@ package type OT</description>
 <attribute name="PACKAGE" value="0402" x="-9.2" y="69.9" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-9.2" y="69.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R7" x="-8.35" y="71.5" smashed="yes">
+<element name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="000" x="-8.35" y="71.5" smashed="yes">
 <attribute name="AEC-Q" value="" x="-8.35" y="71.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-8.35" y="71.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="" x="-8.35" y="71.5" size="1.778" layer="27" display="off"/>
@@ -11087,7 +11087,7 @@ package type OT</description>
 <attribute name="PACKAGE" value="0402" x="-8.35" y="71.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-8.35" y="71.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R18" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="4R7" x="-8.35" y="72.6" smashed="yes">
+<element name="R18" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="000" x="-8.35" y="72.6" smashed="yes">
 <attribute name="AEC-Q" value="" x="-8.35" y="72.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-8.35" y="72.6" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="" x="-8.35" y="72.6" size="1.778" layer="27" display="off"/>
@@ -11097,7 +11097,7 @@ package type OT</description>
 <attribute name="PACKAGE" value="0402" x="-8.35" y="72.6" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-8.35" y="72.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="" x="-9.9" y="72.05" smashed="yes" rot="R90">
+<element name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1000pF" x="-9.9" y="72.05" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="" x="-9.9" y="72.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-9.9" y="72.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="" x="-9.9" y="72.05" size="1.778" layer="27" rot="R90" display="off"/>
