@@ -4734,9 +4734,9 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="P+10" library="sapog_reference_hardware" deviceset="3.3V" device=""/>
 <part name="GND19" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED_RGB" device="-2020" package3d_urn="urn:adsk.eagle:package:24467158/2"/>
-<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%"/>
-<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%"/>
-<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
+<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="60K"/>
+<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="2K"/>
+<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="2200pF">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="490-3261-1-ND"/>
 <attribute name="MANF" value="Murata Electronics"/>
@@ -4762,7 +4762,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="GND43" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K9">
+<part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="5K6">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="311-3.90KLRCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
@@ -4770,21 +4770,21 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="P+17" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
-<part name="R14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="DNM">
+<part name="RFB" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="DNM">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="311-3.90KLRCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RC0402FR-073K9L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="R16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="000">
+<part name="R16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K3">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="311-3.90KLRCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RC0402FR-073K9L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="R17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="000">
+<part name="R17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="5K6">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="311-3.90KLRCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
@@ -4797,6 +4797,8 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="4R7"/>
 <part name="R18" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="4R7"/>
 <part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2"/>
+<part name="D3" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
+<part name="+P14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4826,8 +4828,12 @@ PC4 is 0</text>
 https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
 <text x="142.24" y="55.88" size="1.27" layer="97" font="vector">Place R26 TO WRITE PROTECT</text>
 <text x="142.24" y="33.02" size="1.778" layer="97">WP pin pull up is optional</text>
-<text x="109.22" y="215.9" size="1.27" layer="97" font="vector">When current_amp_out voltage exceeds comp_ref voltage 
+<text x="106.68" y="231.14" size="1.27" layer="97" font="vector">When current_amp_out voltage exceeds comp_ref voltage 
 overcurrent_fault goes low</text>
+<text x="106.68" y="220.98" size="1.27" layer="97" font="vector">Overcurrent event is detected once CURRENT_AMP_OUT voltage exceeds
+Vref = G*I*Rshunt
+Vref = 50*200*0.0002 =  2 V</text>
+<text x="106.68" y="218.44" size="1.27" layer="97" font="vector">Real Vref = 5.6/(5.6+3.3) * 3.3 = 2.07 V</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="375.92" y="193.04" smashed="yes" rot="R270">
@@ -5205,32 +5211,32 @@ overcurrent_fault goes low</text>
 <attribute name="NAME" x="160.02" y="82.55" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="MANF#" x="160.02" y="100.33" size="0.889" layer="97" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="R5" gate="G$1" x="271.78" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="271.78" y="170.18" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="273.812" y="169.926" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="271.272" y="166.37" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="TOLERANCE" x="273.812" y="170.434" size="0.762" layer="96" font="vector" rot="R90"/>
+<instance part="R5" gate="G$1" x="297.18" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="297.18" y="170.18" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="299.212" y="169.926" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="296.672" y="166.37" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="299.212" y="170.434" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="271.78" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="271.78" y="154.94" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="273.812" y="154.686" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="271.272" y="151.13" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="TOLERANCE" x="273.812" y="155.194" size="0.762" layer="96" font="vector" rot="R90"/>
+<instance part="R6" gate="G$1" x="297.18" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="297.18" y="154.94" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="299.212" y="154.686" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="296.672" y="151.13" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="299.212" y="155.194" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C15" gate="G$1" x="266.7" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="267.589" y="156.21" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="266.446" y="153.67" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="267.208" y="152.908" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="266.192" y="155.956" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<instance part="C15" gate="G$1" x="292.1" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="292.989" y="156.21" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="291.846" y="153.67" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="292.608" y="152.908" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="291.592" y="155.956" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
 </instance>
-<instance part="GND21" gate="1" x="271.78" y="144.78" smashed="yes">
-<attribute name="VALUE" x="271.78" y="142.748" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND21" gate="1" x="297.18" y="144.78" smashed="yes">
+<attribute name="VALUE" x="297.18" y="142.748" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="+P10" gate="G$1" x="195.58" y="182.88" smashed="yes">
 <attribute name="VALUE" x="195.58" y="186.436" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P13" gate="G$1" x="271.78" y="177.8" smashed="yes">
-<attribute name="VALUE" x="271.78" y="181.356" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P13" gate="G$1" x="297.18" y="177.8" smashed="yes">
+<attribute name="VALUE" x="297.18" y="181.356" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="CON2" gate="G$1" x="167.64" y="134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="165.1" y="148.59" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -5269,7 +5275,7 @@ overcurrent_fault goes low</text>
 <instance part="P+17" gate="G$1" x="106.68" y="208.28" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="106.68" y="211.836" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="R14" gate="G$1" x="119.38" y="175.26" smashed="yes">
+<instance part="RFB" gate="G$1" x="119.38" y="175.26" smashed="yes">
 <attribute name="NAME" x="119.38" y="175.26" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="119.126" y="173.228" size="0.762" layer="96" font="vector" align="bottom-right"/>
 <attribute name="PACKAGE" x="115.57" y="175.768" size="0.508" layer="95" font="vector" align="center"/>
@@ -5281,11 +5287,11 @@ overcurrent_fault goes low</text>
 <attribute name="PACKAGE" x="120.65" y="205.232" size="0.508" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="TOLERANCE" x="116.586" y="207.772" size="0.762" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R17" gate="G$1" x="132.08" y="205.74" smashed="yes">
-<attribute name="NAME" x="132.08" y="205.74" size="1.27" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="131.826" y="203.708" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="128.27" y="206.248" size="0.508" layer="95" font="vector" align="center"/>
-<attribute name="TOLERANCE" x="132.334" y="203.708" size="0.762" layer="96" font="vector"/>
+<instance part="R17" gate="G$1" x="132.08" y="205.74" smashed="yes" rot="MR180">
+<attribute name="NAME" x="132.08" y="205.74" size="1.27" layer="95" font="vector" rot="MR180" align="center"/>
+<attribute name="VALUE" x="131.826" y="207.772" size="0.762" layer="96" font="vector" rot="MR180" align="bottom-right"/>
+<attribute name="PACKAGE" x="128.27" y="205.232" size="0.508" layer="95" font="vector" rot="MR180" align="center"/>
+<attribute name="TOLERANCE" x="132.334" y="207.772" size="0.762" layer="96" font="vector" rot="MR180"/>
 </instance>
 <instance part="GND44" gate="1" x="139.7" y="203.2" smashed="yes">
 <attribute name="VALUE" x="139.7" y="201.168" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5307,6 +5313,13 @@ overcurrent_fault goes low</text>
 <attribute name="VALUE" x="158.75" y="175.514" size="0.762" layer="96" font="vector" align="bottom-right"/>
 <attribute name="PACKAGE" x="157.988" y="174.752" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
 <attribute name="VOLTAGE" x="161.036" y="175.768" size="0.508" layer="97" font="vector" align="center-left"/>
+</instance>
+<instance part="D3" gate="G$1" x="292.1" y="167.64" smashed="yes" rot="MR90">
+<attribute name="NAME" x="294.64" y="167.64" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="MANF#" x="289.56" y="167.64" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+</instance>
+<instance part="+P14" gate="G$1" x="292.1" y="172.72" smashed="yes">
+<attribute name="VALUE" x="292.1" y="176.276" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -5427,16 +5440,18 @@ overcurrent_fault goes low</text>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="157.48" x2="266.7" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="162.56" x2="271.78" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="157.48" x2="292.1" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="162.56" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="160.02" x2="271.78" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="160.02" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="162.56" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
-<junction x="271.78" y="162.56"/>
-<wire x1="266.7" y1="162.56" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
-<junction x="266.7" y="162.56"/>
-<label x="266.7" y="165.1" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="297.18" y1="162.56" x2="297.18" y2="165.1" width="0.1524" layer="91"/>
+<junction x="297.18" y="162.56"/>
+<wire x1="292.1" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
+<junction x="292.1" y="162.56"/>
+<label x="289.56" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="292.1" y1="165.1" x2="292.1" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CURRENT_AMP_OUT" class="0">
@@ -5668,13 +5683,13 @@ overcurrent_fault goes low</text>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="152.4" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="147.32" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="152.4" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="147.32" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="147.32" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="147.32" x2="297.18" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="271.78" y1="144.78" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
-<junction x="271.78" y="147.32"/>
+<wire x1="297.18" y1="144.78" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
+<junction x="297.18" y="147.32"/>
 </segment>
 <segment>
 <pinref part="CON2" gate="G$1" pin="3"/>
@@ -6056,6 +6071,11 @@ overcurrent_fault goes low</text>
 <wire x1="111.76" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
 <junction x="106.68" y="205.74"/>
 </segment>
+<segment>
+<pinref part="+P14" gate="G$1" pin="VDD_3V3"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="292.1" y1="172.72" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BOOT0" class="0">
 <segment>
@@ -6192,7 +6212,7 @@ overcurrent_fault goes low</text>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="175.26" x2="271.78" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="175.26" x2="297.18" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="+P13" gate="G$1" pin="VDC"/>
 </segment>
 </net>
@@ -6232,7 +6252,7 @@ overcurrent_fault goes low</text>
 <wire x1="106.68" y1="187.96" x2="104.14" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="190.5" x2="106.68" y2="187.96" width="0.1524" layer="91"/>
 <junction x="106.68" y="187.96"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="RFB" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="175.26" x2="106.68" y2="187.96" width="0.1524" layer="91"/>
 </segment>
@@ -6242,7 +6262,7 @@ overcurrent_fault goes low</text>
 <label x="83.82" y="58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VREF" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -6251,13 +6271,14 @@ overcurrent_fault goes low</text>
 <wire x1="124.46" y1="205.74" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
 <junction x="124.46" y="205.74"/>
 <pinref part="IC6" gate="G$1" pin="IN+"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="RFB" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="175.26" x2="132.08" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="175.26" x2="132.08" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="198.12" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="198.12" x2="132.08" y2="185.42" width="0.1524" layer="91"/>
 <junction x="132.08" y="185.42"/>
+<label x="127" y="198.12" size="1.27" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$1" class="0">
