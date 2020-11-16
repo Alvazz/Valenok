@@ -307,7 +307,7 @@
 <wire x1="-17" y1="62.5" x2="-10.5" y2="62.5" width="0.1524" layer="49"/>
 <wire x1="-10.5" y1="62.5" x2="-10.5" y2="74" width="0.1524" layer="49"/>
 <wire x1="-10.5" y1="74" x2="-17" y2="74" width="0.1524" layer="49"/>
-<text x="-15.4" y="35.5" size="2" layer="21" font="vector" ratio="15" rot="R90" align="center">Valenok power PCB V0.1</text>
+<text x="-15.4" y="35.2" size="1.9" layer="21" font="vector" ratio="15" rot="R90" align="center">Valenok power PCB V0.1</text>
 </plain>
 <libraries>
 <library name="mosfet" urn="urn:adsk.eagle:library:2640523">

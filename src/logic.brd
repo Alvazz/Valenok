@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="2" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -177,7 +177,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMjAwOTI1MzM2NDYxMjgx" f3durn="urn:adsk.wipprod:dm.lineage:x8x5Yz6IR1GKsZzW_9Jt1g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="71dd619d-b9ea-4d3a-8989-a664b1e38c57" lastsyncedrevisionid="71dd619d-b9ea-4d3a-8989-a664b1e38c57" lastboardhashguid="b0d8a9f1-318b-6a4f-5ea8-9043e9bee096" lastpushedtime="2020-11-06T14:51:34Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMjAwOTI1MzM2NDYxMjgx" f3durn="urn:adsk.wipprod:dm.lineage:x8x5Yz6IR1GKsZzW_9Jt1g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e3894fc6-202a-4841-8eb1-c30e5d05c633" lastsyncedrevisionid="e3894fc6-202a-4841-8eb1-c30e5d05c633" lastboardhashguid="9d37eba3-9336-2056-19dc-32e1842d2d1f" lastpushedtime="2020-11-16T10:31:19Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="0" y2="80" width="0.01" layer="47" style="shortdash" locked="yes"/>
 <wire x1="-8.5" y1="76" x2="-8.5" y2="79" width="0.01" layer="20" locked="yes"/>
@@ -263,6 +263,8 @@
 <wire x1="-17" y1="69.8" x2="-16.6" y2="69.8" width="0.01" layer="138"/>
 <wire x1="16.6" y1="69.8" x2="17" y2="69.8" width="0.01" layer="138"/>
 <wire x1="16.8" y1="70" x2="16.8" y2="69.6" width="0.01" layer="138"/>
+<text x="-16" y="36.05" size="1.5" layer="21" font="vector" ratio="15" rot="R90">Valenok logic PCB</text>
+<text x="-13.7" y="49.8" size="1.5" layer="21" font="vector" ratio="15" rot="R90">V0.1</text>
 </plain>
 <libraries>
 <library name="stm32" urn="urn:adsk.eagle:library:2473361">
