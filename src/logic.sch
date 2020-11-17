@@ -4559,15 +4559,15 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2">
 <variant name="basic" populate="no"/>
 </part>
-<part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="180pF"/>
+<part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF"/>
 <part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K"/>
 <part name="R15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5"/>
 <part name="GND37" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="180pF"/>
+<part name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF"/>
 <part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K"/>
 <part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5"/>
 <part name="GND26" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="180pF"/>
+<part name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF"/>
 <part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K"/>
 <part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5"/>
 <part name="GND27" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
@@ -4819,10 +4819,10 @@ PC0 is 0
 PC1 is 1
 PC3 is 0
 PC4 is 0</text>
-<wire x1="284.48" y1="254" x2="381" y2="254" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="281.94" y1="254" x2="381" y2="254" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="381" y1="254" x2="381" y2="210.82" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="381" y1="210.82" x2="284.48" y2="210.82" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="284.48" y1="210.82" x2="284.48" y2="254" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="381" y1="210.82" x2="281.94" y2="210.82" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="281.94" y1="210.82" x2="281.94" y2="254" width="0.1524" layer="97" style="shortdash"/>
 <text x="337.82" y="213.36" size="2.54" layer="97" font="vector" ratio="15">PHASE sensing</text>
 <text x="132.08" y="73.66" size="1.778" layer="91">LED1 should be replaced with this one
 https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
@@ -4834,10 +4834,15 @@ overcurrent_fault goes low</text>
 Vref = G*I*Rshunt
 Vref = 50*200*0.0002 =  2 V</text>
 <text x="106.68" y="218.44" size="1.27" layer="97" font="vector">Real Vref = 5.6/(5.6+3.3) * 3.3 = 2.07 V</text>
-<text x="218.44" y="248.92" size="1.778" layer="97" font="vector" align="center-left">Max PHASE_x voltage should  be around VDC_max
+<text x="215.9" y="248.92" size="1.778" layer="97" font="vector" align="center-left">Max PHASE_x voltage should  be around VDC_max
 VDC_max = 22 * 4.2 V = 92.4 V
 With resistor divider formed by 47K and 1K5 resistors
 SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
+<text x="305.562" y="241.3" size="1.778" layer="97" font="vector" align="center">Rf1</text>
+<text x="305.562" y="226.06" size="1.778" layer="97" font="vector" align="center">Rf2</text>
+<text x="293.624" y="226.06" size="1.778" layer="97" font="vector" align="center">Cf</text>
+<text x="215.9" y="238.76" size="1.778" layer="97" font="vector" align="center-left">Fc ~ (Rf1+Rf2)/(Rf1*Rf2*2*Pi*Cf)</text>
+<text x="215.9" y="236.22" size="1.778" layer="97" font="vector" align="center-left">Fc ~ 19.5 KHz</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="375.92" y="193.04" smashed="yes" rot="R270">
@@ -5004,26 +5009,26 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <instance part="CON7" gate="G$1" x="200.66" y="193.04" smashed="yes">
 <attribute name="NAME" x="207.264" y="201.93" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="C30" gate="G$1" x="299.72" y="226.06" smashed="yes" rot="MR90">
-<attribute name="NAME" x="298.831" y="227.33" size="1.27" layer="95" font="vector" rot="MR90" align="center-left"/>
-<attribute name="VALUE" x="299.974" y="224.79" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
-<attribute name="PACKAGE" x="299.212" y="224.028" size="0.508" layer="97" font="vector" rot="MR270" align="center"/>
-<attribute name="VOLTAGE" x="300.228" y="227.076" size="0.508" layer="97" font="vector" rot="MR90" align="center-left"/>
+<instance part="C30" gate="G$1" x="297.18" y="226.06" smashed="yes" rot="MR90">
+<attribute name="NAME" x="296.291" y="227.33" size="1.27" layer="95" font="vector" rot="MR90" align="center-left"/>
+<attribute name="VALUE" x="297.434" y="224.79" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
+<attribute name="PACKAGE" x="296.672" y="224.028" size="0.508" layer="97" font="vector" rot="MR270" align="center"/>
+<attribute name="VOLTAGE" x="297.688" y="227.076" size="0.508" layer="97" font="vector" rot="MR90" align="center-left"/>
 </instance>
-<instance part="R7" gate="G$1" x="304.8" y="241.3" smashed="yes" rot="MR270">
-<attribute name="NAME" x="304.8" y="241.3" size="1.27" layer="95" font="vector" rot="MR270" align="center"/>
-<attribute name="VALUE" x="306.832" y="241.554" size="0.762" layer="96" font="vector" rot="MR270" align="bottom-right"/>
-<attribute name="PACKAGE" x="304.292" y="245.11" size="0.508" layer="95" font="vector" rot="MR270" align="center"/>
-<attribute name="TOLERANCE" x="306.832" y="241.046" size="0.762" layer="96" font="vector" rot="MR270"/>
+<instance part="R7" gate="G$1" x="302.26" y="241.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="302.26" y="241.3" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="300.228" y="241.554" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGE" x="302.768" y="245.11" size="0.508" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="TOLERANCE" x="300.228" y="241.046" size="0.762" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="R15" gate="G$1" x="304.8" y="226.06" smashed="yes" rot="MR90">
-<attribute name="NAME" x="304.8" y="226.06" size="1.27" layer="95" font="vector" rot="MR90" align="center"/>
-<attribute name="VALUE" x="302.768" y="225.806" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
-<attribute name="PACKAGE" x="305.308" y="222.25" size="0.508" layer="95" font="vector" rot="MR90" align="center"/>
-<attribute name="TOLERANCE" x="302.768" y="226.314" size="0.762" layer="96" font="vector" rot="MR90"/>
+<instance part="R15" gate="G$1" x="302.26" y="226.06" smashed="yes" rot="MR90">
+<attribute name="NAME" x="302.26" y="226.06" size="1.27" layer="95" font="vector" rot="MR90" align="center"/>
+<attribute name="VALUE" x="300.228" y="225.806" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
+<attribute name="PACKAGE" x="302.768" y="222.25" size="0.508" layer="95" font="vector" rot="MR90" align="center"/>
+<attribute name="TOLERANCE" x="300.228" y="226.314" size="0.762" layer="96" font="vector" rot="MR90"/>
 </instance>
-<instance part="GND37" gate="1" x="302.26" y="215.9" smashed="yes">
-<attribute name="VALUE" x="302.26" y="213.868" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND37" gate="1" x="299.72" y="215.9" smashed="yes">
+<attribute name="VALUE" x="299.72" y="213.868" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="C22" gate="G$1" x="330.2" y="226.06" smashed="yes" rot="MR90">
 <attribute name="NAME" x="329.311" y="227.33" size="1.27" layer="95" font="vector" rot="MR90" align="center-left"/>
@@ -5081,12 +5086,12 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="NAME" x="347.98" y="241.3" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="MANF#" x="342.9" y="241.3" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="D2" gate="G$1" x="312.42" y="241.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="314.96" y="241.3" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="MANF#" x="309.88" y="241.3" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<instance part="D2" gate="G$1" x="314.96" y="241.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="317.5" y="241.3" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="MANF#" x="312.42" y="241.3" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="+P5" gate="G$1" x="312.42" y="246.38" smashed="yes">
-<attribute name="VALUE" x="312.42" y="249.936" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P5" gate="G$1" x="314.96" y="246.38" smashed="yes">
+<attribute name="VALUE" x="314.96" y="249.936" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND32" gate="1" x="66.04" y="35.56" smashed="yes">
 <attribute name="VALUE" x="66.04" y="33.528" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5581,13 +5586,13 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="220.98" x2="304.8" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="218.44" x2="302.26" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="220.98" x2="302.26" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="218.44" x2="299.72" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="218.44" x2="299.72" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="218.44" x2="302.26" y2="215.9" width="0.1524" layer="91"/>
-<junction x="302.26" y="218.44"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="299.72" y1="218.44" x2="297.18" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="218.44" x2="297.18" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="218.44" x2="299.72" y2="215.9" width="0.1524" layer="91"/>
+<junction x="299.72" y="218.44"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5762,18 +5767,18 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="231.14" x2="304.8" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="231.14" x2="302.26" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="233.68" x2="299.72" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="233.68" x2="299.72" y2="228.6" width="0.1524" layer="91"/>
-<junction x="304.8" y="233.68"/>
-<label x="297.18" y="233.68" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<wire x1="304.8" y1="233.68" x2="304.8" y2="236.22" width="0.1524" layer="91"/>
-<junction x="299.72" y="233.68"/>
-<wire x1="299.72" y1="233.68" x2="297.18" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="233.68" x2="312.42" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="233.68" x2="297.18" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="233.68" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
+<junction x="302.26" y="233.68"/>
+<label x="294.64" y="233.68" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="302.26" y1="233.68" x2="302.26" y2="236.22" width="0.1524" layer="91"/>
+<junction x="297.18" y="233.68"/>
+<wire x1="297.18" y1="233.68" x2="294.64" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="233.68" x2="314.96" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="312.42" y1="233.68" x2="312.42" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="233.68" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
@@ -5999,7 +6004,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <segment>
 <pinref part="+P5" gate="G$1" pin="VDD_3V3"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="312.42" y1="246.38" x2="312.42" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="246.38" x2="314.96" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC11" gate="G$1" pin="VCC"/>
@@ -6174,10 +6179,10 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <label x="195.58" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="248.92" x2="304.8" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="248.92" x2="302.26" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="248.92" x2="297.18" y2="248.92" width="0.1524" layer="91"/>
-<label x="297.18" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="302.26" y1="248.92" x2="294.64" y2="248.92" width="0.1524" layer="91"/>
+<label x="294.64" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CS+" class="0">
