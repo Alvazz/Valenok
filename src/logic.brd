@@ -10439,7 +10439,7 @@ package type OT</description>
 <element name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2" package3d_urn="urn:adsk.eagle:package:23506355/2" value="PINHEAD_2X02-PTH-2-MALE" x="-5.25" y="50.4" locked="yes" smashed="yes">
 <attribute name="NAME" x="-5.25" y="53" locked="yes" size="1" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1800pF" x="-4.6" y="57.25" smashed="yes" rot="R90">
+<element name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="180pF" x="-4.6" y="57.25" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="" x="-4.6" y="57.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-9.6" y="57.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="" x="-9.6" y="57.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -10469,7 +10469,7 @@ package type OT</description>
 <attribute name="PACKAGE" value="0402" x="-0.95" y="57.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-0.95" y="57.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1800pF" x="-1.568196875" y="63.395403125" smashed="yes" rot="R135">
+<element name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="180pF" x="-1.568196875" y="63.395403125" smashed="yes" rot="R135">
 <attribute name="AEC-Q" value="" x="-1.568196875" y="63.395403125" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-5.10373125" y="59.859871875" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MANF" value="" x="-5.10373125" y="59.859871875" size="1.778" layer="27" rot="R135" display="off"/>
@@ -10499,7 +10499,7 @@ package type OT</description>
 <attribute name="PACKAGE" value="0402" x="0.977384375" y="65.9409875" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="0.977384375" y="65.9409875" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1800pF" x="-2.240378125" y="65.623221875" smashed="yes" rot="R315">
+<element name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="180pF" x="-2.240378125" y="65.623221875" smashed="yes" rot="R315">
 <attribute name="AEC-Q" value="" x="-2.240378125" y="65.623221875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DIGIKEY#" value="" x="1.295153125" y="69.15875625" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MANF" value="" x="1.295153125" y="69.15875625" size="1.778" layer="27" rot="R315" display="off"/>
