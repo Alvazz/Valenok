@@ -5086,12 +5086,12 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="NAME" x="347.98" y="241.3" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="MANF#" x="342.9" y="241.3" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="D2" gate="G$1" x="314.96" y="241.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="317.5" y="241.3" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="MANF#" x="312.42" y="241.3" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<instance part="D2" gate="G$1" x="312.42" y="241.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="314.96" y="241.3" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="MANF#" x="309.88" y="241.3" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="+P5" gate="G$1" x="314.96" y="246.38" smashed="yes">
-<attribute name="VALUE" x="314.96" y="249.936" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P5" gate="G$1" x="312.42" y="246.38" smashed="yes">
+<attribute name="VALUE" x="312.42" y="249.936" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND32" gate="1" x="66.04" y="35.56" smashed="yes">
 <attribute name="VALUE" x="66.04" y="33.528" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5776,9 +5776,9 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <wire x1="302.26" y1="233.68" x2="302.26" y2="236.22" width="0.1524" layer="91"/>
 <junction x="297.18" y="233.68"/>
 <wire x1="297.18" y1="233.68" x2="294.64" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="233.68" x2="314.96" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="233.68" x2="312.42" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="314.96" y1="233.68" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="233.68" x2="312.42" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
@@ -6004,7 +6004,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <segment>
 <pinref part="+P5" gate="G$1" pin="VDD_3V3"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="314.96" y1="246.38" x2="314.96" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="246.38" x2="312.42" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC11" gate="G$1" pin="VCC"/>
