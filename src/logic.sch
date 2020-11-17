@@ -4834,6 +4834,10 @@ overcurrent_fault goes low</text>
 Vref = G*I*Rshunt
 Vref = 50*200*0.0002 =  2 V</text>
 <text x="106.68" y="218.44" size="1.27" layer="97" font="vector">Real Vref = 5.6/(5.6+3.3) * 3.3 = 2.07 V</text>
+<text x="218.44" y="248.92" size="1.778" layer="97" font="vector" align="center-left">Max PHASE_x voltage should  be around VDC_max
+VDC_max = 22 * 4.2 V = 92.4 V
+With resistor divider formed by 47K and 1K5 resistors
+SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="375.92" y="193.04" smashed="yes" rot="R270">
