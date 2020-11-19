@@ -3533,27 +3533,27 @@ DIN A4, landscape with location and doc. field</description>
 <part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
 <part name="C7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF">
 <attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="1276-1006-1-ND"/>
+<attribute name="DIGIKEY#" value="1276-1018-1-ND"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL10B104KA8NNNC"/>
+<attribute name="MANF#" value="CL10B102KB8NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
-<attribute name="VOLTAGE" value="25V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF">
 <attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="1276-1006-1-ND"/>
+<attribute name="DIGIKEY#" value="1276-1018-1-ND"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL10B104KA8NNNC"/>
+<attribute name="MANF#" value="CL10B102KB8NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
-<attribute name="VOLTAGE" value="25V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF">
 <attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="1276-1006-1-ND"/>
+<attribute name="DIGIKEY#" value="1276-1018-1-ND"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL10B104KA8NNNC"/>
+<attribute name="MANF#" value="CL10B102KB8NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
-<attribute name="VOLTAGE" value="25V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 </parts>
 <sheets>

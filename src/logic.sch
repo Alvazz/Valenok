@@ -3634,220 +3634,6 @@ package type OT</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="C_digikey" urn="urn:adsk.eagle:library:2539367">
-<packages>
-<package name="C0402" urn="urn:adsk.eagle:footprint:2539370/1" library_version="8">
-<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="0.635" size="0.5" layer="27" font="vector" ratio="15" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="0.45" x2="0.9" y2="0.45" width="0.1" layer="21"/>
-<wire x1="0.9" y1="0.45" x2="0.9" y2="-0.45" width="0.1" layer="21"/>
-<wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.1" layer="21"/>
-<wire x1="-0.9" y1="-0.45" x2="-0.9" y2="0.45" width="0.1" layer="21"/>
-</package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:2539372/1" library_version="8">
-<smd name="P$1" x="-0.725" y="0" dx="0.6" dy="0.9" layer="1"/>
-<smd name="P$2" x="0.725" y="0" dx="0.6" dy="0.9" layer="1"/>
-<wire x1="-1.125" y1="0.55" x2="-1.125" y2="-0.55" width="0.1" layer="21"/>
-<wire x1="-1.125" y1="-0.55" x2="1.125" y2="-0.55" width="0.1" layer="21"/>
-<wire x1="1.125" y1="-0.55" x2="1.125" y2="0.55" width="0.1" layer="21"/>
-<wire x1="1.125" y1="0.55" x2="-1.125" y2="0.55" width="0.1" layer="21"/>
-<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="0.9" size="0.5" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-</package>
-<package name="C0201" urn="urn:adsk.eagle:footprint:10810349/3" library_version="12">
-<description>Perfect 0201 for Reflow Soldering
-&lt;p&gt;0.024" L x 0.012" W (0.60mm x 0.30mm)</description>
-<smd name="1" x="0" y="0.275" dx="0.35" dy="0.25" layer="1"/>
-<smd name="2" x="0" y="-0.275" dx="0.35" dy="0.25" layer="1"/>
-<text x="0" y="0" size="0.35" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
-<polygon width="0.005" layer="51">
-<vertex x="-0.15" y="-0.3"/>
-<vertex x="0.15" y="-0.3"/>
-<vertex x="0.15" y="0.3"/>
-<vertex x="-0.15" y="0.3"/>
-</polygon>
-<wire x1="-0.3" y1="0.525" x2="0.3" y2="0.525" width="0.1" layer="21"/>
-<wire x1="0.3" y1="0.525" x2="0.3" y2="-0.525" width="0.1" layer="21"/>
-<wire x1="0.3" y1="-0.525" x2="-0.3" y2="-0.525" width="0.1" layer="21"/>
-<wire x1="-0.3" y1="-0.525" x2="-0.3" y2="0.525" width="0.1" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:2539379/2" type="model" library_version="8">
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:2539381/2" type="model" library_version="8">
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
-</package3d>
-<package3d name="C0201" urn="urn:adsk.eagle:package:12575209/2" type="box" library_version="12">
-<description>Perfect 0201 for Reflow Soldering
-&lt;p&gt;0.024" L x 0.012" W (0.60mm x 0.30mm)</description>
-<packageinstances>
-<packageinstance name="C0201"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="C" urn="urn:adsk.eagle:symbol:2539376/1" library_version="8">
-<text x="1.27" y="-0.889" size="1.27" layer="95" align="center-left">&gt;NAME</text>
-<text x="-1.27" y="0.254" size="0.762" layer="96" align="bottom-right">&gt;VALUE</text>
-<text x="-2.032" y="-0.508" size="0.508" layer="97" rot="R180" align="center">&gt;PACKAGE</text>
-<text x="2.286" y="0.254" size="0.762" layer="96" align="bottom-center">&gt;VOLTAGE</text>
-<rectangle x1="-1.524" y1="-0.254" x2="2.54" y2="0.254" layer="94" rot="R90"/>
-<rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="0.508" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0.1µF" urn="urn:adsk.eagle:component:2539393/4" prefix="C" library_version="12">
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2539379/2"/>
-</package3dinstances>
-<technologies>
-<technology name="-10V_10%_X5R">
-<attribute name="DIGIKEY#" value="490-1318-1-ND" constant="no"/>
-<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
-<attribute name="MANF#" value="GRM155R61A104KA01D" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="TC" value="X5R" constant="no"/>
-<attribute name="TOLERANCE" value="+-10%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
-</technology>
-<technology name="-16V_10%_X7R">
-<attribute name="DIGIKEY#" value="490-3261-1-ND" constant="no"/>
-<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
-<attribute name="MANF#" value="GRM155R71C104KA88D" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="TC" value="X7R" constant="no"/>
-<attribute name="TOLERANCE" value="+-10%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="16V" constant="no"/>
-</technology>
-<technology name="-25V_20%_X6S">
-<attribute name="DIGIKEY#" value="445-7361-1-ND" constant="no"/>
-<attribute name="MANF" value="TDK Corporation" constant="no"/>
-<attribute name="MANF#" value="C1005X6S1E104M050BB" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 105°C" constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="TC" value="X6S" constant="no"/>
-<attribute name="TOLERANCE" value="+-20%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
-</technology>
-<technology name="-25V_Y5V">
-<attribute name="DIGIKEY#" value="490-3271-1-ND" constant="no"/>
-<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
-<attribute name="MANF#" value="GRM155F51E104ZA01D" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-30°C ~ 85°C" constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="TC" value="Y5V (F)" constant="no"/>
-<attribute name="TOLERANCE" value="-20%, +80%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
-</technology>
-<technology name="-50V_10%_X5R">
-<attribute name="DIGIKEY#" value="445-5942-2-ND" constant="no"/>
-<attribute name="MANF" value="TDK Corporation" constant="no"/>
-<attribute name="MANF#" value="C1005X5R1H104K050BB" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" constant="no"/>
-<attribute name="PACKAGE" value="0402" constant="no"/>
-<attribute name="TC" value="X5R" constant="no"/>
-<attribute name="TOLERANCE" value="+-10%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2539381/2"/>
-</package3dinstances>
-<technologies>
-<technology name="-100V_10%_X7S">
-<attribute name="DIGIKEY#" value="445-6938-1-ND" constant="no"/>
-<attribute name="MANF" value="TDK Corporation" constant="no"/>
-<attribute name="MANF#" value="CGA3E3X7S2A104K080AB" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="TC" value="X7S" constant="no"/>
-<attribute name="TOLERANCE" value="+-10%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="100V" constant="no"/>
-</technology>
-<technology name="-16V_10%_X7R">
-<attribute name="DIGIKEY#" value="490-1532-1-ND" constant="no"/>
-<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
-<attribute name="MANF#" value="GRM188R71C104KA01D" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="TC" value="X7R" constant="no"/>
-<attribute name="TOLERANCE" value="+-10%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="16V" constant="no"/>
-</technology>
-<technology name="-50V_10%_X7R">
-<attribute name="DIGIKEY#" value="311-1344-1-ND" constant="no"/>
-<attribute name="MANF" value="Yageo" constant="no"/>
-<attribute name="MANF#" value="CC0603KRX7R9BB104" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-<attribute name="TC" value="X7R" constant="no"/>
-<attribute name="TOLERANCE" value="+-10%" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0201" package="C0201">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12575209/2"/>
-</package3dinstances>
-<technologies>
-<technology name="-10V_10%_X6S">
-<attribute name="DIGIKEY#" value="490-12232-2-ND" constant="no"/>
-<attribute name="MANF" value="Murata Electronics North America" constant="no"/>
-<attribute name="MANF#" value="GRT033C81A104KE01D" constant="no"/>
-<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 105°C" constant="no"/>
-<attribute name="PACKAGE" value="0201" constant="no"/>
-<attribute name="TC" value="X6S" constant="no"/>
-<attribute name="VALUE" value="0.1µF" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3873,38 +3659,93 @@ package type OT</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="IC1" library="dc-dc" library_urn="urn:adsk.eagle:library:3736309" deviceset="LM5017" device="" package3d_urn="urn:adsk.eagle:package:24308018/3"/>
-<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="2.2uF">
+<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="2.2µF">
+<attribute name="DIGIKEY#" value="1276-3362-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL32B225KCJSNNE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C
+"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="445-7960-1-ND"/>
+<attribute name="MANF" value="TDK Corporation"/>
+<attribute name="MANF#" value="CGA4J3X7S2A474M125AE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="RON" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="110K"/>
-<part name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="127K"/>
+<part name="R3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="127K">
+<attribute name="DIGIKEY#" value="311-127KCRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0805FR-07127KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.01uF">
+<attribute name="DIGIKEY#" value="1276-1009-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL10B103KB8NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="C4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="10uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="445-181411-1-ND"/>
+<attribute name="MANF" value="TDK Corporation"/>
+<attribute name="MANF#" value="CGA4J1X7S1E106K125AE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
-<part name="C4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="10uF">
-<attribute name="VOLTAGE" value="16V"/>
-</part>
-<part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1uf">
+<part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1µF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="445-12539-1-ND"/>
+<attribute name="MANF" value="TDK Corporation"/>
+<attribute name="MANF#" value="CGA3E1X7R1C105K080AC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="14K"/>
-<part name="RFB2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K"/>
-<part name="RFB1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K"/>
+<part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="14K">
+<attribute name="DIGIKEY#" value="311-14.0KLRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402FR-0714KL"/>
+</part>
+<part name="RFB2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K">
+<attribute name="DIGIKEY#" value="311-3.0KJRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402JR-073KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="RFB1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K">
+<attribute name="DIGIKEY#" value="YAG1234CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0402FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="GND4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="D1" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="PMEG3005" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="L3" library="power_inductors" library_urn="urn:adsk.eagle:library:3345990" deviceset="120µH" device="-HPC8040F" package3d_urn="urn:adsk.eagle:package:24308801/2" value="120µH"/>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="CAC" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF"/>
-<part name="RRIP" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="110K"/>
-<part name="CR" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="3300pF"/>
+<part name="CAC" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF">
+<attribute name="DIGIKEY#" value="490-3261-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GRM155R71C104KA88D"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="16V"/>
+</part>
+<part name="RRIP" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="110K"/>
+<part name="CR" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="3300pF">
+<attribute name="DIGIKEY#" value="1276-1552-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05B332KB5NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4226,6 +4067,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="DIGIKEY#" value="445-181411-1-ND"/>
 <attribute name="MANF" value="TDK Corporation"/>
 <attribute name="MANF#" value="CGA4J1X7S1E106K125AE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="10uF">
@@ -4233,6 +4075,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="DIGIKEY#" value="445-181411-1-ND"/>
 <attribute name="MANF" value="TDK Corporation"/>
 <attribute name="MANF#" value="CGA4J1X7S1E106K125AE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="L1" library="power_inductors" library_urn="urn:adsk.eagle:library:3345990" deviceset="2.2µH" device="" package3d_urn="urn:adsk.eagle:package:12531221/2" technology="-NRS3015" value="2.2µH"/>
@@ -4242,6 +4085,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="DIGIKEY#" value="445-181411-1-ND"/>
 <attribute name="MANF" value="TDK Corporation"/>
 <attribute name="MANF#" value="CGA4J1X7S1E106K125AE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="25V"/>
 </part>
 <part name="GND53" library="sapog_reference_hardware" deviceset="GND" device=""/>
@@ -4559,17 +4403,66 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2-MALE" package3d_urn="urn:adsk.eagle:package:23506355/2">
 <variant name="basic" populate="no"/>
 </part>
-<part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF"/>
-<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K"/>
-<part name="R15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5"/>
+<part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
+<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K">
+<attribute name="DIGIKEY#" value="311-47.0KCRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0805FR-0747KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C
+"/>
+</part>
+<part name="R15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
+<attribute name="DIGIKEY#" value="311-1.50KLRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402FR-071K5L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="GND37" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF"/>
-<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K"/>
-<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5"/>
+<part name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
+<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K">
+<attribute name="DIGIKEY#" value="311-47.0KCRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0805FR-0747KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C "/>
+</part>
+<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
+<attribute name="DIGIKEY#" value="311-1.50KLRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402FR-071K5L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="GND26" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF"/>
-<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K"/>
-<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5"/>
+<part name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
+<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K">
+<attribute name="DIGIKEY#" value="311-47.0KCRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0805FR-0747KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C "/>
+</part>
+<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
+<attribute name="DIGIKEY#" value="311-1.50KLRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402FR-071K5L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="GND27" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
@@ -4670,7 +4563,9 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="GND41" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="CON11" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2" package3d_urn="urn:adsk.eagle:package:4854340/4"/>
 <part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2" package3d_urn="urn:adsk.eagle:package:4854340/4"/>
-<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X04" device="-PLS-2" package3d_urn="urn:adsk.eagle:package:23823581/1"/>
+<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X04" device="-PLS-2" package3d_urn="urn:adsk.eagle:package:23823581/1">
+<variant name="basic" populate="no"/>
+</part>
 <part name="IC8" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="LM75" device="-TSSOP8" package3d_urn="urn:adsk.eagle:package:7691413/6">
 <attribute name="LCSC#" value="C33099"/>
 </part>
@@ -4726,28 +4621,37 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
 <part name="+P9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="12V" device=""/>
-<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="DNM"/>
+<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="DNM">
+<variant name="basic" populate="no"/>
+</part>
 <part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CAT24C02" device="" package3d_urn="urn:adsk.eagle:package:5347863/8"/>
 <part name="GND9" library="sapog_reference_hardware" deviceset="GND" device=""/>
-<part name="C10" library="C_digikey" library_urn="urn:adsk.eagle:library:2539367" deviceset="0.1µF" device="-0402" package3d_urn="urn:adsk.eagle:package:2539379/2" technology="-16V_10%_X7R" value="0.1µF"/>
-<part name="GND12" library="sapog_reference_hardware" deviceset="GND" device=""/>
-<part name="P+10" library="sapog_reference_hardware" deviceset="3.3V" device=""/>
-<part name="GND19" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED_RGB" device="-2020" package3d_urn="urn:adsk.eagle:package:24467158/2"/>
-<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="60K"/>
-<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="2K"/>
-<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="2200pF">
-<attribute name="AEC-Q" value="---"/>
+<part name="C10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
 <attribute name="DIGIKEY#" value="490-3261-1-ND"/>
 <attribute name="MANF" value="Murata Electronics"/>
 <attribute name="MANF#" value="GRM155R71C104KA88D"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="16V"/>
 </part>
+<part name="GND12" library="sapog_reference_hardware" deviceset="GND" device=""/>
+<part name="P+10" library="sapog_reference_hardware" deviceset="3.3V" device=""/>
+<part name="GND19" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED_RGB" device="-2020" package3d_urn="urn:adsk.eagle:package:24467158/2"/>
+<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="110K"/>
+<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K3"/>
+<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
+<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P13" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
-<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2"/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540383/2">
+<variant name="basic" populate="no"/>
+</part>
 <part name="GND23" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="P+15" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
 <part name="IC6" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="LMV331" device="" package3d_urn="urn:adsk.eagle:package:5347863/8"/>
@@ -4764,9 +4668,9 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="GND43" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="5K6">
 <attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="311-3.90KLRCT-ND"/>
+<attribute name="DIGIKEY#" value="13-RT0402FRE075K6LCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0402FR-073K9L"/>
+<attribute name="MANF#" value="RT0402FRE075K6L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="P+17" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
@@ -4776,6 +4680,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RC0402FR-073K9L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+<variant name="basic" populate="no"/>
 </part>
 <part name="R16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K3">
 <attribute name="AEC-Q" value="---"/>
@@ -4786,17 +4691,33 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 </part>
 <part name="R17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="5K6">
 <attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="311-3.90KLRCT-ND"/>
+<attribute name="DIGIKEY#" value="13-RT0402FRE075K6LCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0402FR-073K9L"/>
+<attribute name="MANF#" value="RT0402FRE075K6L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="GND44" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND48" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="000"/>
-<part name="R18" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="000"/>
-<part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1000pF"/>
+<part name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="000">
+<attribute name="DIGIKEY#" value="13-RC0402JR-130RLCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402JR-130RL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="R18" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="000">
+<attribute name="DIGIKEY#" value="13-RC0402JR-130RLCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402JR-130RL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="1000pF">
+<attribute name="DIGIKEY#" value="1276-1032-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05B102KB5NNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 <part name="D3" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="+P14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 </parts>
@@ -4809,13 +4730,13 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <wire x1="381" y1="111.76" x2="381" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="381" y1="208.28" x2="325.12" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
 <text x="326.136" y="204.724" size="2.54" layer="97" font="vector" ratio="15">Thermometer</text>
-<text x="20.32" y="55.88" size="1.778" layer="97">HW ID bit order
+<text x="20.32" y="53.34" size="1.778" layer="97">HW ID bit order
 PC0 - bit 0
 PC1 - bit 1
 PC2 - bit 2
 PC3 - bit 3</text>
-<text x="20.32" y="38.1" size="1.778" layer="97">VALENOK hw id is 3(0b0011)
-PC0 is 0
+<text x="20.32" y="38.1" size="1.778" layer="97">VALENOK hw id is 3 (0b0011)
+PC0 is 1
 PC1 is 1
 PC3 is 0
 PC4 is 0</text>
@@ -5202,10 +5123,10 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="VALUE" x="146.05" y="45.72" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
 <instance part="C10" gate="G$1" x="175.26" y="35.56" smashed="yes" rot="R270">
-<attribute name="NAME" x="174.371" y="33.02" size="1.27" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="175.514" y="35.56" size="0.762" layer="96" rot="R270" align="bottom-right"/>
-<attribute name="PACKAGE" x="174.752" y="36.322" size="0.508" layer="97" rot="R90" align="center"/>
-<attribute name="VOLTAGE" x="175.514" y="32.004" size="0.762" layer="96" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="174.371" y="34.29" size="1.27" layer="95" font="vector" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="175.514" y="36.83" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
+<attribute name="PACKAGE" x="174.752" y="37.592" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
+<attribute name="VOLTAGE" x="175.768" y="34.544" size="0.508" layer="97" font="vector" rot="R270" align="center-left"/>
 </instance>
 <instance part="GND12" gate="1" x="175.26" y="25.4" smashed="yes">
 <attribute name="VALUE" x="175.26" y="24.13" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -5220,32 +5141,32 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="NAME" x="160.02" y="82.55" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="MANF#" x="160.02" y="100.33" size="0.889" layer="97" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="R5" gate="G$1" x="297.18" y="170.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="297.18" y="170.18" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="299.212" y="169.926" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="296.672" y="166.37" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="TOLERANCE" x="299.212" y="170.434" size="0.762" layer="96" font="vector" rot="R90"/>
+<instance part="R5" gate="G$1" x="314.96" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="314.96" y="195.58" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="316.992" y="195.326" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="314.452" y="191.77" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="316.992" y="195.834" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="297.18" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="297.18" y="154.94" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="299.212" y="154.686" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="296.672" y="151.13" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="TOLERANCE" x="299.212" y="155.194" size="0.762" layer="96" font="vector" rot="R90"/>
+<instance part="R6" gate="G$1" x="314.96" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="314.96" y="180.34" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="316.992" y="180.086" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="314.452" y="176.53" size="0.508" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="TOLERANCE" x="316.992" y="180.594" size="0.762" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="C15" gate="G$1" x="292.1" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="292.989" y="156.21" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="291.846" y="153.67" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="292.608" y="152.908" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="291.592" y="155.956" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<instance part="C15" gate="G$1" x="309.88" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="310.769" y="181.61" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="309.626" y="179.07" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="310.388" y="178.308" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="309.372" y="181.356" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
 </instance>
-<instance part="GND21" gate="1" x="297.18" y="144.78" smashed="yes">
-<attribute name="VALUE" x="297.18" y="142.748" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND21" gate="1" x="314.96" y="170.18" smashed="yes">
+<attribute name="VALUE" x="314.96" y="168.148" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="+P10" gate="G$1" x="195.58" y="182.88" smashed="yes">
 <attribute name="VALUE" x="195.58" y="186.436" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P13" gate="G$1" x="297.18" y="177.8" smashed="yes">
-<attribute name="VALUE" x="297.18" y="181.356" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P13" gate="G$1" x="314.96" y="203.2" smashed="yes">
+<attribute name="VALUE" x="314.96" y="206.756" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="CON2" gate="G$1" x="167.64" y="134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="165.1" y="148.59" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -5323,12 +5244,12 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="PACKAGE" x="157.988" y="174.752" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
 <attribute name="VOLTAGE" x="161.036" y="175.768" size="0.508" layer="97" font="vector" align="center-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="292.1" y="167.64" smashed="yes" rot="MR90">
-<attribute name="NAME" x="294.64" y="167.64" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="MANF#" x="289.56" y="167.64" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<instance part="D3" gate="G$1" x="309.88" y="193.04" smashed="yes" rot="MR90">
+<attribute name="NAME" x="312.42" y="193.04" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="MANF#" x="307.34" y="193.04" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="+P14" gate="G$1" x="292.1" y="172.72" smashed="yes">
-<attribute name="VALUE" x="292.1" y="176.276" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P14" gate="G$1" x="309.88" y="198.12" smashed="yes">
+<attribute name="VALUE" x="309.88" y="201.676" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -5449,18 +5370,18 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="157.48" x2="292.1" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="162.56" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="182.88" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="187.96" x2="314.96" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="160.02" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="185.42" x2="314.96" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="162.56" x2="297.18" y2="165.1" width="0.1524" layer="91"/>
-<junction x="297.18" y="162.56"/>
-<wire x1="292.1" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
-<junction x="292.1" y="162.56"/>
-<label x="289.56" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="314.96" y1="187.96" x2="314.96" y2="190.5" width="0.1524" layer="91"/>
+<junction x="314.96" y="187.96"/>
+<wire x1="309.88" y1="187.96" x2="307.34" y2="187.96" width="0.1524" layer="91"/>
+<junction x="309.88" y="187.96"/>
+<label x="307.34" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="292.1" y1="165.1" x2="292.1" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="190.5" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CURRENT_AMP_OUT" class="0">
@@ -5692,13 +5613,13 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="152.4" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="147.32" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="177.8" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="172.72" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="147.32" x2="297.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="172.72" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="297.18" y1="144.78" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
-<junction x="297.18" y="147.32"/>
+<wire x1="314.96" y1="170.18" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
+<junction x="314.96" y="172.72"/>
 </segment>
 <segment>
 <pinref part="CON2" gate="G$1" pin="3"/>
@@ -6083,7 +6004,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <segment>
 <pinref part="+P14" gate="G$1" pin="VDD_3V3"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="292.1" y1="172.72" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="198.12" x2="309.88" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -6221,7 +6142,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="175.26" x2="297.18" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="200.66" x2="314.96" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="+P13" gate="G$1" pin="VDC"/>
 </segment>
 </net>
@@ -6529,8 +6450,8 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <instance part="CON11" gate="G$1" x="203.2" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="200.66" y="110.49" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="CON12" gate="G$1" x="203.2" y="88.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="200.66" y="102.87" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON12" gate="G$1" x="203.2" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="200.66" y="92.71" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="CON1" gate="G$1" x="134.62" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="140.97" y="105.41" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>

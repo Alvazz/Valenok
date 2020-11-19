@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Horizontal" color="13" fill="1" visible="no" active="no"/>
 <layer number="15" name="+3v3" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -9151,36 +9151,36 @@
 </element>
 <element name="C7" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF" x="2.35" y="20.9" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="---" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY#" value="1276-1006-1-ND" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="1276-1018-1-ND" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="CL10B104KA8NNNC" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="CL10B102KB8NNNC" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.35" y="20.9" size="0.5" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="2.35" y="19.9" size="0.5" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VOLTAGE" value="25V" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="2.35" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF" x="2.35" y="45.6" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="---" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY#" value="1276-1006-1-ND" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="1276-1018-1-ND" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="CL10B104KA8NNNC" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="CL10B102KB8NNNC" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.35" y="45.6" size="0.5" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="2.35" y="44.6" size="0.5" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VOLTAGE" value="25V" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="2.35" y="45.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C9" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF" x="3.8" y="73.8" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="---" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY#" value="1276-1006-1-ND" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY#" value="1276-1018-1-ND" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="CL10B104KA8NNNC" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="CL10B102KB8NNNC" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.8" y="73.8" size="0.5" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="3.8" y="72.8" size="0.5" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VOLTAGE" value="25V" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="3.8" y="73.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="logo" library_urn="urn:adsk.eagle:library:6668987" package="DRAGON-18X7" package3d_urn="urn:adsk.eagle:package:11612848/1" value="" x="9.2" y="55.3" smashed="yes" rot="R270"/>
 </elements>
