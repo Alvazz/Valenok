@@ -1071,6 +1071,23 @@ package type OT</description>
 </library>
 <library name="Diodes" urn="urn:adsk.eagle:library:2473263">
 <packages>
+<package name="SOD123F" urn="urn:adsk.eagle:footprint:2473265/3" library_version="27" library_locally_modified="yes">
+<description>http://www.nxp.com/documents/data_sheet/PMEG6020ER.pdf</description>
+<wire x1="1.45" y1="-1.05" x2="0.6" y2="-1.05" width="0.15" layer="21"/>
+<wire x1="0.6" y1="-1.05" x2="-1.45" y2="-1.05" width="0.15" layer="21"/>
+<wire x1="1.45" y1="1.05" x2="0.6" y2="1.05" width="0.15" layer="21"/>
+<wire x1="0.6" y1="1.05" x2="-1.45" y2="1.05" width="0.15" layer="21"/>
+<wire x1="0.6" y1="-1.05" x2="0.6" y2="1.05" width="0.15" layer="21"/>
+<wire x1="1.45" y1="1.05" x2="1.45" y2="0.75" width="0.15" layer="21"/>
+<wire x1="-1.45" y1="1.05" x2="-1.45" y2="0.75" width="0.15" layer="21"/>
+<wire x1="-1.45" y1="-1.05" x2="-1.45" y2="-0.75" width="0.15" layer="21"/>
+<wire x1="1.45" y1="-1.05" x2="1.45" y2="-0.75" width="0.15" layer="21"/>
+<smd name="C" x="1.4" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
+<smd name="A" x="-1.4" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
+<text x="0" y="0" size="0.6" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<rectangle x1="0.95" y1="-0.45" x2="1.8" y2="0.45" layer="51" rot="R180"/>
+<rectangle x1="-1.8" y1="-0.45" x2="-0.95" y2="0.45" layer="51" rot="R180"/>
+</package>
 <package name="SOD523" urn="urn:adsk.eagle:footprint:1040111/2" library_version="25">
 <smd name="A" x="-0.7" y="0" dx="0.6" dy="0.5" layer="1" rot="R90"/>
 <smd name="C" x="0.7" y="0" dx="0.6" dy="0.5" layer="1" rot="R90"/>
@@ -1085,6 +1102,12 @@ package type OT</description>
 </package>
 </packages>
 <packages3d>
+<package3d name="SOD123W" urn="urn:adsk.eagle:package:2473270/4" type="model" library_version="27" library_locally_modified="yes">
+<description>http://www.nxp.com/documents/data_sheet/PMEG6020ER.pdf</description>
+<packageinstances>
+<packageinstance name="SOD123F"/>
+</packageinstances>
+</package3d>
 <package3d name="SOD523" urn="urn:adsk.eagle:package:1040205/3" type="model" library_version="25">
 <packageinstances>
 <packageinstance name="SOD523"/>
@@ -10420,8 +10443,7 @@ package type OT</description>
 <attribute name="MANF" value="Yageo" x="-3.65" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="RC0805FR-0747KL" x="-3.65" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-6.15" y="56.5" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C
-" x="-6.15" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="-6.15" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0805" x="-3.65" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-3.65" y="56.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -10704,11 +10726,11 @@ package type OT</description>
 </element>
 <element name="RON100" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="110K" x="-12.6" y="43.6" smashed="yes">
 <attribute name="AEC-Q" value="" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="311-110KCRCT-ND" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Yageo" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RC0805FR-07110KL" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-12.6" y="43.6" size="0.635" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0805" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-12.6" y="43.6" size="1.778" layer="27" display="off"/>
 </element>
@@ -10784,11 +10806,14 @@ package type OT</description>
 <attribute name="PACKAGE" value="0402" x="-11.85" y="41.95" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-11.85" y="41.95" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D101" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOD523" package3d_urn="urn:adsk.eagle:package:1040205/3" value="PMEG3005" x="-3.2" y="47.65" smashed="yes" rot="R180">
-<attribute name="DIGIKEY#" value="1727-5831-1-ND" x="-3.2" y="47.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF" value="Nexperia USA Inc" x="-3.2" y="47.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="PMEG3005EB,115" x="-3.2" y="47.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-3.075" y="47.65" size="0.3" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<element name="D101" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOD123F" package3d_urn="urn:adsk.eagle:package:2473270/4" value="PMEG4020" x="-0.95" y="48.35" smashed="yes" rot="R180">
+<attribute name="DIGIKEY#" value="1727-5385-2-ND" x="-0.95" y="48.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="IF" value="2A" x="-0.95" y="48.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C8598" x="-0.95" y="48.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="NXP Semiconductors" x="-0.95" y="48.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="PMEG4020ER,115" x="-0.95" y="48.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-0.825" y="48.35" size="0.3" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VOLTAGE" value="40V" x="-0.95" y="48.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="IC201" library="dc-dc" library_urn="urn:adsk.eagle:library:3736309" package="WFDFN-8" package3d_urn="urn:adsk.eagle:package:13097645/2" value="TPS62160QDSGRQ1" x="8.2" y="42.5" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="AEC-Q100" x="8.2" y="42.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -10867,7 +10892,7 @@ package type OT</description>
 <attribute name="NAME" x="0" y="43" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="CAC100" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1uF" x="-11.85" y="39.55" smashed="yes" rot="R180">
-<attribute name="AEC-Q" value="" x="-11.85" y="39.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="AEC-Q" value="---" x="-11.85" y="39.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="490-3261-1-ND" x="-11.85" y="39.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="-11.85" y="39.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="GRM155R71C104KA88D" x="-11.85" y="39.55" size="1.778" layer="27" rot="R180" display="off"/>
@@ -10878,11 +10903,11 @@ package type OT</description>
 </element>
 <element name="RRIP100" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="110K" x="-12.65" y="36.8" smashed="yes">
 <attribute name="AEC-Q" value="" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="311-110KCRCT-ND" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Yageo" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RC0805FR-07110KL" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-12.65" y="36.8" size="0.5" layer="25" font="vector" ratio="12" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0805" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-12.65" y="36.8" size="1.778" layer="27" display="off"/>
 </element>
@@ -10937,7 +10962,7 @@ package type OT</description>
 <attribute name="NAME" x="12.8" y="71.6" size="0.889" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="C10" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF" x="15" y="70" smashed="yes" rot="R270">
-<attribute name="AEC-Q" value="" x="15" y="70" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="AEC-Q" value="---" x="15" y="70" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="490-3261-1-ND" x="15" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Murata Electronics" x="15" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="GRM155R71C104KA88D" x="15" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -10954,21 +10979,21 @@ package type OT</description>
 </element>
 <element name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="110K" x="-6.355025" y="64.51213125" smashed="yes" rot="R45">
 <attribute name="AEC-Q" value="" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MANF" value="" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MANF#" value="" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DIGIKEY#" value="311-110KCRCT-ND" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MANF" value="Yageo" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MANF#" value="RC0805FR-07110KL" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="-6.355025" y="64.51213125" size="0.635" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="PACKAGE" value="0805" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-6.355025" y="64.51213125" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
 <element name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0402" package3d_urn="urn:adsk.eagle:package:2539456/2" value="3K3" x="-7.05" y="61" smashed="yes">
-<attribute name="AEC-Q" value="" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
+<attribute name="AEC-Q" value="---" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="311-3.90KLRCT-ND" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Yageo" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="RC0402FR-073K9L" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-7.332840625" y="61" size="0.5" layer="25" font="vector" ratio="12" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0402" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-7.332840625" y="61" size="1.778" layer="27" display="off"/>
 </element>
@@ -10986,7 +11011,7 @@ package type OT</description>
 <attribute name="NAME" x="16.6" y="49.8" size="1" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="IC6" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:5347863/8" value="LMV331" x="-12.25" y="67.9" smashed="yes" rot="R90">
-<attribute name="DIGIKEY#" value="" x="-12.25" y="67.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" value="LMV331M5/NOPBCT-ND" x="-12.25" y="67.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LCSC#" value="C108095" x="-12.25" y="67.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF" value="3PEAK" x="-12.25" y="67.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANF#" value="LMV331TP-TR" x="-12.25" y="67.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11326,8 +11351,6 @@ package type OT</description>
 <via x="-13.1" y="41.95" extent="1-16" drill="0.25"/>
 <wire x1="-12" y1="45.3" x2="-12.775" y2="45.3" width="0.15" layer="1"/>
 <via x="-12.775" y="45.3" extent="1-16" drill="0.25"/>
-<wire x1="7.45" y1="41.55" x2="7.47" y2="42.48" width="0.15" layer="1"/>
-<wire x1="7.47" y1="42.48" x2="8.2" y2="42.5" width="0.15" layer="1"/>
 <via x="-0.55" y="61.5" extent="1-16" drill="0.25"/>
 <via x="-1.1" y="68.85" extent="1-16" drill="0.25"/>
 <via x="-3.4" y="66.26213125" extent="1-16" drill="0.25"/>
@@ -12167,11 +12190,11 @@ package type OT</description>
 <wire x1="-8.975" y1="37.8" x2="-9.2" y2="37.8" width="0.15" layer="1"/>
 <via x="-9.2" y="37.8" extent="1-16" drill="0.25"/>
 <via x="-2.8" y="46.7" extent="1-16" drill="0.25"/>
-<wire x1="-2.8" y1="46.7" x2="-2.875" y2="46.625" width="0.15" layer="1"/>
-<wire x1="-3.9" y1="47.65" x2="-2.875" y2="46.625" width="0.15" layer="1"/>
 <wire x1="-2.8" y1="43.9" x2="-8.9" y2="37.8" width="0.5" layer="15"/>
 <wire x1="-8.9" y1="37.8" x2="-9.2" y2="37.8" width="0.5" layer="15"/>
 <wire x1="-2.8" y1="46.7" x2="-2.8" y2="43.9" width="0.5" layer="15"/>
+<wire x1="-2.8" y1="47.9" x2="-2.35" y2="48.35" width="0.15" layer="1"/>
+<wire x1="-2.8" y1="46.7" x2="-2.8" y2="47.9" width="0.15" layer="1"/>
 </signal>
 <signal name="HV_DC-DC(LM5017):N$12">
 <contactref element="C103" pad="1"/>
@@ -12343,8 +12366,6 @@ package type OT</description>
 <wire x1="-3.55" y1="52.5" x2="-6.2" y2="52.5" width="0.5" layer="15"/>
 <wire x1="-6.25" y1="51.4" x2="-6.25" y2="52.45" width="0.5" layer="15"/>
 <wire x1="-6.25" y1="52.45" x2="-6.2" y2="52.5" width="0.5" layer="15"/>
-<wire x1="-2.5" y1="47.65" x2="-1.9" y2="47.65" width="0.5" layer="1"/>
-<wire x1="-1.9" y1="47.65" x2="-0.15" y2="45.9" width="0.5" layer="1"/>
 <wire x1="-12.35" y1="40.75" x2="-13.05" y2="40.75" width="0.5" layer="1"/>
 <via x="-13.05" y="40.75" extent="1-16" drill="0.25" diameter="0.5"/>
 <wire x1="-6.25" y1="25.4" x2="-6.25" y2="36.4" width="0.5" layer="15"/>
@@ -12359,6 +12380,8 @@ package type OT</description>
 <wire x1="3.75" y1="40.25" x2="2.5" y2="41.5" width="0.8" layer="1"/>
 <wire x1="5.8" y1="40.2" x2="7.7" y2="40.2" width="0.8" layer="1"/>
 <wire x1="7.7" y1="40.2" x2="7.9" y2="40" width="0.8" layer="1"/>
+<wire x1="0.35" y1="45.9" x2="0.35" y2="48.25" width="0.8" layer="1"/>
+<wire x1="0.35" y1="48.25" x2="0.45" y2="48.35" width="0.8" layer="1"/>
 </signal>
 <signal name="HV_DC-DC(LM5017):N$2">
 <contactref element="RRIP100" pad="2"/>
