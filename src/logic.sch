@@ -3689,8 +3689,7 @@ package type OT</description>
 <attribute name="DIGIKEY#" value="1276-3362-1-ND"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
 <attribute name="MANF#" value="CL32B225KCJSNNE"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C
-"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF">

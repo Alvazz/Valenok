@@ -10709,8 +10709,7 @@ package type OT</description>
 <attribute name="MANF" value="Samsung Electro-Mechanics" x="-10.25" y="49.6" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="CL32B225KCJSNNE" x="-10.25" y="49.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-10.25" y="49.6" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C
-" x="-10.25" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="-10.25" y="49.6" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="1210" x="-10.25" y="49.6" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="100V" x="-10.25" y="49.6" size="1.778" layer="27" display="off"/>
 </element>
