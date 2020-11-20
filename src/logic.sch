@@ -3685,20 +3685,13 @@ package type OT</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="IC1" library="dc-dc" library_urn="urn:adsk.eagle:library:3736309" deviceset="LM5017" device="" package3d_urn="urn:adsk.eagle:package:24308018/3"/>
-<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="2.2µF">
-<attribute name="DIGIKEY#" value="1276-3362-1-ND"/>
-<attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL32B225KCJSNNE"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
-<attribute name="VOLTAGE" value="100V"/>
+<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="4.7µF">
+<attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF">
+<part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="1µF">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="445-7960-1-ND"/>
-<attribute name="MANF" value="TDK Corporation"/>
-<attribute name="MANF#" value="CGA4J3X7S2A474M125AE"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
-<attribute name="VOLTAGE" value="100V"/>
+<attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="RON" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="110K">
 <attribute name="DIGIKEY#" value="311-110KCRCT-ND"/>
@@ -3782,6 +3775,14 @@ package type OT</description>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
+<part name="C6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="4.7µF">
+<attribute name="VOLTAGE" value="50V"/>
+</part>
+<part name="C7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="1µF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="50V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3800,17 +3801,17 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="NAME" x="84.836" y="87.63" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="MANF#" x="85.09" y="64.77" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="C1" gate="G$1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.529" y="64.77" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="40.386" y="62.23" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="41.148" y="61.468" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="40.132" y="64.516" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<instance part="C1" gate="G$1" x="40.64" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.529" y="72.39" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="40.386" y="69.85" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="41.148" y="69.088" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="40.132" y="72.136" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="45.72" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.609" y="64.77" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="45.466" y="62.23" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="46.228" y="61.468" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="45.212" y="64.516" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<instance part="C2" gate="G$1" x="45.72" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.609" y="59.69" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="45.466" y="57.15" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="46.228" y="56.388" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="45.212" y="59.436" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
 </instance>
 <instance part="RON" gate="G$1" x="66.04" y="68.58" smashed="yes">
 <attribute name="NAME" x="66.04" y="68.58" size="1.27" layer="95" font="vector" align="center"/>
@@ -3907,6 +3908,18 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="PACKAGE" x="129.032" y="91.948" size="0.508" layer="97" font="vector" align="center"/>
 <attribute name="VOLTAGE" x="125.984" y="90.932" size="0.508" layer="97" font="vector" rot="R180" align="center-left"/>
 </instance>
+<instance part="C6" gate="G$1" x="40.64" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.529" y="59.69" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="40.386" y="57.15" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="41.148" y="56.388" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="40.132" y="59.436" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+</instance>
+<instance part="C7" gate="G$1" x="45.72" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.609" y="72.39" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="45.466" y="69.85" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="46.228" y="69.088" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="45.212" y="72.136" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3914,14 +3927,14 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="48.26" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
-<label x="40.64" y="52.07" size="1.27" layer="95" rot="R90"/>
+<label x="40.64" y="46.99" size="1.27" layer="95" rot="R90"/>
+<wire x1="40.64" y1="48.26" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="48.26" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="48.26" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -4030,10 +4043,8 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <net name="IN" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="66.04" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="73.66" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="78.74" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <wire x1="73.66" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <junction x="45.72" y="78.74"/>
@@ -4049,6 +4060,8 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <wire x1="50.8" y1="76.2" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 <junction x="50.8" y="78.74"/>
 <label x="40.64" y="81.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4075,6 +4088,20 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <wire x1="121.92" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="93.98" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
 <junction x="121.92" y="91.44"/>
+</segment>
+</net>
+<net name="N$1" class="1">
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="60.96" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="1">
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="68.58" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
