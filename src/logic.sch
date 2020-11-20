@@ -3784,10 +3784,18 @@ package type OT</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="IC1" library="dc-dc" library_urn="urn:adsk.eagle:library:3736309" deviceset="LM5017" device="" package3d_urn="urn:adsk.eagle:package:24308018/3"/>
 <part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="4.7µF">
+<attribute name="DIGIKEY#" value="1276-3057-1-ND"/>
+<attribute name="LCSC#" value="C29823"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL31A475KBHNNNE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="1µF">
-<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="1276-2396-1-ND"/>
+<attribute name="LCSC#" value="C28323"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL21A105KBCLNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
@@ -3874,11 +3882,19 @@ package type OT</description>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="4.7µF">
+<attribute name="DIGIKEY#" value="1276-3057-1-ND"/>
+<attribute name="LCSC#" value="C29823"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL31A475KBHNNNE"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 <part name="C7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="1µF">
-<attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="DIGIKEY#" value="1276-2396-1-ND"/>
+<attribute name="LCSC#" value="C28323"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL21A105KBCLNNC"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
 </parts>
@@ -3904,12 +3920,14 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="VALUE" x="40.386" y="69.85" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="41.148" y="69.088" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="40.132" y="72.136" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="LCSC#" x="40.64" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="45.72" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.609" y="59.69" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="45.466" y="57.15" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="46.228" y="56.388" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="45.212" y="59.436" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="LCSC#" x="45.72" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="RON" gate="G$1" x="66.04" y="68.58" smashed="yes">
 <attribute name="NAME" x="66.04" y="68.58" size="1.27" layer="95" font="vector" align="center"/>
@@ -4011,12 +4029,14 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="VALUE" x="40.386" y="57.15" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="41.148" y="56.388" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="40.132" y="59.436" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="LCSC#" x="40.64" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="45.72" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.609" y="72.39" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="45.466" y="69.85" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="46.228" y="69.088" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="45.212" y="72.136" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="LCSC#" x="45.72" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>

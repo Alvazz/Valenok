@@ -10711,19 +10711,21 @@ package type OT</description>
 </element>
 <element name="C101" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="4.7µF" x="-10.15" y="49.5" smashed="yes">
 <attribute name="AEC-Q" value="" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="1276-3057-1-ND" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C29823" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="CL31A475KBHNNNE" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-10.15" y="49.5" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="1206" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="-10.15" y="49.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C102" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="1µF" x="-12.9" y="47.4" smashed="yes">
-<attribute name="AEC-Q" value="AEC-Q200" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="AEC-Q" value="" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="1276-2396-1-ND" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C28323" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="CL21A105KBCLNNC" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0805" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="-12.9" y="47.4" size="1.778" layer="27" display="off"/>
@@ -11112,21 +11114,23 @@ package type OT</description>
 <element name="U$2" library="logo" library_urn="urn:adsk.eagle:library:6668987" package="ZUBAX_25X12" package3d_urn="urn:adsk.eagle:package:11612839/1" value="" x="10.6" y="71.95" smashed="yes" rot="MR315"/>
 <element name="C106" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C1206" package3d_urn="urn:adsk.eagle:package:2539459/2" value="4.7µF" x="-12.25" y="51.8" smashed="yes">
 <attribute name="AEC-Q" value="" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="1276-3057-1-ND" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C29823" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="CL31A475KBHNNNE" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-12.25" y="51.8" size="0.762" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="1206" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="-12.25" y="51.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C107" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="1µF" x="-9.3" y="47.4" smashed="yes">
-<attribute name="AEC-Q" value="AEC-Q200" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY#" value="" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="AEC-Q" value="" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY#" value="1276-2396-1-ND" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC#" value="C28323" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="CL21A105KBCLNNC" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-9.3" y="47.4" size="0.635" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 85°C" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0805" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="-9.3" y="47.4" size="1.778" layer="27" display="off"/>
 </element>
