@@ -298,6 +298,12 @@
             "filename_prefix": "CAMOutputs/Assembly",
             "output_type": "assembly",
             "outputs": [
+                {
+                    "filename_format": "%N_PnP_%BOARDSIDE",
+                    "name": "Pick and Place",
+                    "output_format": "csv",
+                    "type": "pick_and_place"
+                }
             ]
         },
         {
@@ -307,7 +313,7 @@
             ]
         }
     ],
-    "timestamp": "2020-11-23T13:31:04",
+    "timestamp": "2020-11-23T14:00:32",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "8.6.0"
