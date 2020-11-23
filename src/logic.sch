@@ -4272,9 +4272,9 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="GND53" library="sapog_reference_hardware" deviceset="GND" device=""/>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="51K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
-<attribute name="DIGIKEY#" value="P51.0KLCT-ND"/>
-<attribute name="MANF" value="Panasonic Electronic Components"/>
-<attribute name="MANF#" value="ERJ-2RKF5102X"/>
+<attribute name="DIGIKEY#" value="13-RT0805FRE0751KLCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0751KL"/>
 </part>
 <part name="R2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K">
 <attribute name="AEC-Q" value="AEC-Q200"/>
@@ -4456,8 +4456,12 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="OPERATING_TEMP" value="-40°C ~ 105°C (TA)"/>
 </part>
 <part name="X1" library="crystal" library_urn="urn:adsk.eagle:library:2539107" deviceset="CRYSTAL-4P" device="-3.2X2.5" package3d_urn="urn:adsk.eagle:package:2539117/3" technology="-16MHZ" value="16MHz">
-<attribute name="DIGIKEY#" value="1253-1198-1-ND"/>
-<attribute name="MANF#" value="CX3225GB24000P0HPQCC"/>
+<attribute name="DIGIKEY#" value=""/>
+<attribute name="ESR" value="60Ω"/>
+<attribute name="LOAD_CAPACITANCE" value="9pF"/>
+<attribute name="LSCSC#" value="C13738"/>
+<attribute name="MANF" value="Yangxing Tech"/>
+<attribute name="MANF#" value="X322516MLB4SI"/>
 </part>
 <part name="C6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
 <attribute name="AEC-Q" value="---"/>
@@ -4578,63 +4582,72 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 </part>
 <part name="GND42" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="P+12" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="3.3V" device=""/>
-<part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
-<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<part name="C30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="4700pF">
+<attribute name="DIGIKEY#" value="1276-1125-1-ND"/>
+<attribute name="LCSC#" value="C1538"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="MANF#" value="CL05B472KB5NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K">
-<attribute name="DIGIKEY#" value="311-47.0KCRCT-ND"/>
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="51K">
+<attribute name="DIGIKEY#" value="13-RT0805FRE0751KLCT-ND"/>
+<attribute name="LCSC#" value="C25794"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0805FR-0747KL"/>
+<attribute name="MANF#" value="RT0805FRE0751KL"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="R15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
-<attribute name="DIGIKEY#" value="311-1.50KLRCT-ND"/>
+<part name="R15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K8">
+<attribute name="DIGIKEY#" value="311-1.80KLRCT-ND"/>
+<attribute name="LCSC#" value="C25871"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0402FR-071K5L"/>
+<attribute name="MANF#" value="RC0402FR-071K8L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="GND37" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
-<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<part name="C22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="4700pF">
+<attribute name="DIGIKEY#" value="1276-1125-1-ND"/>
+<attribute name="LCSC#" value="C1538"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="MANF#" value="CL05B472KB5NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K">
-<attribute name="DIGIKEY#" value="311-47.0KCRCT-ND"/>
+<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="51K">
+<attribute name="DIGIKEY#" value="13-RT0805FRE0751KLCT-ND"/>
+<attribute name="LCSC#" value="C25794"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0805FR-0747KL"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C "/>
+<attribute name="MANF#" value="RT0805FRE0751KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
-<attribute name="DIGIKEY#" value="311-1.50KLRCT-ND"/>
+<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K8">
+<attribute name="DIGIKEY#" value="311-1.80KLRCT-ND"/>
+<attribute name="LCSC#" value="C25871"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0402FR-071K5L"/>
+<attribute name="MANF#" value="RC0402FR-071K8L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="GND26" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
-<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<part name="C25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="4700pF">
+<attribute name="DIGIKEY#" value="1276-1125-1-ND"/>
+<attribute name="LCSC#" value="C1538"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="MANF#" value="CL05B472KB5NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="47K">
-<attribute name="DIGIKEY#" value="311-47.0KCRCT-ND"/>
+<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="51K">
+<attribute name="DIGIKEY#" value="13-RT0805FRE0751KLCT-ND"/>
+<attribute name="LCSC#" value="C25794"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0805FR-0747KL"/>
-<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C "/>
+<attribute name="MANF#" value="RT0805FRE0751KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K5">
-<attribute name="DIGIKEY#" value="311-1.50KLRCT-ND"/>
+<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K8">
+<attribute name="DIGIKEY#" value="311-1.80KLRCT-ND"/>
+<attribute name="LCSC#" value="C25871"/>
 <attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0402FR-071K5L"/>
+<attribute name="MANF#" value="RC0402FR-071K8L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="GND27" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
@@ -4670,19 +4683,19 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
 <part name="GND32" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND34" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="C31" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="18pF">
-<attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="399-8828-1-ND"/>
-<attribute name="MANF" value="Kemet"/>
-<attribute name="MANF#" value="CBR04C180F5GAC"/>
+<part name="C31" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="9pF">
+<attribute name="DIGIKEY#" value="1276-1617-1-ND"/>
+<attribute name="LCSC#" value="C111805"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05C090DB5NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
-<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="18pF">
-<attribute name="AEC-Q" value="---"/>
-<attribute name="DIGIKEY#" value="399-8828-1-ND"/>
-<attribute name="MANF" value="Kemet"/>
-<attribute name="MANF#" value="CBR04C180F5GAC"/>
+<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="9pF">
+<attribute name="DIGIKEY#" value="1276-1617-1-ND"/>
+<attribute name="LCSC#" value="C111805"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL05C090DB5NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
@@ -4798,7 +4811,9 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="DNM">
 <variant name="basic" populate="no"/>
 </part>
-<part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CAT24C02" device="" package3d_urn="urn:adsk.eagle:package:5347863/8"/>
+<part name="IC2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CAT24C02" device="" package3d_urn="urn:adsk.eagle:package:5347863/8">
+<attribute name="LCSC#" value="C81340"/>
+</part>
 <part name="GND9" library="sapog_reference_hardware" deviceset="GND" device=""/>
 <part name="C10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
 <attribute name="AEC-Q" value="---"/>
@@ -4825,10 +4840,11 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="MANF#" value="RC0402FR-073K9L"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="5600pF">
-<attribute name="DIGIKEY#" value="1276-1579-1-ND"/>
+<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="4700pF">
+<attribute name="DIGIKEY#" value="1276-1125-1-ND"/>
+<attribute name="LCSC#" value="C1538"/>
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
-<attribute name="MANF#" value="CL05B562KB5NNNC"/>
+<attribute name="MANF#" value="CL05B472KB5NNNC"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
 <attribute name="VOLTAGE" value="50V"/>
 </part>
@@ -4914,6 +4930,17 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND45" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND46" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="R14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="200R">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="311-200JRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0402JR-07200RL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="GND47" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="+P16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
+<part name="D6" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
+<part name="D5" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -4941,7 +4968,6 @@ PC4 is 0</text>
 <text x="337.82" y="213.36" size="2.54" layer="97" font="vector" ratio="15">PHASE sensing</text>
 <text x="132.08" y="73.66" size="1.778" layer="91">LED1 should be replaced with this one
 https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
-<text x="142.24" y="55.88" size="1.27" layer="97" font="vector">Place R26 TO WRITE PROTECT</text>
 <text x="142.24" y="33.02" size="1.778" layer="97">WP pin pull up is optional</text>
 <text x="106.68" y="231.14" size="1.27" layer="97" font="vector">When current_amp_out voltage exceeds comp_ref voltage 
 overcurrent_fault goes low</text>
@@ -4951,8 +4977,8 @@ Vref = 50*200*0.0002 =  2 V</text>
 <text x="106.68" y="218.44" size="1.27" layer="97" font="vector">Real Vref = 5.6/(5.6+3.3) * 3.3 = 2.07 V</text>
 <text x="215.9" y="248.92" size="1.778" layer="97" font="vector" align="center-left">Max PHASE_x voltage should  be around VDC_max
 VDC_max = 22 * 4.2 V = 92.4 V
-With resistor divider formed by 47K and 1K5 resistors
-SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
+With resistor divider formed by 51K and 1K8 resistors
+SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 <text x="305.562" y="241.3" size="1.778" layer="97" font="vector" align="center">Rf1</text>
 <text x="305.562" y="226.06" size="1.778" layer="97" font="vector" align="center">Rf2</text>
 <text x="293.624" y="226.06" size="1.778" layer="97" font="vector" align="center">Cf</text>
@@ -4973,8 +4999,9 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="LCSC#" x="58.42" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="P" x="43.18" y="109.22" smashed="yes" rot="MR90">
-<attribute name="NAME" x="45.974" y="109.22" size="1.778" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="VALUE" x="42.164" y="110.744" size="0.762" layer="96" font="vector" ratio="15" rot="MR90" align="center-left"/>
+<attribute name="NAME" x="46.482" y="109.22" size="1.778" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="VALUE" x="44.196" y="110.744" size="0.762" layer="96" font="vector" ratio="15" rot="MR90" align="center-left"/>
+<attribute name="LSCSC#" x="43.18" y="109.22" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="66.04" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.929" y="41.91" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
@@ -5079,8 +5106,8 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <instance part="GND4" gate="1" x="40.64" y="129.54" smashed="yes">
 <attribute name="VALUE" x="40.64" y="127.508" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND1" gate="1" x="30.48" y="101.6" smashed="yes">
-<attribute name="VALUE" x="30.48" y="99.568" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND1" gate="1" x="33.02" y="101.6" smashed="yes">
+<attribute name="VALUE" x="33.02" y="99.568" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND2" gate="1" x="45.72" y="91.44" smashed="yes" rot="R270">
 <attribute name="VALUE" x="43.688" y="91.44" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
@@ -5112,8 +5139,8 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="PACKAGE" x="148.59" y="85.852" size="0.508" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="TOLERANCE" x="144.526" y="88.392" size="0.762" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="GND42" gate="1" x="35.56" y="109.22" smashed="yes" rot="R270">
-<attribute name="VALUE" x="33.528" y="109.22" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
+<instance part="GND42" gate="1" x="38.1" y="109.22" smashed="yes" rot="R270">
+<attribute name="VALUE" x="36.068" y="109.22" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
 <instance part="P+12" gate="G$1" x="48.26" y="97.79" smashed="yes">
 <attribute name="VALUE" x="48.26" y="101.346" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -5123,18 +5150,21 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="VALUE" x="297.434" y="224.79" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
 <attribute name="PACKAGE" x="296.672" y="224.028" size="0.508" layer="97" font="vector" rot="MR270" align="center"/>
 <attribute name="VOLTAGE" x="297.688" y="227.076" size="0.508" layer="97" font="vector" rot="MR90" align="center-left"/>
+<attribute name="LCSC#" x="297.18" y="226.06" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="302.26" y="241.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="302.26" y="241.3" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="300.228" y="241.554" size="0.762" layer="96" font="vector" rot="R270" align="bottom-right"/>
 <attribute name="PACKAGE" x="302.768" y="245.11" size="0.508" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="TOLERANCE" x="300.228" y="241.046" size="0.762" layer="96" font="vector" rot="R270"/>
+<attribute name="LCSC#" x="302.26" y="241.3" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="302.26" y="226.06" smashed="yes" rot="MR90">
 <attribute name="NAME" x="302.26" y="226.06" size="1.27" layer="95" font="vector" rot="MR90" align="center"/>
 <attribute name="VALUE" x="300.228" y="225.806" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
 <attribute name="PACKAGE" x="302.768" y="222.25" size="0.508" layer="95" font="vector" rot="MR90" align="center"/>
 <attribute name="TOLERANCE" x="300.228" y="226.314" size="0.762" layer="96" font="vector" rot="MR90"/>
+<attribute name="LCSC#" x="302.26" y="226.06" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="GND37" gate="1" x="299.72" y="215.9" smashed="yes">
 <attribute name="VALUE" x="299.72" y="213.868" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5144,18 +5174,21 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="VALUE" x="330.454" y="224.79" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
 <attribute name="PACKAGE" x="329.692" y="224.028" size="0.508" layer="97" font="vector" rot="MR270" align="center"/>
 <attribute name="VOLTAGE" x="330.708" y="227.076" size="0.508" layer="97" font="vector" rot="MR90" align="center-left"/>
+<attribute name="LCSC#" x="330.2" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="335.28" y="241.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="335.28" y="241.3" size="1.27" layer="95" font="vector" rot="MR270" align="center"/>
 <attribute name="VALUE" x="337.312" y="241.554" size="0.762" layer="96" font="vector" rot="MR270" align="bottom-right"/>
 <attribute name="PACKAGE" x="334.772" y="245.11" size="0.508" layer="95" font="vector" rot="MR270" align="center"/>
 <attribute name="TOLERANCE" x="337.312" y="241.046" size="0.762" layer="96" font="vector" rot="MR270"/>
+<attribute name="LCSC#" x="335.28" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="335.28" y="226.06" smashed="yes" rot="MR90">
 <attribute name="NAME" x="335.28" y="226.06" size="1.27" layer="95" font="vector" rot="MR90" align="center"/>
 <attribute name="VALUE" x="333.248" y="225.806" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
 <attribute name="PACKAGE" x="335.788" y="222.25" size="0.508" layer="95" font="vector" rot="MR90" align="center"/>
 <attribute name="TOLERANCE" x="333.248" y="226.314" size="0.762" layer="96" font="vector" rot="MR90"/>
+<attribute name="LCSC#" x="335.28" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="332.74" y="215.9" smashed="yes">
 <attribute name="VALUE" x="332.74" y="213.868" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5165,18 +5198,21 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="VALUE" x="363.474" y="224.79" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
 <attribute name="PACKAGE" x="362.712" y="224.028" size="0.508" layer="97" font="vector" rot="MR270" align="center"/>
 <attribute name="VOLTAGE" x="363.728" y="227.076" size="0.508" layer="97" font="vector" rot="MR90" align="center-left"/>
+<attribute name="LCSC#" x="363.22" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="368.3" y="241.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="368.3" y="241.3" size="1.27" layer="95" font="vector" rot="MR270" align="center"/>
 <attribute name="VALUE" x="370.332" y="241.554" size="0.762" layer="96" font="vector" rot="MR270" align="bottom-right"/>
 <attribute name="PACKAGE" x="367.792" y="245.11" size="0.508" layer="95" font="vector" rot="MR270" align="center"/>
 <attribute name="TOLERANCE" x="370.332" y="241.046" size="0.762" layer="96" font="vector" rot="MR270"/>
+<attribute name="LCSC#" x="368.3" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="368.3" y="226.06" smashed="yes" rot="MR90">
 <attribute name="NAME" x="368.3" y="226.06" size="1.27" layer="95" font="vector" rot="MR90" align="center"/>
 <attribute name="VALUE" x="366.268" y="225.806" size="0.762" layer="96" font="vector" rot="MR90" align="bottom-right"/>
 <attribute name="PACKAGE" x="368.808" y="222.25" size="0.508" layer="95" font="vector" rot="MR90" align="center"/>
 <attribute name="TOLERANCE" x="366.268" y="226.314" size="0.762" layer="96" font="vector" rot="MR90"/>
+<attribute name="LCSC#" x="368.3" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="365.76" y="215.9" smashed="yes">
 <attribute name="VALUE" x="365.76" y="213.868" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5208,17 +5244,19 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <instance part="GND34" gate="1" x="106.68" y="58.42" smashed="yes">
 <attribute name="VALUE" x="106.68" y="56.388" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="C31" gate="G$1" x="35.56" y="114.3" smashed="yes">
-<attribute name="NAME" x="36.83" y="113.411" size="1.27" layer="95" font="vector" align="center-left"/>
-<attribute name="VALUE" x="34.29" y="114.554" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="33.528" y="113.792" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
-<attribute name="VOLTAGE" x="36.576" y="114.808" size="0.508" layer="97" font="vector" align="center-left"/>
+<instance part="C31" gate="G$1" x="38.1" y="114.3" smashed="yes">
+<attribute name="NAME" x="39.37" y="113.411" size="1.27" layer="95" font="vector" align="center-left"/>
+<attribute name="VALUE" x="36.83" y="114.554" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="36.068" y="113.792" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
+<attribute name="VOLTAGE" x="39.116" y="114.808" size="0.508" layer="97" font="vector" align="center-left"/>
+<attribute name="LCSC#" x="38.1" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="35.56" y="104.14" smashed="yes">
-<attribute name="NAME" x="36.83" y="103.251" size="1.27" layer="95" font="vector" align="center-left"/>
-<attribute name="VALUE" x="34.29" y="104.394" size="0.762" layer="96" font="vector" align="bottom-right"/>
-<attribute name="PACKAGE" x="33.528" y="103.632" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
-<attribute name="VOLTAGE" x="36.576" y="104.648" size="0.508" layer="97" font="vector" align="center-left"/>
+<instance part="C1" gate="G$1" x="38.1" y="104.14" smashed="yes">
+<attribute name="NAME" x="39.37" y="103.251" size="1.27" layer="95" font="vector" align="center-left"/>
+<attribute name="VALUE" x="36.83" y="104.394" size="0.762" layer="96" font="vector" align="bottom-right"/>
+<attribute name="PACKAGE" x="36.068" y="103.632" size="0.508" layer="97" font="vector" rot="R180" align="center"/>
+<attribute name="VOLTAGE" x="39.116" y="104.648" size="0.508" layer="97" font="vector" align="center-left"/>
+<attribute name="LCSC#" x="38.1" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CON3" gate="G$1" x="200.66" y="170.18" smashed="yes">
 <attribute name="NAME" x="207.264" y="184.15" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
@@ -5306,6 +5344,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </instance>
 <instance part="IC2" gate="G$1" x="154.94" y="38.1" smashed="yes">
 <attribute name="NAME" x="162.56" y="54.356" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="LCSC#" x="154.94" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="147.32" y="45.72" smashed="yes" rot="R270">
 <attribute name="VALUE" x="146.05" y="45.72" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
@@ -5316,8 +5355,8 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="PACKAGE" x="174.752" y="37.592" size="0.508" layer="97" font="vector" rot="R90" align="center"/>
 <attribute name="VOLTAGE" x="175.768" y="34.544" size="0.508" layer="97" font="vector" rot="R270" align="center-left"/>
 </instance>
-<instance part="GND12" gate="1" x="175.26" y="25.4" smashed="yes">
-<attribute name="VALUE" x="175.26" y="24.13" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND12" gate="1" x="175.26" y="27.94" smashed="yes">
+<attribute name="VALUE" x="175.26" y="26.67" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="P+10" gate="G$1" x="175.26" y="43.18" smashed="yes">
 <attribute name="VALUE" x="175.26" y="46.736" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -5346,6 +5385,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <attribute name="VALUE" x="309.626" y="179.07" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="310.388" y="178.308" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="309.372" y="181.356" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="LCSC#" x="309.88" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="314.96" y="170.18" smashed="yes">
 <attribute name="VALUE" x="314.96" y="168.148" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
@@ -5673,11 +5713,11 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <junction x="40.64" y="134.62"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="104.14" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="114.3" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
-<junction x="30.48" y="104.14"/>
+<wire x1="35.56" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="104.14" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="114.3" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<junction x="33.02" y="104.14"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -5709,7 +5749,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
 <pinref part="X1" gate="P" pin="GND"/>
-<wire x1="35.56" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -5805,7 +5845,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="175.26" y1="27.94" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="30.48" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -5942,13 +5982,6 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <label x="132.08" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TSENS_OS" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB4"/>
-<wire x1="91.44" y1="132.08" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
-<label x="91.44" y="134.62" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="I2C_SCL" class="0">
 <segment>
 <label x="335.28" y="195.58" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -6026,7 +6059,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <wire x1="48.26" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="X1" gate="P" pin="2"/>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <junction x="43.18" y="114.3"/>
 <pinref part="C31" gate="G$1" pin="2"/>
 </segment>
@@ -6037,7 +6070,7 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <wire x1="55.88" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="X1" gate="P" pin="1"/>
 <wire x1="43.18" y1="104.14" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
 <junction x="43.18" y="104.14"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
@@ -6670,23 +6703,43 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <instance part="+P12" gate="G$1" x="101.6" y="114.3" smashed="yes">
 <attribute name="VALUE" x="101.6" y="117.856" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND41" gate="1" x="137.16" y="91.44" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="137.16" y="89.408" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="GND41" gate="1" x="167.64" y="91.44" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="167.64" y="89.408" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="CON11" gate="G$1" x="203.2" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="200.66" y="110.49" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="CON11" gate="G$1" x="218.44" y="124.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="215.9" y="110.49" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="CON12" gate="G$1" x="203.2" y="106.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="200.66" y="92.71" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="CON12" gate="G$1" x="218.44" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="215.9" y="92.71" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="CON1" gate="G$1" x="134.62" y="111.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="140.97" y="105.41" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="CON1" gate="G$1" x="165.1" y="111.76" smashed="yes" rot="R270">
+<attribute name="NAME" x="171.45" y="105.41" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="GND48" gate="1" x="190.5" y="119.38" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="188.468" y="119.38" size="1.016" layer="96" font="vector" ratio="15" rot="MR90" align="center"/>
+<instance part="GND48" gate="1" x="205.74" y="119.38" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="203.708" y="119.38" size="1.016" layer="96" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
-<instance part="+P15" gate="G$1" x="190.5" y="124.46" smashed="yes">
-<attribute name="VALUE" x="190.5" y="128.016" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P15" gate="G$1" x="205.74" y="124.46" smashed="yes">
+<attribute name="VALUE" x="205.74" y="128.016" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R14" gate="G$1" x="149.86" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="149.86" y="109.22" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="VALUE" x="150.114" y="111.252" size="0.762" layer="96" font="vector" rot="R180" align="bottom-right"/>
+<attribute name="PACKAGE" x="153.67" y="108.712" size="0.508" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="TOLERANCE" x="149.606" y="111.252" size="0.762" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="GND47" gate="1" x="137.16" y="111.76" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="137.16" y="109.728" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
+<instance part="+P16" gate="G$1" x="137.16" y="132.08" smashed="yes">
+<attribute name="VALUE" x="137.16" y="135.636" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="D6" gate="G$1" x="137.16" y="127" smashed="yes" rot="MR90">
+<attribute name="NAME" x="139.7" y="127" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="MANF#" x="134.62" y="127" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+</instance>
+<instance part="D5" gate="G$1" x="137.16" y="116.84" smashed="yes" rot="MR90">
+<attribute name="NAME" x="139.7" y="116.84" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="MANF#" x="134.62" y="116.84" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -6715,19 +6768,24 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 </segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="137.16" y1="96.52" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="93.98" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="101.6" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<junction x="137.16" y="93.98"/>
+<wire x1="167.64" y1="96.52" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="93.98" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="101.6" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
+<junction x="167.64" y="93.98"/>
 <pinref part="CON1" gate="G$1" pin="4"/>
 <pinref part="CON1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="CON11" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND48" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="137.16" y1="111.76" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -6790,14 +6848,14 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <net name="N$29" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="R1IN"/>
-<wire x1="99.06" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="T1OUT"/>
-<wire x1="99.06" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -6808,11 +6866,20 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <label x="101.6" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RCPWM" class="0">
+<net name="RC_PWM" class="0">
 <segment>
-<pinref part="CON1" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
-<label x="129.54" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="147.32" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="109.22" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
+<junction x="142.24" y="121.92"/>
+<wire x1="142.24" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="121.92" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="137.16" y1="119.38" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<junction x="137.16" y="121.92"/>
 </segment>
 </net>
 <net name="USART1_RX" class="0">
@@ -6825,28 +6892,49 @@ SENSE_x max voltage is 92.4 * (1.5/(47+1.5)) = 2.85 V</text>
 <net name="CAN1_RX" class="0">
 <segment>
 <pinref part="CON11" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="193.04" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="210.82" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
+<label x="208.28" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
 <segment>
 <pinref part="CON11" gate="G$1" pin="4"/>
-<wire x1="195.58" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
-<label x="193.04" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="210.82" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
+<label x="208.28" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VDD_5V" class="0">
 <segment>
 <pinref part="+P15" gate="G$1" pin="VDD_5V"/>
-<wire x1="190.5" y1="121.92" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="121.92" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="CON11" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="137.16" y1="129.54" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="+P16" gate="G$1" pin="VDD_5V"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="CON1" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,2,114.3,63.5,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,2,137.16,63.5,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="113,3,130.071,89.431,FRAME3,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
+<approved hash="113,2,91.971,66.571,FRAME1,,,,,"/>
+<approved hash="113,1@HV_DC-DC(LM5017),91.971,66.571,FRAME1,,,,,"/>
+<approved hash="113,1@LV_DC-DC,91.971,66.571,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
