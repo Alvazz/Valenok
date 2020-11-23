@@ -3842,10 +3842,10 @@ package type OT</description>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RC0402FR-0714KL"/>
 </part>
-<part name="RFB2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="3K">
-<attribute name="DIGIKEY#" value="311-3.0KJRCT-ND"/>
-<attribute name="MANF" value="Yageo"/>
-<attribute name="MANF#" value="RC0402JR-073KL"/>
+<part name="RFB2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="10K">
+<attribute name="DIGIKEY#" value="P10.0KLCT-ND"/>
+<attribute name="MANF" value="Panasonic Electronic Components"/>
+<attribute name="MANF#" value="ERJ-2RKF1002X"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
 <part name="RFB1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0402" package3d_urn="urn:adsk.eagle:package:2539456/2" technology="-1%" value="1K">
@@ -3904,6 +3904,8 @@ package type OT</description>
 <text x="7.62" y="121.92" size="1.27" layer="91">Alternate inductor may be used with the same footprint.
 1264EY-101M=P3 from Murata Electronics.
 https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/5271456</text>
+<text x="142.24" y="104.14" size="1.778" layer="97">Vout = 1.225 * (10/1 + 1) ~13.5 V</text>
+<text x="142.24" y="106.68" size="1.778" layer="97">Vout = 1.225 * (Rfb2/Rfb1 + 1)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -4456,12 +4458,12 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <attribute name="OPERATING_TEMP" value="-40°C ~ 105°C (TA)"/>
 </part>
 <part name="X1" library="crystal" library_urn="urn:adsk.eagle:library:2539107" deviceset="CRYSTAL-4P" device="-3.2X2.5" package3d_urn="urn:adsk.eagle:package:2539117/3" technology="-16MHZ" value="16MHz">
-<attribute name="DIGIKEY#" value=""/>
+<attribute name="DIGIKEY#" value="SER4372CT-ND"/>
 <attribute name="ESR" value="60Ω"/>
 <attribute name="LOAD_CAPACITANCE" value="9pF"/>
 <attribute name="LSCSC#" value="C13738"/>
-<attribute name="MANF" value="Yangxing Tech"/>
-<attribute name="MANF#" value="X322516MLB4SI"/>
+<attribute name="MANF" value="EPSON"/>
+<attribute name="MANF#" value="TSX-3225 16.0000MF18X-AC6"/>
 </part>
 <part name="C6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:2539461/2" value="0.1µF">
 <attribute name="AEC-Q" value="---"/>
