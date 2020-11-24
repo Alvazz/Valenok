@@ -2727,6 +2727,21 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 <rectangle x1="-2.1" y1="2.7" x2="-1.7" y2="3.1" layer="21"/>
 </package>
+<package name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:footprint:24450031/2" library_version="95">
+<smd name="3" x="-3.25" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="3.15" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="-3.25" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="3.15" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<wire x1="-2.5" y1="2.78" x2="2.5" y2="2.78" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.78" x2="-2.5" y2="1.98" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="0.58" x2="-2.5" y2="-0.57" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-1.98" x2="-2.5" y2="-2.78" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-2.78" x2="2.5" y2="-2.78" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-2.78" x2="2.5" y2="-1.98" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-0.57" x2="2.5" y2="0.58" width="0.1" layer="21"/>
+<wire x1="2.5" y1="1.98" x2="2.5" y2="2.78" width="0.1" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X02-SMD-2-FEMALE" urn="urn:adsk.eagle:package:23494054/2" type="model" library_version="82">
@@ -2794,6 +2809,11 @@ DIN A4, landscape with location and doc. field</description>
 <packageinstance name="2X03-SMD-2-MALE"/>
 </packageinstances>
 </package3d>
+<package3d name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:package:24450034/3" type="model" library_version="95">
+<packageinstances>
+<packageinstance name="PINHEAD_2X02_SMD_MALE_2.54"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="M0202" urn="urn:adsk.eagle:symbol:23494052/1" library_version="82">
@@ -2855,7 +2875,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/6" prefix="CON" library_version="88">
+<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/8" prefix="CON" library_version="95">
 <gates>
 <gate name="G$1" symbol="M0202" x="0" y="0"/>
 </gates>
@@ -2908,6 +2928,20 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="MANF" value="Molex" constant="no"/>
 <attribute name="MANF#" value="0877590414" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-SMD-2.54-MALE" package="PINHEAD_2X02_SMD_MALE_2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24450034/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3827,16 +3861,16 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R1" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-3920-KELVIN" package3d_urn="urn:adsk.eagle:package:10874636/3" technology="-0.0002R" value="200 µOhms">
 <attribute name="LCSC#" value="C469432"/>
 </part>
-<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
-<part name="CON5" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
+<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-SMD-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24450034/3" value="PINHEAD_2X02-SMD-2.54-MALE"/>
+<part name="CON5" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-SMD-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24450034/3" value="PINHEAD_2X02-SMD-2.54-MALE"/>
 <part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="CON6" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X04" device="-SMD-2-MALE" package3d_urn="urn:adsk.eagle:package:23791919/2"/>
 <part name="+P10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
-<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
+<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-SMD-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24450034/3" value="PINHEAD_2X02-SMD-2.54-MALE"/>
 <part name="+P11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
-<part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-0877590414" package3d_urn="urn:adsk.eagle:package:23512771/2" value="PINHEAD_2X02-0877590414"/>
+<part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-SMD-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24450034/3" value="PINHEAD_2X02-SMD-2.54-MALE"/>
 <part name="C7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="1000pF">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="1276-1018-1-ND"/>

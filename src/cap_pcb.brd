@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -181,7 +181,12 @@
 <plain>
 <wire x1="0" y1="0" x2="0" y2="80" width="0.01" layer="47" style="shortdash" locked="yes"/>
 <wire x1="-18" y1="65" x2="-18" y2="5" width="0.01" layer="20"/>
-<wire x1="18" y1="65" x2="18" y2="5" width="0.01" layer="20"/>
+<wire x1="18" y1="65" x2="18" y2="53" width="0.01" layer="20"/>
+<wire x1="18" y1="53" x2="17" y2="52" width="0.01" layer="20" curve="-90"/>
+<wire x1="17" y1="52" x2="16" y2="52" width="0.01" layer="20"/>
+<wire x1="16" y1="41.5" x2="17" y2="41.5" width="0.01" layer="20"/>
+<wire x1="17" y1="41.5" x2="18" y2="40.5" width="0.01" layer="20" curve="-90"/>
+<wire x1="18" y1="40.5" x2="18" y2="5" width="0.01" layer="20"/>
 <wire x1="-13" y1="5" x2="-13" y2="9" width="0.01" layer="20"/>
 <wire x1="-13" y1="9" x2="-12" y2="10" width="0.01" layer="20" curve="-90"/>
 <wire x1="-12" y1="10" x2="12" y2="10" width="0.01" layer="20"/>
@@ -240,7 +245,7 @@
 <text x="12" y="67" size="2" layer="22" font="vector" ratio="15" rot="MR0" align="center">VDC</text>
 <text x="15" y="18" size="2" layer="22" font="vector" ratio="15" rot="MR0" align="center">VDC</text>
 <text x="-15" y="18" size="2" layer="22" font="vector" ratio="15" rot="MR0" align="center">GND</text>
-<text x="-16" y="38" size="2.3" layer="21" font="vector" ratio="15" rot="R90" align="center">Valenok CAP PCB V0.1</text>
+<text x="-16" y="36" size="2.3" layer="21" font="vector" ratio="15" rot="R90" align="center">Valenok CAP PCB V0.1</text>
 <text x="-5" y="51" size="2.3" layer="21" font="vector" ratio="15" align="center">+</text>
 <text x="-5" y="49" size="2.3" layer="21" font="vector" ratio="15" align="center">+</text>
 <text x="13" y="50" size="2.3" layer="21" font="vector" ratio="15" align="center">+</text>
@@ -253,6 +258,9 @@
 <text x="4.5" y="49" size="2.3" layer="21" font="vector" ratio="15" align="center">-</text>
 <text x="4" y="23.5" size="2.3" layer="21" font="vector" ratio="15" align="center">-</text>
 <text x="-13.5" y="23.5" size="2.3" layer="21" font="vector" ratio="15" align="center">-</text>
+<wire x1="16" y1="52" x2="15" y2="51" width="0.01" layer="20" curve="90"/>
+<wire x1="15" y1="51" x2="15" y2="42.5" width="0.01" layer="20"/>
+<wire x1="15" y1="42.5" x2="16" y2="41.5" width="0.01" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="rc" urn="urn:adsk.eagle:library:2539423">
@@ -282,42 +290,42 @@
 </library>
 <library name="pinhead" urn="urn:adsk.eagle:library:2540341">
 <packages>
-<package name="2X02-PTH-2" urn="urn:adsk.eagle:footprint:23506353/1" library_version="86">
-<pad name="1" x="-1" y="1" drill="0.8" diameter="1.4"/>
-<pad name="2" x="1" y="1" drill="0.8" diameter="1.4"/>
-<pad name="3" x="-1" y="-1" drill="0.8" diameter="1.4"/>
-<pad name="4" x="1" y="-1" drill="0.8" diameter="1.4"/>
-<wire x1="-1.5" y1="2" x2="-0.5" y2="2" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="2" x2="0" y2="1.5" width="0.15" layer="21"/>
-<wire x1="0" y1="0.5" x2="-0.5" y2="0" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="0" x2="-2" y2="0.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="0.5" x2="-2" y2="1.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.15" layer="21"/>
-<wire x1="0.5" y1="2" x2="1.5" y2="2" width="0.15" layer="21"/>
-<wire x1="1.5" y1="2" x2="2" y2="1.5" width="0.15" layer="21"/>
-<wire x1="2" y1="0.5" x2="1.5" y2="0" width="0.15" layer="21"/>
-<wire x1="0.5" y1="0" x2="0" y2="0.5" width="0.15" layer="21"/>
-<wire x1="0" y1="1.5" x2="0.5" y2="2" width="0.15" layer="21"/>
-<wire x1="2" y1="0.5" x2="2" y2="1.5" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="0" x2="0" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="0" y1="-1.5" x2="-0.5" y2="-2" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="-2" x2="-1.5" y2="-2" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="-2" x2="-2" y2="-1.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="-2" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="-0.5" x2="-1.5" y2="0" width="0.15" layer="21"/>
-<wire x1="1.5" y1="0" x2="2" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="2" y1="-1.5" x2="1.5" y2="-2" width="0.15" layer="21"/>
-<wire x1="1.5" y1="-2" x2="0.5" y2="-2" width="0.15" layer="21"/>
-<wire x1="0.5" y1="-2" x2="0" y2="-1.5" width="0.15" layer="21"/>
-<wire x1="0" y1="-0.5" x2="0.5" y2="0" width="0.15" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="-0.5" width="0.15" layer="21"/>
-<text x="0" y="2.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<package name="2X02-PTH-2.54" urn="urn:adsk.eagle:footprint:24957332/1" library_version="96">
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="2" x="1.27" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="3" x="-1.27" y="-1.27" drill="0.9" diameter="1.6"/>
+<pad name="4" x="1.27" y="-1.27" drill="0.9" diameter="1.6"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51" rot="R270"/>
+<text x="3.302" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="2X02-PTH-2" urn="urn:adsk.eagle:package:23506355/2" type="model" library_version="86">
+<package3d name="2X02-PTH-2.54" urn="urn:adsk.eagle:package:24957333/1" type="box" library_version="96">
 <packageinstances>
-<packageinstance name="2X02-PTH-2"/>
+<packageinstance name="2X02-PTH-2.54"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1499,17 +1507,17 @@
 <attribute name="PACKAGE" value="RADIAL" x="8.75" y="47.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="160V" x="8.75" y="47.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2" package3d_urn="urn:adsk.eagle:package:23506355/2" value="PINHEAD_2X02-PTH-2-MALE" x="-15.7" y="57" smashed="yes" rot="R90">
-<attribute name="NAME" x="-18.3" y="57" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2.54" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE" x="-15.2" y="56" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.2" y="59.302" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2" package3d_urn="urn:adsk.eagle:package:23506355/2" value="PINHEAD_2X02-PTH-2-MALE" x="15.7" y="57" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.1" y="57" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2.54" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE" x="15.2" y="55" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.2" y="58.302" size="1.27" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2" package3d_urn="urn:adsk.eagle:package:23506355/2" value="PINHEAD_2X02-PTH-2-MALE" x="15.7" y="13" smashed="yes">
-<attribute name="NAME" x="15.7" y="15.6" size="1" layer="25" font="vector" ratio="15" align="center"/>
+<element name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2.54" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE" x="15.2" y="13" smashed="yes">
+<attribute name="NAME" x="18.502" y="13" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2" package3d_urn="urn:adsk.eagle:package:23506355/2" value="PINHEAD_2X02-PTH-2-MALE" x="-15.7" y="13" smashed="yes">
-<attribute name="NAME" x="-15.7" y="15.6" size="1" layer="25" font="vector" ratio="15" align="center"/>
+<element name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="2X02-PTH-2.54" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE" x="-15.2" y="13" smashed="yes">
+<attribute name="NAME" x="-11.898" y="13" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" package="5X4" package3d_urn="urn:adsk.eagle:package:5210040/1" value="PAD-5X4" x="15.5" y="7" smashed="yes" rot="R90">
 <attribute name="BOM" value="EXCLUDE" x="15.5" y="8" size="1.778" layer="27" rot="R90" display="off"/>
