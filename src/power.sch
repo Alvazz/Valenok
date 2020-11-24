@@ -1419,6 +1419,10 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.7" y1="-2.4" x2="1.9" y2="-3.2" width="0.1" layer="21" curve="-90"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
+<package name="HOLE_3.4" urn="urn:adsk.eagle:footprint:24797610/1" library_version="30">
+<pad name="P$1" x="0" y="0" drill="3.4" diameter="4.2" shape="square"/>
+<text x="0" y="2.97" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="4X3" urn="urn:adsk.eagle:package:3188709/1" type="box" library_version="27">
@@ -1669,6 +1673,11 @@ DIN A4, landscape with location and doc. field</description>
 <packageinstance name="5X6"/>
 </packageinstances>
 </package3d>
+<package3d name="HOLE_3.4" urn="urn:adsk.eagle:package:24797611/1" type="box" library_version="30">
+<packageinstances>
+<packageinstance name="HOLE_3.4"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PAD" urn="urn:adsk.eagle:symbol:3188703/1" library_version="27">
@@ -1679,7 +1688,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD" urn="urn:adsk.eagle:component:3188710/27" prefix="PAD" library_version="29">
+<deviceset name="PAD" urn="urn:adsk.eagle:component:3188710/28" prefix="PAD" library_version="30">
 <gates>
 <gate name="G$1" symbol="PAD" x="-20.32" y="7.62"/>
 </gates>
@@ -2270,6 +2279,17 @@ DIN A4, landscape with location and doc. field</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-HOLE_3.4" package="HOLE_3.4">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24797611/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -2727,11 +2747,11 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 <rectangle x1="-2.1" y1="2.7" x2="-1.7" y2="3.1" layer="21"/>
 </package>
-<package name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:footprint:24450031/2" library_version="95">
+<package name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:footprint:24450031/2" locally_modified="yes" library_version="95" library_locally_modified="yes">
 <smd name="3" x="-3.25" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
-<smd name="4" x="3.15" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="3.25" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
 <smd name="1" x="-3.25" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
-<smd name="2" x="3.15" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="3.25" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
 <wire x1="-2.5" y1="2.78" x2="2.5" y2="2.78" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="2.78" x2="-2.5" y2="1.98" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0.58" x2="-2.5" y2="-0.57" width="0.1" layer="21"/>
@@ -2741,6 +2761,92 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.5" y1="-0.57" x2="2.5" y2="0.58" width="0.1" layer="21"/>
 <wire x1="2.5" y1="1.98" x2="2.5" y2="2.78" width="0.1" layer="21"/>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="2X02-PTH-2.54" urn="urn:adsk.eagle:footprint:24957332/1" library_version="95" library_locally_modified="yes">
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="2" x="1.27" y="1.27" drill="0.9" diameter="1.6"/>
+<pad name="3" x="-1.27" y="-1.27" drill="0.9" diameter="1.6"/>
+<pad name="4" x="1.27" y="-1.27" drill="0.9" diameter="1.6"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51" rot="R270"/>
+<text x="3.302" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
+</package>
+<package name="2X04-PTH-2" urn="urn:adsk.eagle:footprint:23823580/1" library_version="95" library_locally_modified="yes">
+<pad name="1" x="-1" y="3" drill="0.8" diameter="1.4"/>
+<pad name="2" x="1" y="3" drill="0.8" diameter="1.4"/>
+<pad name="3" x="-1" y="1" drill="0.8" diameter="1.4"/>
+<pad name="4" x="1" y="1" drill="0.8" diameter="1.4"/>
+<pad name="5" x="-1" y="-1" drill="0.8" diameter="1.4"/>
+<pad name="6" x="1" y="-1" drill="0.8" diameter="1.4"/>
+<pad name="7" x="-1" y="-3" drill="0.8" diameter="1.4"/>
+<pad name="8" x="1" y="-3" drill="0.8" diameter="1.4"/>
+<wire x1="-1.5" y1="4" x2="-0.5" y2="4" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="4" x2="0" y2="3.5" width="0.15" layer="21"/>
+<wire x1="0" y1="2.5" x2="-0.5" y2="2" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-2" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="2.5" x2="-2" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="3.5" x2="-1.5" y2="4" width="0.15" layer="21"/>
+<wire x1="0.5" y1="4" x2="1.5" y2="4" width="0.15" layer="21"/>
+<wire x1="1.5" y1="4" x2="2" y2="3.5" width="0.15" layer="21"/>
+<wire x1="2" y1="2.5" x2="1.5" y2="2" width="0.15" layer="21"/>
+<wire x1="0.5" y1="2" x2="0" y2="2.5" width="0.15" layer="21"/>
+<wire x1="0" y1="3.5" x2="0.5" y2="4" width="0.15" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="2" x2="0" y2="1.5" width="0.15" layer="21"/>
+<wire x1="0" y1="0.5" x2="-0.5" y2="0" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="0" x2="-2" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="0.5" x2="-2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.15" layer="21"/>
+<wire x1="1.5" y1="2" x2="2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="2" y1="0.5" x2="1.5" y2="0" width="0.15" layer="21"/>
+<wire x1="0.5" y1="0" x2="0" y2="0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="1.5" x2="0.5" y2="2" width="0.15" layer="21"/>
+<wire x1="2" y1="0.5" x2="2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-0.5" x2="-1.5" y2="0" width="0.15" layer="21"/>
+<wire x1="1.5" y1="0" x2="2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0.5" y2="0" width="0.15" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-1.5" x2="-0.5" y2="-2" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="-2" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-1.5" x2="1.5" y2="-2" width="0.15" layer="21"/>
+<wire x1="0.5" y1="-2" x2="0" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-2" x2="0" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-3.5" x2="-0.5" y2="-4" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-4" x2="-1.5" y2="-4" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-4" x2="-2" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-3.5" x2="-2" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="-1.5" y2="-2" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-2" x2="2" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-3.5" x2="1.5" y2="-4" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-4" x2="0.5" y2="-4" width="0.15" layer="21"/>
+<wire x1="0.5" y1="-4" x2="0" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-2.5" x2="0.5" y2="-2" width="0.15" layer="21"/>
+<wire x1="2" y1="-3.5" x2="2" y2="-2.5" width="0.15" layer="21"/>
+<text x="0" y="4.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -2809,9 +2915,19 @@ DIN A4, landscape with location and doc. field</description>
 <packageinstance name="2X03-SMD-2-MALE"/>
 </packageinstances>
 </package3d>
-<package3d name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:package:24450034/3" type="model" library_version="95">
+<package3d name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:package:24450034/3" type="model" library_version="95" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="PINHEAD_2X02_SMD_MALE_2.54"/>
+</packageinstances>
+</package3d>
+<package3d name="2X02-PTH-2.54" urn="urn:adsk.eagle:package:24957333/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="2X02-PTH-2.54"/>
+</packageinstances>
+</package3d>
+<package3d name="2X04-PTH-2" urn="urn:adsk.eagle:package:23823581/1" type="box" library_version="95" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="2X04-PTH-2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2875,7 +2991,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/8" prefix="CON" library_version="95">
+<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/9" locally_modified="yes" prefix="CON" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="M0202" x="0" y="0"/>
 </gates>
@@ -2941,12 +3057,30 @@ DIN A4, landscape with location and doc. field</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:24450034/3"/>
 </package3dinstances>
 <technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="WM22740-ND" constant="no"/>
+<attribute name="MANF" value="Molex" constant="no"/>
+<attribute name="MANF#" value="0015910040" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-2.54-MALE" package="2X02-PTH-2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24957333/1"/>
+</package3dinstances>
+<technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHEAD_2X04" urn="urn:adsk.eagle:component:2540411/6" prefix="CON" library_version="90">
+<deviceset name="PINHEAD_2X04" urn="urn:adsk.eagle:component:2540411/7" prefix="CON" library_version="95" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="M0204" x="0" y="0"/>
 </gates>
@@ -3025,6 +3159,24 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="MANF" value="Molex" constant="no"/>
 <attribute name="MANF#" value="0877590814" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-PLS-2" package="2X04-PTH-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23823581/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
