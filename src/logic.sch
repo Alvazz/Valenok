@@ -3395,6 +3395,29 @@ http://www.txccrystal.com/images/pdf/7m-accuracy.pdf</description>
 <text x="140.716" y="4.953" size="2.54" layer="94">Sheet:</text>
 <frame x1="0" y1="0" x2="184.15" y2="133.35" columns="4" rows="4" layer="94"/>
 </symbol>
+<symbol name="A5P-LOC" urn="urn:adsk.eagle:symbol:13880/1" library_version="1">
+<wire x1="127" y1="3.937" x2="127" y2="9.017" width="0.1016" layer="94"/>
+<wire x1="127" y1="9.017" x2="127" y2="14.097" width="0.1016" layer="94"/>
+<wire x1="127" y1="14.097" x2="127" y2="19.177" width="0.1016" layer="94"/>
+<wire x1="127" y1="19.177" x2="127" y2="24.257" width="0.1016" layer="94"/>
+<wire x1="31.75" y1="3.937" x2="31.75" y2="24.257" width="0.1016" layer="94"/>
+<wire x1="31.75" y1="24.257" x2="85.725" y2="24.257" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="24.257" x2="127" y2="24.257" width="0.1016" layer="94"/>
+<wire x1="116.84" y1="3.937" x2="116.84" y2="9.017" width="0.1016" layer="94"/>
+<wire x1="116.84" y1="9.017" x2="127" y2="9.017" width="0.1016" layer="94"/>
+<wire x1="116.84" y1="9.017" x2="85.725" y2="9.017" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="9.017" x2="85.725" y2="3.937" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="9.017" x2="85.725" y2="14.097" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="14.097" x2="127" y2="14.097" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="14.097" x2="85.725" y2="19.177" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="19.177" x2="127" y2="19.177" width="0.1016" layer="94"/>
+<wire x1="85.725" y1="19.177" x2="85.725" y2="24.257" width="0.1016" layer="94"/>
+<text x="87.63" y="15.367" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="87.63" y="10.287" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="100.965" y="5.207" size="2.54" layer="94">&gt;SHEET</text>
+<text x="87.376" y="5.08" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="130.81" y2="179.07" columns="4" rows="4" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
@@ -3429,6 +3452,19 @@ DIN A3, landscape with location and doc. field</description>
 <description>A5L LOC</description>
 <gates>
 <gate name="G$1" symbol="A5L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A5P-LOC" urn="urn:adsk.eagle:component:13935/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>A5P LOC</description>
+<gates>
+<gate name="G$1" symbol="A5P-LOC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3762,7 +3798,7 @@ package type OT</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic" current="yes"/>
+<variantdef name="basic"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -4947,8 +4983,30 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="+P16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="D6" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="D5" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
+<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5P-LOC" device=""/>
 </parts>
 <sheets>
+<sheet>
+<plain>
+<text x="7.62" y="154.94" size="1.778" layer="97" font="vector">- HW id set to 3 (0b0011).
+- Current measurement cicuitry.
+- Overcurrent fault signal connected to PA6.
+- There are three temperature sensors (all are LM75) in total. One for each phase. 
+- Vbat voltage measurement circuitry is modified.</text>
+<text x="7.62" y="170.18" size="1.778" layer="97" font="vector" ratio="15">Significant differences from previous SAPOG based products</text>
+</plain>
+<instances>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="87.63" y="15.367" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="87.63" y="10.287" size="2.286" layer="94"/>
+<attribute name="SHEET" x="100.965" y="5.207" size="2.54" layer="94"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 <sheet>
 <description>MCU</description>
 <plain>
@@ -4972,8 +5030,6 @@ PC4 is 0</text>
 <wire x1="381" y1="210.82" x2="281.94" y2="210.82" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="281.94" y1="210.82" x2="281.94" y2="254" width="0.1524" layer="97" style="shortdash"/>
 <text x="337.82" y="213.36" size="2.54" layer="97" font="vector" ratio="15">PHASE sensing</text>
-<text x="132.08" y="73.66" size="1.778" layer="91">LED1 should be replaced with this one
-https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_FM-B2020RGBA-HG_C108793.html/?href=jlc-SMT</text>
 <text x="142.24" y="33.02" size="1.778" layer="97">WP pin pull up is optional</text>
 <text x="106.68" y="231.14" size="1.27" layer="97" font="vector">When current_amp_out voltage exceeds comp_ref voltage 
 overcurrent_fault goes low</text>
@@ -6933,11 +6989,11 @@ SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,114.3,63.5,IC3,IN,VDD_5V,,,"/>
-<approved hash="104,2,137.16,63.5,IC3,OUT,VDD_3V3,,,"/>
-<approved hash="113,3,130.071,89.431,FRAME3,,,,,"/>
-<approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
-<approved hash="113,2,91.971,66.571,FRAME1,,,,,"/>
+<approved hash="104,3,114.3,63.5,IC3,IN,VDD_5V,,,"/>
+<approved hash="104,3,137.16,63.5,IC3,OUT,VDD_3V3,,,"/>
+<approved hash="113,4,130.071,89.431,FRAME3,,,,,"/>
+<approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
+<approved hash="113,3,91.971,66.571,FRAME1,,,,,"/>
 <approved hash="113,1@HV_DC-DC(LM5017),91.971,66.571,FRAME1,,,,,"/>
 <approved hash="113,1@LV_DC-DC,91.971,66.571,FRAME1,,,,,"/>
 </errors>
