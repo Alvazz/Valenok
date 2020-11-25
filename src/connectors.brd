@@ -283,44 +283,23 @@ PCB V0.1</text>
 </library>
 <library name="pinhead" urn="urn:adsk.eagle:library:2540341">
 <packages>
-<package name="1X04-PTH-2" urn="urn:adsk.eagle:footprint:4854335/3" library_version="94">
+<package name="1X04-PTH-2-FEMALE" urn="urn:adsk.eagle:footprint:6503392/1" library_version="94">
 <pad name="1" x="-3" y="0" drill="0.8" diameter="1.4"/>
 <pad name="2" x="-1" y="0" drill="0.8" diameter="1.4"/>
 <pad name="3" x="1" y="0" drill="0.8" diameter="1.4"/>
 <pad name="4" x="3" y="0" drill="0.8" diameter="1.4"/>
-<wire x1="-3.5" y1="1" x2="-2.5" y2="1" width="0.15" layer="21"/>
-<wire x1="-2.5" y1="1" x2="-2" y2="0.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="-0.5" x2="-2.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="-2.5" y1="-1" x2="-3.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="-3.5" y1="-1" x2="-4" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="-4" y1="-0.5" x2="-4" y2="0.5" width="0.15" layer="21"/>
-<wire x1="-4" y1="0.5" x2="-3.5" y2="1" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21"/>
-<wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21"/>
-<wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21"/>
-<wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21"/>
-<wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21"/>
-<wire x1="2.5" y1="1" x2="3.5" y2="1" width="0.15" layer="21"/>
-<wire x1="3.5" y1="1" x2="4" y2="0.5" width="0.15" layer="21"/>
-<wire x1="4" y1="-0.5" x2="3.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="3.5" y1="-1" x2="2.5" y2="-1" width="0.15" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="2" y1="0.5" x2="2.5" y2="1" width="0.15" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="0.5" width="0.15" layer="21"/>
 <text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-2.5" y1="-1" x2="4" y2="-1" width="0.15" layer="21"/>
+<wire x1="4" y1="-1" x2="4" y2="1" width="0.15" layer="21"/>
+<wire x1="4" y1="1" x2="-4" y2="1" width="0.15" layer="21"/>
+<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.15" layer="21"/>
+<wire x1="-4" y1="-1" x2="-2.5" y2="-1" width="0.15" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X04-PTH-2" urn="urn:adsk.eagle:package:4854340/4" type="model" library_version="94">
+<package3d name="1X04-PTH-2-FEMALE" urn="urn:adsk.eagle:package:6503396/2" type="model" library_version="94">
 <packageinstances>
-<packageinstance name="1X04-PTH-2"/>
+<packageinstance name="1X04-PTH-2-FEMALE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1801,7 +1780,7 @@ PCB V0.1</text>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic" current="yes"/>
+<variantdef name="basic"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -2082,10 +2061,10 @@ PCB V0.1</text>
 <attribute name="PACKAGE" value="0603" x="12" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="12" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2" package3d_urn="urn:adsk.eagle:package:4854340/4" value="PINHEAD_1X04-2" x="16.8" y="69.8" populate="no" smashed="yes" rot="MR270">
+<element name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2-FEMALE" package3d_urn="urn:adsk.eagle:package:6503396/2" value="PINHEAD_1X04-2-FEMALE" x="16.8" y="69.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="15.2" y="69.8" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2" package3d_urn="urn:adsk.eagle:package:4854340/4" value="PINHEAD_1X04-2" x="-16.8" y="69.8" populate="no" smashed="yes" rot="MR90">
+<element name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" package="1X04-PTH-2-FEMALE" package3d_urn="urn:adsk.eagle:package:6503396/2" value="PINHEAD_1X04-2-FEMALE" x="-16.8" y="69.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-15.2" y="69.8" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 </element>
 <element name="U$1" library="logo" library_urn="urn:adsk.eagle:library:6668987" package="UAVCAN_10X3" package3d_urn="urn:adsk.eagle:package:11612836/1" value="" x="5.1" y="77.2" smashed="yes" rot="MR0"/>
