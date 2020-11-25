@@ -2352,7 +2352,7 @@ http://www.bccomponents.com/</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic"/>
+<variantdef name="basic" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -2405,9 +2405,15 @@ http://www.bccomponents.com/</description>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE">
 <variant name="basic" populate="no"/>
 </part>
-<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE"/>
-<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE"/>
-<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE"/>
+<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE">
+<variant name="basic" populate="no"/>
+</part>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE">
+<variant name="basic" populate="no"/>
+</part>
+<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X02" device="-PTH-2.54-MALE" package3d_urn="urn:adsk.eagle:package:24957333/1" value="PINHEAD_2X02-PTH-2.54-MALE">
+<variant name="basic" populate="no"/>
+</part>
 <part name="PAD4" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-5X4" package3d_urn="urn:adsk.eagle:package:5210040/1" value="PAD-5X4">
 <variant name="basic" populate="no"/>
 </part>
