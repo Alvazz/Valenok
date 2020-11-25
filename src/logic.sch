@@ -4984,6 +4984,7 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <part name="D6" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="D5" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5P-LOC" device=""/>
+<part name="GND49" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -6546,6 +6547,20 @@ SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="CAN2_TX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB13"/>
+<wire x1="124.46" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
+<label x="127" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN2_RX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB12"/>
+<wire x1="124.46" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<label x="127" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -6803,6 +6818,9 @@ SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 <attribute name="NAME" x="139.7" y="116.84" size="1.27" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="MANF#" x="134.62" y="116.84" size="1.016" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
 </instance>
+<instance part="GND49" gate="1" x="208.28" y="101.6" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="206.248" y="101.6" size="1.016" layer="96" font="vector" ratio="15" rot="MR90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6848,6 +6866,11 @@ SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 <pinref part="GND47" gate="1" pin="GND"/>
 <wire x1="137.16" y1="111.76" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="A"/>
+</segment>
+<segment>
+<pinref part="CON12" gate="G$1" pin="2"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+<wire x1="210.82" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -6943,6 +6966,11 @@ SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 <wire x1="137.16" y1="119.38" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
 <junction x="137.16" y="121.92"/>
 </segment>
+<segment>
+<pinref part="CON12" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
+<label x="208.28" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="USART1_RX" class="0">
 <segment>
@@ -6983,6 +7011,20 @@ SENSE_x max voltage is 92.4 * (1.8/(51+1.8)) = 3.15 V</text>
 <pinref part="CON1" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="CAN2_TX" class="0">
+<segment>
+<pinref part="CON12" gate="G$1" pin="4"/>
+<wire x1="210.82" y1="96.52" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
+<label x="208.28" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAN2_RX" class="0">
+<segment>
+<pinref part="CON12" gate="G$1" pin="3"/>
+<wire x1="210.82" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="208.28" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
