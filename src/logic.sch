@@ -3762,7 +3762,7 @@ package type OT</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic"/>
+<variantdef name="basic" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -4288,13 +4288,13 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <sheets>
 <sheet>
 <plain>
-<text x="120.65" y="54.61" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Vout =(R14/R18+1)*0.8</text>
-<text x="120.65" y="59.69" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Vin = 15.25V</text>
-<text x="120.65" y="49.53" size="1.778" layer="97" font="vector" ratio="15" align="center-left">R14 = 51K</text>
-<text x="120.65" y="44.45" size="1.778" layer="97" font="vector" ratio="15" align="center-left">R18 = 10K</text>
-<text x="120.65" y="39.37" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Vout ~ 4.88V</text>
-<text x="120.65" y="34.29" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Ipeak = (Vin-Vout)/L * Ton = 0.6335127273 A</text>
-<text x="120.65" y="29.21" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Ton = Vout/Vin * 420nS = 0.0000001344 s</text>
+<text x="123.19" y="120.65" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Vout =(R14/R18+1)*0.8</text>
+<text x="123.19" y="125.73" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Vin = 13.5V</text>
+<text x="123.19" y="115.57" size="1.778" layer="97" font="vector" ratio="15" align="center-left">R14 = 51K</text>
+<text x="123.19" y="110.49" size="1.778" layer="97" font="vector" ratio="15" align="center-left">R18 = 10K</text>
+<text x="123.19" y="105.41" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Vout ~ 4.88V</text>
+<text x="123.19" y="100.33" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Ipeak = (Vin-Vout)/L * Ton = 0.5948670707 A</text>
+<text x="123.19" y="95.25" size="1.778" layer="97" font="vector" ratio="15" align="center-left">Ton = Vout/Vin * 420nS = 0.00000015182 S</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -4926,8 +4926,12 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 </part>
 <part name="D3" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAT54KFILM" device="" package3d_urn="urn:adsk.eagle:package:1040205/3"/>
 <part name="+P14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="3.3V" device=""/>
-<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X03" device="-PTH-2" package3d_urn="urn:adsk.eagle:package:23506356/2"/>
-<part name="CON5" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X03" device="-PTH-2" package3d_urn="urn:adsk.eagle:package:23506356/2"/>
+<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X03" device="-PTH-2" package3d_urn="urn:adsk.eagle:package:23506356/2">
+<variant name="basic" populate="no"/>
+</part>
+<part name="CON5" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_2X03" device="-PTH-2" package3d_urn="urn:adsk.eagle:package:23506356/2">
+<variant name="basic" populate="no"/>
+</part>
 <part name="GND14" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND45" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
