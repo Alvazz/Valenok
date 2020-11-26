@@ -1332,8 +1332,12 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VOLTAGE" value="6.3V"/>
 </part>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2" package3d_urn="urn:adsk.eagle:package:4854340/4"/>
-<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2" package3d_urn="urn:adsk.eagle:package:4854340/4"/>
+<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2-FEMALE" package3d_urn="urn:adsk.eagle:package:6503396/2" value="PINHEAD_1X04-2-FEMALE">
+<variant name="basic" populate="no"/>
+</part>
+<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-2-FEMALE" package3d_urn="urn:adsk.eagle:package:6503396/2" value="PINHEAD_1X04-2-FEMALE">
+<variant name="basic" populate="no"/>
+</part>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
