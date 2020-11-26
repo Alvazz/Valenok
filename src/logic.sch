@@ -4989,11 +4989,12 @@ https://www.digikey.com/en/products/detail/murata-electronics/1264EY-101M=P3/527
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="154.94" size="1.778" layer="97" font="vector">- HW id set to 3 (0b0011).
+<text x="7.62" y="165.1" size="1.778" layer="97" font="vector" align="top-left">- HW id set to 3 (0b0011).
 - Current measurement cicuitry.
 - Overcurrent fault signal connected to PA6.
 - There are three temperature sensors (all are LM75) in total. One for each phase. 
-- Vbat voltage measurement circuitry is modified.</text>
+- Vbat voltage measurement circuitry is modified.
+- Only one CAN interface (CAN1) is used currently.</text>
 <text x="7.62" y="170.18" size="1.778" layer="97" font="vector" ratio="15">Significant differences from previous SAPOG based products</text>
 </plain>
 <instances>
