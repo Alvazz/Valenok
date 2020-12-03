@@ -1271,7 +1271,7 @@ DIN A4, landscape with location and doc. field</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="basic"/>
+<variantdef name="basic" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
