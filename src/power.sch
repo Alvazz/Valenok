@@ -295,13 +295,13 @@ DIN A4, landscape with location and doc. field</description>
 </library>
 <library name="mosfet" urn="urn:adsk.eagle:library:2640523">
 <packages>
-<package name="PG-TDSON-8-1" urn="urn:adsk.eagle:footprint:23622814/1" library_version="40">
+<package name="PG-TDSON-8-1" urn="urn:adsk.eagle:footprint:23622814/2" library_version="46">
 <description>&lt;a href="https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="P$1" x="0" y="1.05" dx="4.55" dy="4.41" layer="1" rot="R270" cream="no"/>
-<smd name="1" x="-1.875" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="-0.625" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="0.625" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="1.875" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-1.905" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.9" dx="0.85" dy="0.5" layer="1" rot="R90"/>
 <wire x1="-2" y1="3" x2="2" y2="3" width="0.127" layer="51"/>
 <wire x1="2" y1="3" x2="2" y2="-3" width="0.127" layer="51"/>
 <wire x1="2" y1="-3" x2="-2" y2="-3" width="0.127" layer="51"/>
@@ -315,11 +315,16 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="0.1" y1="1.15" x2="1.6" y2="2.65" layer="31"/>
 <rectangle x1="-1.6" y1="-0.55" x2="-0.1" y2="0.95" layer="31"/>
 <rectangle x1="0.1" y1="-0.55" x2="1.6" y2="0.95" layer="31"/>
+<rectangle x1="-1.75" y1="-0.75" x2="1.75" y2="2.75" layer="51"/>
+<rectangle x1="-0.835" y1="-3.25" x2="-0.435" y2="-2.55" layer="51"/>
+<rectangle x1="-2.105" y1="-3.25" x2="-1.705" y2="-2.55" layer="51"/>
+<rectangle x1="0.435" y1="-3.25" x2="0.835" y2="-2.55" layer="51"/>
+<rectangle x1="1.705" y1="-3.25" x2="2.105" y2="-2.55" layer="51"/>
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="PG-TDSON-8-1" urn="urn:adsk.eagle:package:23622815/2" type="model" library_version="40">
+<package3d name="PG-TDSON-8-1" urn="urn:adsk.eagle:package:23622815/3" type="model" library_version="46">
 <description>&lt;a href="https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/"&gt;Datasheet&lt;/a&gt;</description>
 <packageinstances>
 <packageinstance name="PG-TDSON-8-1"/>
@@ -371,7 +376,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BSC077N12NS3GATMA1" urn="urn:adsk.eagle:component:23622817/2" prefix="Q" library_version="40">
+<deviceset name="BSC077N12NS3GATMA1" urn="urn:adsk.eagle:component:23622817/3" prefix="Q" library_version="46">
 <description>N-Channel 120V 13.4A (Ta), 98A (Tc) 139W (Tc) Surface Mount PG-TDSON-8-1</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
@@ -384,7 +389,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23622815/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23622815/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2747,11 +2752,11 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 <rectangle x1="-2.1" y1="2.7" x2="-1.7" y2="3.1" layer="21"/>
 </package>
-<package name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:footprint:24450031/2" locally_modified="yes" library_version="95" library_locally_modified="yes">
+<package name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:footprint:24450031/2" library_version="102">
 <smd name="3" x="-3.25" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
-<smd name="4" x="3.25" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="3.15" y="-1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
 <smd name="1" x="-3.25" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
-<smd name="2" x="3.25" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="3.15" y="1.27" dx="2.5" dy="1" layer="1" rot="R180"/>
 <wire x1="-2.5" y1="2.78" x2="2.5" y2="2.78" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="2.78" x2="-2.5" y2="1.98" width="0.1" layer="21"/>
 <wire x1="-2.5" y1="0.58" x2="-2.5" y2="-0.57" width="0.1" layer="21"/>
@@ -2915,7 +2920,7 @@ DIN A4, landscape with location and doc. field</description>
 <packageinstance name="2X03-SMD-2-MALE"/>
 </packageinstances>
 </package3d>
-<package3d name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:package:24450034/3" type="model" library_version="95" library_locally_modified="yes">
+<package3d name="PINHEAD_2X02_SMD_MALE_2.54" urn="urn:adsk.eagle:package:24450034/3" type="model" library_version="102">
 <packageinstances>
 <packageinstance name="PINHEAD_2X02_SMD_MALE_2.54"/>
 </packageinstances>
@@ -2991,7 +2996,7 @@ DIN A4, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/9" locally_modified="yes" prefix="CON" library_version="95" library_locally_modified="yes">
+<deviceset name="PINHEAD_2X02" urn="urn:adsk.eagle:component:23494055/9" prefix="CON" library_version="102">
 <gates>
 <gate name="G$1" symbol="M0202" x="0" y="0"/>
 </gates>
@@ -3057,11 +3062,7 @@ DIN A4, landscape with location and doc. field</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:24450034/3"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="WM22740-ND" constant="no"/>
-<attribute name="MANF" value="Molex" constant="no"/>
-<attribute name="MANF#" value="0015910040" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="-PTH-2.54-MALE" package="2X02-PTH-2.54">
@@ -3670,8 +3671,8 @@ DIN A4, landscape with location and doc. field</description>
 <variantdefs>
 </variantdefs>
 <parts>
-<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/2"/>
-<part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/2"/>
+<part name="Q2" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/3"/>
+<part name="Q1" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/3"/>
 <part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="10-ERJ-U03F4R30VCT-ND"/>
@@ -3686,7 +3687,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-U03F4R30V"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/2"/>
+<part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/3"/>
 <part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="10-ERJ-U03F4R30VCT-ND"/>
@@ -3694,7 +3695,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-U03F4R30V"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/2"/>
+<part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/3"/>
 <part name="R13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="10-ERJ-U03F4R30VCT-ND"/>
@@ -3702,8 +3703,8 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="MANF#" value="ERJ-U03F4R30V"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
-<part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/2"/>
-<part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/2"/>
+<part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/3"/>
+<part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="BSC077N12NS3GATMA1" device="" package3d_urn="urn:adsk.eagle:package:23622815/3"/>
 <part name="R16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%" value="4R3">
 <attribute name="AEC-Q" value="AEC-Q200"/>
 <attribute name="DIGIKEY#" value="10-ERJ-U03F4R30VCT-ND"/>
